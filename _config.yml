@@ -10,10 +10,10 @@ locale                   : "pt-BR"
 title                    : "Ismael Damião"
 title_separator          : "-"
 name                     : &name "Your Name"
-description              : &description "personal description"
+description              : &description "Bacharelando em física"
 url                      : https://ismaeldamiao.github.io  # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "ismaeldamiao.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -56,9 +56,9 @@ alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
-twitter:
-  username               : &twitter
-facebook:
+twitter: https://twitter.com/Ismaellxd
+  username               : @ismaellxd
+facebook: https://www.facebook.com/ismael.filipe.125/
   username               :
   app_id                 :
   publisher              :
