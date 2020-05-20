@@ -115,6 +115,8 @@ author:
   youtube          :
   wikipedia        :
 
+head_scripts:
+  - /assets/js/LaTeX.js
 
 # Reading Files
 include:
