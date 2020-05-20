@@ -34,23 +34,27 @@ Usando seu editor de texto favorito crie um arquivo com um nome qualquer, eu cos
 
 O primeiro comando do script trata do interpretador e somente é necessário de você quiser torná-lo executável, se você não sabe o que é isso sugiro que pesquise ou ignore esse comando.
 
-<pre>
+<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">print <span style="color: #BA2121">&#39;hello world!&#39;</span>
+</pre></div>
+
+
+```{r, engine='bash', count_lines}
 #!/usr/bin/env gnuplot
-</pre>
+```
 
 O seguinte comando indica o formato que queremos salvar nosso gráfico, o tamanho da fonte e da imagem
 
 * png
-<pre>
+```bash
 set term png size 720, 720 font ",18"
 set output "output.png"
-</pre>
+```
 
 * svg
-<pre>
+```bash
 set term svg size 720, 720 font ",18"
 set output "output.svg"
-</pre>
+```
 
 Neste caso o tamanho da fonte é 18 e o gráfico terá o formato 720px, quadrado.
 
@@ -59,44 +63,46 @@ Neste caso o tamanho da fonte é 18 e o gráfico terá o formato 720px, quadrado
 O comando para plotar é simples:
 
 * Somente pontos
-<pre>
+```bash
 plot "dados.dat" w p
-</pre>
+```
 
 * Somente linhas
-<pre>
+```bash
 plot "dados.dat" w l
-</pre>
+```
 
 * Linhas e pontos
-<pre>
+```bash
 plot "dados.dat" w lp
-</pre>
+```
 
 Para gerar o gráfico basta abrir o terminal no mesmo diretório que o script e executar-lo com o gnuplot:
-<pre>
+```bash
 gnuplot test.gr
-</pre>
+```
 
 # Pontos
 
 Para mudar o tipo dos pontos para 7 e o tamanho dos pontos para 1, faça:
-<pre>
+```bash
 plot "dados.dat" w p pt 7 ps 1
-</pre>
+```
 
 Há 13 tipos de pontos.
 
 Para mudar a cor dos pontos para azul, faça:
-<pre>
+```bash
 plot "dados.dat" w p lt rgb "blue" pt 6 ps 1
-</pre>
+```
 
 # Linhas
 
 Para mudar a cor das linhas para azul, faça:
-<pre>
+```bash
 plot "dados.dat" w l lt rgb "blue"
-</pre>
+```
 
 # Caixa
+
+Para mudar a posição da caixa coloque, antes do 
