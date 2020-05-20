@@ -21,6 +21,7 @@ Digite os seguintes comandos, um a um, para instalar o pacote de download <kbd>w
 apt update
 apt install -y wget
 wget -q https://github.com/ismaeldamiao/scripts/raw/master/termux_config.bash
+
 </pre>
 
 Este script irá executar vários comando para configurar automáticamente o seu Termux, caso queira saber o que ele faz acesse [termux_config.bash](https://github.com/ismaeldamiao/scripts/blob/master/termux_config.bash)
