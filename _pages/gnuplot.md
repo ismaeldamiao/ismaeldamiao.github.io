@@ -42,22 +42,61 @@ O seguinte comando indica o formato que queremos salvar nosso gráfico, o tamanh
 
 * png
 <pre>
-set terminal png size 720, 720 fsize 18
+set term png size 720, 720 font ",18"
 set output "output.png"
 </pre>
 
 * svg
 <pre>
-set terminal svg size 720, 720 fsize 18
-set output "output.svg"
-</pre>
-
-* eps
-<pre>
-set terminal postscript eps size 720, 720 fsize 18
+set term svg size 720, 720 font ",18"
 set output "output.svg"
 </pre>
 
 Neste caso o tamanho da fonte é 18 e o gráfico terá o formato 720px, quadrado.
 
 # Plotando
+
+O comando para plotar é simples:
+
+* Somente pontos
+<pre>
+plot "dados.dat" w p
+</pre>
+
+* Somente linhas
+<pre>
+plot "dados.dat" w l
+</pre>
+
+* Linhas e pontos
+<pre>
+plot "dados.dat" w lp
+</pre>
+
+Para gerar o gráfico basta abrir o terminal no mesmo diretório que o script e executar-lo com o gnuplot:
+<pre>
+gnuplot test.gr
+</pre>
+
+# Pontos
+
+Para mudar o tipo dos pontos para 7 e o tamanho dos pontos para 1, faça:
+<pre>
+plot "dados.dat" w p pt 7 ps 1
+</pre>
+
+Há 13 tipos de pontos.
+
+Para mudar a cor dos pontos para azul, faça:
+<pre>
+plot "dados.dat" w p lt rgb "blue" pt 6 ps 1
+</pre>
+
+# Linhas
+
+Para mudar a cor das linhas para azul, faça:
+<pre>
+plot "dados.dat" w l lt rgb "blue"
+</pre>
+
+# Caixa
