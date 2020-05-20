@@ -1,22 +1,20 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Biblioteca"
+    url: /library/
 
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Física Computacional"
+    url: /ComputationalPhysics/
+
+  - title: "Linux"
+    url: /Linux/
         
-  - title: "Blog Posts"
+  - title: "Blog"
     url: /year-archive/
+
+  - title: "Publicações"
+    url: /publications/
     
-  - title: "CV"
-    url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
+  - title: "Lattes"
+    url: http://lattes.cnpq.br/1281887099263383
