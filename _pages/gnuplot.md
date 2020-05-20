@@ -9,6 +9,11 @@ $\frac{y}{x}$
 \frac{y}{x}
 \]
 
+
+\\[
+\frac{y}{x}
+\\]
+
 O GNUplot é um software muito bom para plotar grágicos 2D e 3D, ele possui diversas funções, muito mais do que consigo usar.
 
 Usar o GNUplot consiste em escrever um script, uma série de comandos de terminal, para obter um gráfico dos dados dispostos em um arquivo de dados. Me explico.
@@ -39,11 +44,6 @@ Note que se for um gráfico 3D então cada linha deverá conter os valores das t
 Usando seu editor de texto favorito crie um arquivo com um nome qualquer, eu costumo colocar um <kbd>.gr</kbd> depois do nome pra indicar que se trata de um script para gráfico.
 
 O primeiro comando do script trata do interpretador e somente é necessário de você quiser torná-lo executável, se você não sabe o que é isso sugiro que pesquise ou ignore esse comando.
-
-{"source": [
-    "!cat publications.tsv"
-]
-}
 
 ```bash
 #!/usr/bin/env gnuplot
