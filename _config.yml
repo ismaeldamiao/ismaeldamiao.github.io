@@ -85,7 +85,7 @@ author:
   bio              : "Bacharelando em física"
   location         : "Maceió, Alagoas"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           :
   email            : "ismaellxd@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -112,7 +112,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : "UCZDMnQWepUDz1ipk-sRNtSg"
+  youtube          :
   wikipedia        :
 
 
