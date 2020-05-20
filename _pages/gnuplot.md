@@ -34,11 +34,8 @@ Usando seu editor de texto favorito crie um arquivo com um nome qualquer, eu cos
 
 O primeiro comando do script trata do interpretador e somente é necessário de você quiser torná-lo executável, se você não sabe o que é isso sugiro que pesquise ou ignore esse comando.
 
-<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">print <span style="color: #BA2121">&#39;hello world!&#39;</span>
-</pre></div>
 
-
-```{r, engine='bash', count_lines}
+```bash
 #!/usr/bin/env gnuplot
 ```
 
