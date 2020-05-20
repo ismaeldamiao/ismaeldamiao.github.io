@@ -1,5 +1,5 @@
 ---
-permalink: /linux
+permalink: /linux/
 title: "Linux"
 ---
 [Ubuntu](/linux/ubuntu)
