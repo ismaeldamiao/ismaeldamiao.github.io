@@ -5,14 +5,14 @@ title: "Usando o GNUplot para plotar grágicos"
 
 $\frac{y}{x}$
 
-\[
+\(
 \frac{y}{x}
-\]
+\)
 
 
-\\[
+\\(
 \frac{y}{x}
-\\]
+\\)
 
 O GNUplot é um software muito bom para plotar grágicos 2D e 3D, ele possui diversas funções, muito mais do que consigo usar.
 
