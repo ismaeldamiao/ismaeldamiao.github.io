@@ -56,9 +56,9 @@ alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
-twitter: https://twitter.com/Ismaellxd
-  username               : @ismaellxd
-facebook: https://www.facebook.com/ismael.filipe.125/
+twitter:
+  username               : 
+facebook:
   username               :
   app_id                 :
   publisher              :
@@ -93,7 +93,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "ismael.filipe.125"
   foursquare       :
   github           : "ismaeldamiao"
   google_plus      :
@@ -102,17 +102,17 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "ismaellxd"
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          : "UCZDMnQWepUDz1ipk-sRNtSg"
   wikipedia        :
 
 
