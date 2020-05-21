@@ -5,6 +5,7 @@ excerpt: "Quem sou eu?"
 author_profile: true
 ---
 
-{% if permalink contains '/pt/' %}
-test 8.0
+{% if permalink == "/pt/\*" %}
+
 {% endif %}
+test 9.0
