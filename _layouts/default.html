@@ -14,7 +14,10 @@ layout: compress
   <body>
 
     {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    
+    {% if permalink == /pt/* %}
+      {% include masthead.html %}
+    {% endif %}
 
     {{ content }}
 
