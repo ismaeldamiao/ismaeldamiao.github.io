@@ -2,6 +2,7 @@
 permalink: /ComputationalPhysics/FunctionData/
 title: "Usando c e Fortran para calcular o valor de uma função"
 ---
+El testeo 
 
 Entender o que vou ensinar nesta página pode ser difícil se você não não sabe o que é umarquivo de dados e como plotar um gráfico com base nesse arquivo. Nesse caso, recomendo que antes vejas [essa página](/ComputationalPhysics/gnuplot/).
 
