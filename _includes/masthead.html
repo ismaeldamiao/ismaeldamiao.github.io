@@ -9,7 +9,7 @@
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
           
           {% if idioma == pt %}
-            {% for link in site.data.navigation.pt %}
+            {% for link in site.data.pt.main %}
               {% if link.url contains 'http' %}
                 {% assign domain = '' %}
                 {% else %}
@@ -20,7 +20,7 @@
           {% endif %}
           
           {% if idioma == es %}
-            {% for link in site.data.navigation.es %}
+            {% for link in site.data.es.main %}
               {% if link.url contains 'http' %}
                 {% assign domain = '' %}
                 {% else %}
