@@ -5,7 +5,7 @@ excerpt: "Tutoriais"
 ---
 # Programação, SO Linux e mais
 
-* [Ubuntu](/linux/ubuntu/)
+* [Linux](/linux/)
 * [Android](/linux/android/)
 * [$\LaTeX$](/pkg/latex/)
 
