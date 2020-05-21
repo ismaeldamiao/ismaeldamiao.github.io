@@ -47,14 +47,14 @@ Obviamente não é possível seguir essa rotina indefinidamente, dessa forma, é
 
 Farei um exemplo um pouco mais robusto, sejam:
 
-{%  %}
+<div style="text-align: center;">
 $$
 \left \{\begin{align*}
 f_1(r, \theta) &= r \cos(\theta) \\
 f_2(r, \theta) &= r \sin(\theta)
 \end{align*}\right .
 $$
-{%  %}
+</div>
 
 A fómula acima é conhecida como mudança de coordenadas polares para coordenadas cartezianas, note portanto que o método aqui apresentado é universal e serve para quaisquer tipos de coordenadas, desde que se faça uma mudança de coordenadas adequada.
 
