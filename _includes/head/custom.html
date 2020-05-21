@@ -24,24 +24,24 @@
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
-<script type="text/x-mathjax-config"> MathJax.Hub.Config({  }); </script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
-    TeX: { equationNumbers: { autoNumber: "all" } },
-    tex2jax: {
-      inlineMath: [ ['$','$'] ],
-      displayMath: [ ["\\(","\\)"] ],
-      "HTML-CSS": { availableFonts: ["TeX"] },
-      processEscapes: true
-    }
-  });
+<script type="text/javascript" src='https://raw.githubusercontent.com/mathjax/MathJax/master/es5/latest.js'>
+   MathJax.Hub.Config({
+      jax: ["input/TeX","output/HTML-CSS"],
+      extensions: ["tex2jax.js","AMSmath.js","AMSsymbols.js"],
+      TeX: { equationNumbers: { autoNumber: "all" } },
+      tex2jax: {
+         inlineMath: [ ['$','$'] ],
+         displayMath: [ ['\\(','\\)'] ],
+         "HTML-CSS": { availableFonts: ["TeX"] },
+         processEscapes: true
+      }
+   });
 </script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
 <script>
-function Show(id1, id2){
-  id1.innerHTML = id2.innerHTML;
-}
+   function Show(id1, id2){
+      id1.innerHTML = id2.innerHTML;
+   }
 </script>
 
 <!-- end custom head snippets -->
