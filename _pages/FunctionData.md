@@ -4,12 +4,6 @@ title: "Usando c e Fortran para calcular o valor de uma função"
 ---
 El testeo 15.0
 
-$ \LaTeX $
-
-$$
-\int f' dx = f
-$$
-
 Entender o que vou ensinar nesta página pode ser difícil se você não não sabe o que é umarquivo de dados e como plotar um gráfico com base nesse arquivo. Nesse caso, recomendo que antes vejas [essa página](/ComputationalPhysics/gnuplot/).
 
 # Pontos no plano
@@ -19,19 +13,19 @@ Plotar gráficos é uma tarefa bastante simples!
 Tudo o que você precisa fazer é encontrar o valor de uma determinada função em diferentes pontos.
 
 Trabalharemos com o plano cartesiano, nesse plano todos os ponto podem ser descritos em termos de $x$ e $y$ da forma:
-\\(
+$$
 (x, y)
-\\)
+$$
 
 Uma curva colocada em um plano cartesiano pode, em geral, ser regida por leis. Sejam $f_1$ e $f_2$ duas leis então qualquer ponto do plano que pertença a curva pode ser descrito por:
-\\(
+$$
 (x, \, y) = (f_1, f_2)
-\\)
+$$
 
 Um exemplo comum é $f_1(x)=x$ e $f_2(x)=x^2$, essa curva é conhecida com parábola e é uma das primeiras que aprendemos, nela todos os pontos da parábola no plano são da forma:
-\\(
+$$
 (x, y) = (f_1(x), f_2(x)) = (x, x^2)
-\\)
+$$
 
 Quando a curva é do tipo $(x, y) = (x, f(x))$ ela é chamada de função.
 
@@ -49,19 +43,19 @@ Obviamente não é possível seguir essa rotina indefinidamente, dessa forma, é
 # Exemplo
 
 Farei um exemplo um pouco mais robusto, sejam:
-\\(
-\left \\\{\begin{align\*}
+$$
+\left \\\{\begin{align\*\}
 f_1(r, \theta) \&= r \cos(\theta) \\\\
 f_2(r, \theta) \&= r \sin(\theta)
-\end{align\*}\right .
-\\)
+\end{align\*\}\right .
+$$
 
 A fómula acima é conhecida como mudança de coordenadas polares para coordenadas cartezianas, note portanto que o método aqui apresentado é universal e serve para quaisquer tipos de coordenadas, desde que se faça uma mudança de coordenadas adequada.
 
 Uma curva comum em coordenadas polares é a rosácea, nela o raio $r$ de qualquer ponto está relacionado com o ângulo $\theta$ por:
-\\(
+$$
 r = 2 \cos(2\theta)
-\\)
+$$
 
 e portanto, os pontos no plano carteziano que pertencem à rosácea são da forma:
 $$
