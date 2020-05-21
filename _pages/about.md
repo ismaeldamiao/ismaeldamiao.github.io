@@ -1,11 +1,6 @@
 ---
 permalink: /
 title: ""
-excerpt: "About me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
 [English](/en/)
@@ -13,5 +8,3 @@ redirect_from:
 [Português](/pt/)
 
 [Español](/es/)
-
-Testeo
