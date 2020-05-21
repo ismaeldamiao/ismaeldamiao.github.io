@@ -2,7 +2,7 @@
 permalink: /ComputationalPhysics/FunctionData/
 title: "Usando c e Fortran para calcular o valor de uma função"
 ---
-El testeo 8.0
+El testeo 9.0
 
 $ \LaTeX $
 
