@@ -44,12 +44,12 @@ Obviamente não é possível seguir essa rotina indefinidamente, dessa forma, é
 Farei um exemplo um pouco mais robusto, sejam:
 \\(
 \left \{\begin{align*}
-f_1(r, \theta) &amp;= r \cos(\theta) \\
-f_2(r, \theta) &amp;= r \sin(\theta)
+f_1(r, \theta) &= r \cos(\theta) \\
+f_2(r, \theta) &= r \sin(\theta)
 \end{align*}\right .
 \\)
 
-A fómula acima é conhecida como mudança de coordenadas polares para coordenadas cartezianas, note portanto que o método aqui apresentado é universal e serve para quaisquer tipos de coordenadas, desde que se faça uma mudança de coordenadas adequada.<br /><br />
+A fómula acima é conhecida como mudança de coordenadas polares para coordenadas cartezianas, note portanto que o método aqui apresentado é universal e serve para quaisquer tipos de coordenadas, desde que se faça uma mudança de coordenadas adequada.
 
 Uma curva comum em coordenadas polares é a rosácea, nela o raio $r$ de qualquer ponto está relacionado com o ângulo $\theta$ por:
 \\(
@@ -59,13 +59,13 @@ r = 2 \cos(2\theta)
 e portanto, os pontos no plano carteziano que pertencem à rosácea são da forma:
 \\(
 \begin{align*}
-(x, y) &amp;= \left (f_1(r, \theta), f_2(r, \theta)\right ) \\
-       &amp;= \left (r \cos(\theta), r \sin(\theta)\right ) \\
-       &amp;= \left (2 \cos(2\theta)\cos(\theta), 2 \cos(2\theta) \sin(\theta)\right )
+(x, y) &= \left (f_1(r, \theta), f_2(r, \theta)\right ) \\
+       &= \left (r \cos(\theta), r \sin(\theta)\right ) \\
+       &= \left (2 \cos(2\theta)\cos(\theta), 2 \cos(2\theta) \sin(\theta)\right )
 \end{align*}
 \\)
 
-Como na prática $f_1$ e $f_2$ só dependem de $\theta$, iremos adcionar a variável theta ao programa principal, vamos adcionar também a variável dt, isso porque obviamente não é possível calcular o valor da função em todos os pontos, assim, sempre que calcularmos o valor para um dado $\theta$, iremos calcular para um $\theta$ um pouquinho maior, isto é em $\theta = \theta + dt$.<br /><br />
+Como na prática $f_1$ e $f_2$ só dependem de $\theta$, iremos adcionar a variável theta ao programa principal, vamos adcionar também a variável dt, isso porque obviamente não é possível calcular o valor da função em todos os pontos, assim, sempre que calcularmos o valor para um dado $\theta$, iremos calcular para um $\theta$ um pouquinho maior, isto é em $\theta = \theta + dt$.
 
 Além disso vamos adcionar theta como parâmetro das funções, e as funções serão preenchidas conforme a equação acima.
 
@@ -74,3 +74,11 @@ Além disso vamos adcionar theta como parâmetro das funções, e as funções s
    <button onclick="Show(source, sourceF)">Fortran</button>
 </div>
 
+<div id="source"></div>
+
+<div hidden="" id="sourceC">
+       <script src="https://gist.github.com/ismaeldamiao/553c08676881dc919a70193de561dc67.js"></script>
+</div>
+<div hidden="" id="sourceF">
+       <script src="https://gist.github.com/ismaeldamiao/890367569c152c890e1fcf59ab92ab0e.js"></script>
+</div>
