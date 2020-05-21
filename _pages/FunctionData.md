@@ -65,10 +65,6 @@ e portanto, os pontos no plano carteziano que pertencem à rosácea são da form
 \end{align\*}
 \\)
 
-\\(
-\sum_{i=1}^{\inf}
-\\)
-
 Como na prática $f_1$ e $f_2$ só dependem de $\theta$, iremos adcionar a variável theta ao programa principal, vamos adcionar também a variável dt, isso porque obviamente não é possível calcular o valor da função em todos os pontos, assim, sempre que calcularmos o valor para um dado $\theta$, iremos calcular para um $\theta$ um pouquinho maior, isto é em $\theta = \theta + dt$.
 
 Além disso vamos adcionar theta como parâmetro das funções, e as funções serão preenchidas conforme a equação acima.
