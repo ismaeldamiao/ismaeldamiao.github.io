@@ -7,8 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-[Link assim](/test)
 
-Título assim
-======
-Texto assim
+[English](/en/)
+
+[Português](/pt/)
+
+[Español](/es/)
