@@ -2,7 +2,7 @@
 permalink: /ComputationalPhysics/FunctionData/
 title: "Usando c e Fortran para calcular o valor de uma função"
 ---
-El testeo 11.0
+El testeo 12.0
 
 $ \LaTeX $
 
@@ -52,7 +52,6 @@ Farei um exemplo um pouco mais robusto, sejam:
 \\(
 \left \\\{\begin{align\*}
 f_1(r, \theta) &= r \cos(\theta) \\\\
-
 f_2(r, \theta) &= r \sin(\theta)
 \end{align\*}\right .
 \\)
