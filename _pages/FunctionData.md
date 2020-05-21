@@ -70,6 +70,7 @@ Como na prática $f_1$ e $f_2$ só dependem de $\theta$, iremos adcionar a vari�
 Além disso vamos adcionar theta como parâmetro das funções, e as funções serão preenchidas conforme a equação acima.
 
 <div style="text-align: center;">
+   Clique em um dos botões abaixo para ver o programa.
    <button onclick="Show(source, sourceC)">C</button> 
    <button onclick="Show(source, sourceF)">Fortran</button>
 </div>
