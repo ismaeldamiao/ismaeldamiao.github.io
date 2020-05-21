@@ -2,9 +2,9 @@
 permalink: /ComputationalPhysics/FunctionData/
 title: "Usando c e Fortran para calcular o valor de uma função"
 ---
-El testeo 3.0
+El testeo 4.0
 
-$\LaTeX$
+$ \LaTeX $
 
 $$
 \int f' dx = f
@@ -65,13 +65,13 @@ r = 2 \cos(2\theta)
 \\)
 
 e portanto, os pontos no plano carteziano que pertencem à rosácea são da forma:
-\\(
+$$
 \begin{align\*}
 (x, y) &= \left (f_1(r, \theta), f_2(r, \theta)\right ) \\\\
        &= \left (r \cos(\theta), r \sin(\theta)\right ) \\\\
        &= \left (2 \cos(2\theta)\cos(\theta), 2 \cos(2\theta) \sin(\theta)\right )
 \end{align\*}
-\\)
+$$
 
 Como na prática $f_1$ e $f_2$ só dependem de $\theta$, iremos adcionar a variável theta ao programa principal, vamos adcionar também a variável dt, isso porque obviamente não é possível calcular o valor da função em todos os pontos, assim, sempre que calcularmos o valor para um dado $\theta$, iremos calcular para um $\theta$ um pouquinho maior, isto é em $\theta = \theta + dt$.
 
