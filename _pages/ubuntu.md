@@ -5,3 +5,14 @@ title: "Ubuntu"
 
 Recomendo muito o us de uma distribuição Linux na física, na verdade para qualquer atividade que não seja jogar eu recomendo o uso do Linux, entretanto sei que há pessoas que não gostam nem querem usar o Linux, temo que esta página não seja direcionada a essas pessoas.
 
+# Distribuiçao
+
+Existem vários sistemas operasionais (SO) baseados no kernel linux, estes SO são conhecidos como distribuições linux, ou distros, a nível de curiosidade [este arquivo](https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg) da wikimedia pretende, se é que isso é possível, mostrar todas as distribuições baseadas no kernel Linux.
+
+A distribuição que utilizo é Ubuntu Minimal, que é o núcleo de qualquer sub-distribuição do Ubuntu, o próprio Ubuntu, por sua vez, foi feito baseado do Debian, dessa forma espero que pelo menos no Debian, Ubuntu, LinuxMint e derivados os tutoriais mostrados aqui funcionem.
+
+Há distribuições para todos os gostos, se você está começando a usar o Linux agora, sugiro que use uma distribuição bem configurada, como [Ubuntu](https://pt.wikipedia.org/wiki/Ubuntu), [Linux Mint](https://pt.wikipedia.org/wiki/Linux_Mint), [Debian](https://pt.wikipedia.org/wiki/Debian), [openSUSE](https://pt.wikipedia.org/wiki/OpenSUSE) ou [Android-x86](https://pt.wikipedia.org/wiki/Android).
+
+Já se você quer personalizar seu linux e entender melhor como ele funciona, use distribuições como [Arch Linux](https://pt.wikipedia.org/wiki/Arch_Linux), [Ubuntu Minimal](https://help.ubuntu.com/community/Installation/MinimalCD) ou [Sackware](https://pt.wikipedia.org/wiki/Slackware), o uso dessas distribuições também é recomendado em computadores com baixo poder de processamento ou pouca memória, nesses casos também reomendo o [Tiny Core](https://es.wikipedia.org/wiki/Tiny_Core_Linux).
+
+Se o objetivo for fazer testes de segurança em redes e sistemas o [Kali Linux](https://pt.wikipedia.org/wiki/Kali_Linux) é uma boa opção.
