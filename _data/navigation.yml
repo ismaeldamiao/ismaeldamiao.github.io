@@ -15,3 +15,20 @@ pt:
     
   - title: "cv - Lattes"
     url: http://lattes.cnpq.br/1281887099263383
+
+es:
+
+  - title: "Biblioteca"
+    url: /pt/library/
+
+  - title: "Física Computacional"
+    url: /pt/ComputationalPhysics/
+        
+  - title: "Blog"
+    url: /pt/year-archive/
+
+  - title: "Publicaciones"
+    url: /pt/publications/
+    
+  - title: "cv - Lattes"
+    url: http://lattes.cnpq.br/1281887099263383
