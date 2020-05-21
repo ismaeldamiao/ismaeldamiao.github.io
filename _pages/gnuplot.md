@@ -220,7 +220,7 @@ Note que não necessáriamente a escala logarítimica deve ser aplicada em todos
 É possǘel usar strings como no c:
 ```bash
 a=2
-plot "dados.dat" title sprintf("%o2d", a)
+plot "dados.dat" title sprintf("%02d", a)
 ```
 # Barra de erro
 
