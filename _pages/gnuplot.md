@@ -3,17 +3,6 @@ permalink: /ComputationalPhysics/gnuplot/
 title: "Usando o GNUplot para plotar grágicos"
 ---
 
-$\frac{y}{x}$
-
-\(
-\frac{y}{x}
-\)
-
-
-\\(
-\frac{y}{x}
-\\)
-
 O GNUplot é um software muito bom para plotar grágicos 2D e 3D, ele possui diversas funções, muito mais do que consigo usar.
 
 Usar o GNUplot consiste em escrever um script, uma série de comandos de terminal, para obter um gráfico dos dados dispostos em um arquivo de dados. Me explico.
@@ -112,4 +101,49 @@ plot "dados.dat" w l lt rgb "blue"
 
 # Caixa
 
-Para mudar a posição da caixa coloque, antes do 
+Para mudar a posição da caixa coloque, antes do *plot*:
+
+* Esquerda
+```bash
+set key left
+```
+
+* Centro
+```bash
+set key center
+```
+
+* Direita
+```bash
+set key right
+```
+
+* Encima
+```bash
+set key top
+```
+
+* Embaixo
+```bash
+set key bottom
+```
+
+* Fora
+```bash
+set key outside
+```
+
+Podemos colocar-lo em uma caixa:
+```bash
+set key box
+```
+
+Ou sumir com ele:
+```bash
+set key off
+```
+
+Os comandos acima podem ser mesclados, por exemplo:
+```bash
+set key box top right
+```
