@@ -73,7 +73,7 @@ plot "dados.dat" w l
 plot "dados.dat" w lp
 ```
 
-Para gerar o gráfico basta abrir o terminal no mesmo diretório que o script e executar-lo com o gnuplot:
+Para gerar o gráfico basta abrir o terminal no mesmo diretório que o script e executar-lo com o gnuplot usando o seguinte comando, no terminal:
 ```bash
 gnuplot test.gr
 ```
