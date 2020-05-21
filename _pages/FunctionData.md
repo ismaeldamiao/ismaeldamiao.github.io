@@ -36,3 +36,41 @@ Um programa plotar uma curva no plano, em geral, deve segir essa rotina:
 1. Calcule o valor da curva em um dado ponto;
 1. Escreva este valor em um arquivo de dados;
 1. Volte ao passo 1.
+
+Obviamente não é possível seguir essa rotina indefinidamente, dessa forma, é comum estabelecer aguma regra para parar de executar a rotina quando achamos que já temos informação suficiente.
+
+# Exemplo
+
+Farei um exemplo um pouco mais robusto, sejam:
+\\(
+\left \{\begin{align*}
+f_1(r, \theta) &amp;= r \cos(\theta) \\
+f_2(r, \theta) &amp;= r \sin(\theta)
+\end{align*}\right .
+\\)
+
+A fómula acima é conhecida como mudança de coordenadas polares para coordenadas cartezianas, note portanto que o método aqui apresentado é universal e serve para quaisquer tipos de coordenadas, desde que se faça uma mudança de coordenadas adequada.<br /><br />
+
+Uma curva comum em coordenadas polares é a rosácea, nela o raio $r$ de qualquer ponto está relacionado com o ângulo $\theta$ por:
+\\(
+r = 2 \cos(2\theta)
+\\)
+
+e portanto, os pontos no plano carteziano que pertencem à rosácea são da forma:
+\\(
+\begin{align*}
+(x, y) &amp;= \left (f_1(r, \theta), f_2(r, \theta)\right ) \\
+       &amp;= \left (r \cos(\theta), r \sin(\theta)\right ) \\
+       &amp;= \left (2 \cos(2\theta)\cos(\theta), 2 \cos(2\theta) \sin(\theta)\right )
+\end{align*}
+\\)
+
+Como na prática $f_1$ e $f_2$ só dependem de $\theta$, iremos adcionar a variável theta ao programa principal, vamos adcionar também a variável dt, isso porque obviamente não é possível calcular o valor da função em todos os pontos, assim, sempre que calcularmos o valor para um dado $\theta$, iremos calcular para um $\theta$ um pouquinho maior, isto é em $\theta = \theta + dt$.<br /><br />
+
+Além disso vamos adcionar theta como parâmetro das funções, e as funções serão preenchidas conforme a equação acima.
+
+<div style="text-align: center;">
+   <button onclick="Show(source, sourceC)">C</button> 
+   <button onclick="Show(source, sourceF)">Fortran</button>
+</div>
+
