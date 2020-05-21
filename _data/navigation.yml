@@ -2,16 +2,16 @@
 main:
 
   - title: "Biblioteca"
-    url: /library/
+    url: /pt/library/
 
   - title: "Física Computacional"
-    url: /ComputationalPhysics/
+    url: /pt/ComputationalPhysics/
         
   - title: "Blog"
-    url: /year-archive/
+    url: /pt/year-archive/
 
   - title: "Publicações"
-    url: /publications/
+    url: /pt/publications/
     
-  - title: "Lattes"
+  - title: "cv - Lattes"
     url: http://lattes.cnpq.br/1281887099263383
