@@ -14,7 +14,12 @@
                 {% else %}
                 {% assign domain = base_path %}
               {% endif %}
-              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+              <script>
+                if (window.location.href.match('/pt/')){var lang = "/pt/";}
+                if (window.location.href.match('/en/')){var lang = "/en/";}
+                if (window.location.href.match('/es/')){var lang = "/es/";}
+                document.write('<li class="masthead__menu-item"><a href="{{ domain }}' + lang + '{{ link.url }}">{{ link.title }}</a></li>');
+              </script>
             {% endfor %}
           
         </ul>
