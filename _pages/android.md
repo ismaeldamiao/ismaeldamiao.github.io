@@ -4,7 +4,7 @@ title: "Android"
 excerpt: "Física computacional desde Android"
 ---
 
-É possível criar programas de física, documentos $LaTeX$ e gráficos pelo GNUPlot usando o bom e velho Android e nessa página eu mostro como fazer isso.
+É possível criar programas de física, documentos $\LaTeX$ e gráficos pelo GNUPlot usando o bom e velho Android e nessa página eu mostro como fazer isso.
 
 Antes de começar, recomendo que baixe um teclado como [AnySoftKey-board](https://f-droid.org/en/packages/com.menny.android.anysoftkeyboard/) ou [Go Keyboard](https://play.google.com/store/apps/details?id=com.jb.emoji.gokeyboard), esses teclados facilitam a escrita no terminal.
 
