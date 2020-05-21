@@ -3,6 +3,10 @@ permalink: /ComputationalPhysics/FunctionData/
 title: "Usando c e Fortran para calcular o valor de uma função"
 ---
 
+Entender o que vou ensinar nesta página pode ser difícil se você não não sabe o que é umarquivo de dados e como plotar um gráfico com base nesse arquivo. Nesse caso, recomendo que antes vejas [essa](/ComputationalPhysics/gnuplot/) página.
+
+# Pontos no plano
+
 Plotar gráficos é uma tarefa bastante simples!
 
 Tudo o que você precisa fazer é encontrar o valor de uma determinada função em diferentes pontos.
@@ -25,3 +29,10 @@ Um exemplo comum é $f_1(x)=x$ e $f_2(x)=x^2$, essa curva é conhecida com pará
 Quando a curva é do tipo $(x, y) = (x, f(x))$ ela é chamada de função.
 
 Em geral, plotar uma curva, ou uma função, consiste em <b>escrever em um arquivo os valores dos pontos $(x, y)$ que pertencem à curva</b>. Ou seja, simplesmente temos que resolver $f_1$ e $f_2$ mutas vezes, até que tenhamos bastante pontos $(x, y)$ para plotar.
+
+# Script
+
+Um programa plotar uma curva no plano, em geral, deve segir essa rotina:
+1. Calcule o valor da curva em um dado ponto;
+1. Escreva este valor em um arquivo de dados;
+1. Volte ao passo 1.
