@@ -3,6 +3,11 @@ permalink: /ComputationalPhysics/
 title: "Física Computacional"
 excerpt: "Tutoriais"
 ---
+# Programação e SO Linux
+
+* [Ubuntu](/linux/ubuntu/)
+* [Android](/linux/android/)
+
 # Tópicos de Física Computacional
 * [Usando o GNUplot para plotar grágicos](/ComputationalPhysics/gnuplot/)
 * [Usando c e Fortran para calcular o valor de uma função](/ComputationalPhysics/FunctionData/)
