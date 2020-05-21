@@ -1,6 +1,6 @@
 ---
 permalink: /pkg/latex/
-title: "Física Computacional"
+title: "$\LaTeX$"
 ---
 
 O $\LaTeX$ é o programa que uso para fazer documentos segundo as normas na ABNT. Através dele é possível usar notação matemática, inserir tabelas, gráficos, fórmulas químicas, numerar automaticamente equações, leis, teoremas, imagens e etc dentre uma infinidade de outras funções. Tudo isso é feito através de codigos inseridos no arquivo .tex, dessa forma a formatação é feita automaticamente quando o arquivo é compilado. O resultado é um documento PDF muito bonito.
@@ -64,7 +64,7 @@ E use meu script para compilar:
 tex2pdf main.tex
 ```
 
-Se tudo deu certo, deve aparecer no diretório um arquivo vhamado *main.pdf* resultado de compilar o conteúdo do arquivo *main.tex*, use seu editor de texto preferido para editar o *main.tex*.
+Se tudo deu certo, deve aparecer no diretório um arquivo chamado *main.pdf* resultado de compilar o conteúdo do arquivo *main.tex*, use seu editor de texto preferido para editar o *main.tex*.
 
 # Saiba mais
 * [O que vou aprendendo em Latex](https://aprendolatex.wordpress.com/)
