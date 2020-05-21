@@ -147,3 +147,70 @@ Os comandos acima podem ser mesclados, por exemplo:
 ```bash
 set key box top right
 ```
+Também é possível mudar o título de um gráfico:
+```bash
+plot "dados.dat" w p lt rgb "blue" pt 6 ps 3 title "Massa 1"
+```
+
+# Eixos e Título
+
+Já os eixos e o título da figura podem ser auterados assim:
+```bash
+set xlabel "Eixo x"
+set ylabel "Eixo y"
+set zlabel "Eixo z"
+set title "Tutorial"
+```
+
+# Curva de ajuste
+
+Primeiro crie uma função dependente de quantos parâmetros quiser, na física use não mais que dois sempre que possível:
+```bash
+f(x) = a * x ** 2 + b
+```
+
+Depois crie uma variável para o seu arquivo de dados:
+```bash
+data = "dados.dat"
+```
+
+Agora passe um ajuste nos seus dados e guarde a informação na função:
+```bash
+fit f(x) data via a, b
+```
+
+Plote as duas curvas juntas:
+```bash
+plot data w p lt rgb "blue" pt 6 ps 3 title "Massa 1", \
+     f(x) w l lt rgb "red"
+```
+
+Nosso primeiro exemplo termina aqui, ficando assim:
+```bash
+#!/usr/bin/env gnuplot
+
+set term png size 720, 720 font ",18"
+set output "output.png"
+
+set key box top right
+
+data = "dados.dat"
+
+set xlabel "Eixo x"
+set ylabel "Eixo y"
+set title "Tutorial"
+
+f(x) = a * x ** 2 + b
+fit f(x) data via a, b
+
+plot data w p lt rgb "blue" pt 6 ps 3 title "Massa 1", \
+     f(x) w l lt rgb "red"
+```
+
+# Escala logarítmica
+
+Para usar a escala logarítmica faça:
+```bash
+set logscale xyz
+```
+Note que não necessáriamente a escala logarítimica deve ser aplicada em todos os eixos.
