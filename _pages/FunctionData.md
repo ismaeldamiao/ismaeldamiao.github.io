@@ -44,7 +44,7 @@ Obviamente não é possível seguir essa rotina indefinidamente, dessa forma, é
 Farei um exemplo um pouco mais robusto, sejam:
 \\(
 \left \{\begin{align\*}
-f_1(r, \theta) &= r \cos(\theta) \\
+f_1(r, \theta) &= r \cos(\theta) \\\\
 f_2(r, \theta) &= r \sin(\theta)
 \end{align\*}\right .
 \\)
@@ -59,8 +59,8 @@ r = 2 \cos(2\theta)
 e portanto, os pontos no plano carteziano que pertencem à rosácea são da forma:
 \\(
 \begin{align\*}
-(x, y) &= \left (f_1(r, \theta), f_2(r, \theta)\right ) \\
-       &= \left (r \cos(\theta), r \sin(\theta)\right ) \\
+(x, y) &= \left (f_1(r, \theta), f_2(r, \theta)\right ) \\\\
+       &= \left (r \cos(\theta), r \sin(\theta)\right ) \\\\
        &= \left (2 \cos(2\theta)\cos(\theta), 2 \cos(2\theta) \sin(\theta)\right )
 \end{align\*}
 \\)
