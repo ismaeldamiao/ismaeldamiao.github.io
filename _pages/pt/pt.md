@@ -6,10 +6,10 @@ author_profile: true
 idioma: pt
 ---
 
-{% if idioma == es %}
+{% if permalink contains '/es/' %}
 hola
 {% else %}
 olá
 {% endif %}
     
-test 20.0
+test 21.0
