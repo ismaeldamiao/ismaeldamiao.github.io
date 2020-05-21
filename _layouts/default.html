@@ -14,7 +14,12 @@ layout: compress
   <body>
 
     {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    
+    {% assign idioma = en %}
+    {% if idioma = pt %}
+      {% include masthead.html %}
+    {% else %}
+    {% endif %}
 
     {{ content }}
 
