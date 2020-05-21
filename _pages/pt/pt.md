@@ -6,10 +6,6 @@ author_profile: true
 idioma: pt
 ---
 
-{% if permalink contains '/pt/' %}
-hola
-{% else %}
-olá
-{% endif %}
+{% include masthead.html %}
     
 test 22.0
