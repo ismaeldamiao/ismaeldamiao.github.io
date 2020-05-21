@@ -13,10 +13,37 @@ A distribuição que utilizo é Ubuntu Minimal, que é o núcleo de qualquer sub
 
 Há distribuições para todos os gostos, se você está começando a usar o Linux agora, sugiro que use uma distribuição bem configurada, como [Ubuntu](https://pt.wikipedia.org/wiki/Ubuntu), [Linux Mint](https://pt.wikipedia.org/wiki/Linux_Mint), [Debian](https://pt.wikipedia.org/wiki/Debian), [openSUSE](https://pt.wikipedia.org/wiki/OpenSUSE) ou [Android-x86](https://pt.wikipedia.org/wiki/Android).
 
-Já se você quer personalizar seu linux e entender melhor como ele funciona, use distribuições como [Arch Linux](https://pt.wikipedia.org/wiki/Arch_Linux), [Ubuntu Minimal](https://help.ubuntu.com/community/Installation/MinimalCD) ou [Sackware](https://pt.wikipedia.org/wiki/Slackware), o uso dessas distribuições também é recomendado em computadores com baixo poder de processamento ou pouca memória, nesses casos também reomendo o [Tiny Core](https://es.wikipedia.org/wiki/Tiny_Core_Linux). Estas distros precisam ter o gestor de janelas configurado com o X, eu uso o [FluxBox](https://pt.wikipedia.org/wiki/FluxBox) mas [Xfce](https://pt.wikipedia.org/wiki/Xfce), [MATE](https://pt.wikipedia.org/wiki/MATE), [KDE Plasma](https://pt.wikipedia.org/wiki/KDE_Plasma_4), [Cinnamoon](https://pt.wikipedia.org/wiki/Cinnamon_(interface_de_usu%C3%A1rio) e [GNOME](https://pt.wikipedia.org/wiki/GNOME) também são boas opções.
+Já se você quer personalizar seu linux e entender melhor como ele funciona, use distribuições como [Arch Linux](https://pt.wikipedia.org/wiki/Arch_Linux), [Ubuntu Minimal](https://help.ubuntu.com/community/Installation/MinimalCD) ou [Sackware](https://pt.wikipedia.org/wiki/Slackware), o uso dessas distribuições também é recomendado em computadores com baixo poder de processamento ou pouca memória, nesses casos também reomendo o [Tiny Core](https://es.wikipedia.org/wiki/Tiny_Core_Linux). Estas distros precisam ter o gestor de janelas configurado com o X, eu uso o [FluxBox](https://pt.wikipedia.org/wiki/FluxBox) mas [Xfce](https://pt.wikipedia.org/wiki/Xfce), [MATE](https://pt.wikipedia.org/wiki/MATE), [KDE Plasma](https://pt.wikipedia.org/wiki/KDE_Plasma_4), [Cinnamoon](https://pt.wikipedia.org/wiki/Cinnamon_(interface_de_usu%C3%A1rio)) e [GNOME](https://pt.wikipedia.org/wiki/GNOME) também são boas opções.
 
 Se o objetivo for fazer testes de segurança em redes e sistemas o [Kali Linux](https://pt.wikipedia.org/wiki/Kali_Linux) é uma boa opção.
 
 # Comandos básicos
 
 # Pacotes de uso na física
+
+* Para compilar programas
+  * gcc e gfortran
+* Para documentos acadêmicos
+  * texlive-full
+  * tex2pdf
+* Para plotar gráficos, curvas, superfícies, etc
+  * gnuplot
+* Para editar texto
+  * nano
+  * sublime-text
+* Para edição de imagens
+  * inkscape
+  
+Em geral instalar esses pacotes usando um gestor de pacotes é simples, eu uso o APT. Os pacotes que não estão nos respositórios oficiais do Ubuntu, estão enlaçados com maiores instruções para instalação.
+* [APT](https://pt.wikipedia.org/wiki/APT_(software))
+```bash
+sudo apt install -y nome_do_pacote
+```
+* [yum](https://pt.wikipedia.org/wiki/Yum)
+```bash
+sudo yum install -y nome_do_pacote
+```
+* [zypper](https://pt.wikipedia.org/wiki/ZYpp)
+```bash
+sudo zypper install --non-interactive nome_do_pacote
+```
