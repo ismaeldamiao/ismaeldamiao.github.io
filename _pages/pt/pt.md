@@ -3,9 +3,10 @@ permalink: /pt/
 title: ""
 excerpt: "Quem sou eu?"
 author_profile: true
+idioma: pt
 ---
 
-{% if permalink contains "/pt/" %}
+{% if idioma == "pt" %}
 oi
 {% endif %}
-test 11.0
+test 12.0
