@@ -6,7 +6,9 @@ El testeo 1.0
 
 $\LaTeX$
 
-$$\int f' dx = f$$
+$$
+\int f' dx = f
+$$
 
 Entender o que vou ensinar nesta página pode ser difícil se você não não sabe o que é umarquivo de dados e como plotar um gráfico com base nesse arquivo. Nesse caso, recomendo que antes vejas [essa página](/ComputationalPhysics/gnuplot/).
 
