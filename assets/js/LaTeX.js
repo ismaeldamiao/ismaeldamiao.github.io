@@ -1,9 +1,9 @@
 MathJax.Hub.Config({
-   extensions: [&quot;tex2jax.js&quot;,&quot;TeX/AMSmath.js&quot;,&quot;TeX/AMSsymbols.js&quot;],
-   jax: [&quot;input/TeX&quot;, &quot;output/HTML-CSS&quot;],
+   extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+   jax: ["input/TeX", "output/HTML-CSS"],
    tex2jax: {
-   inlineMath: [ [&#39;$&#39;,&#39;$&#39;], [&quot;\\(&quot;,&quot;\\)&quot;] ],
-   displayMath: [ [&#39;$$&#39;,&#39;$$&#39;], [&quot;\\[&quot;,&quot;\\]&quot;] ],
+   inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+   displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
    },
-   &quot;HTML-CSS&quot;: { availableFonts: [&quot;TeX&quot;] }
+   "HTML-CSS": { availableFonts: ["TeX"] }
 });
