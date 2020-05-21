@@ -2,7 +2,6 @@
 permalink: /ComputationalPhysics/gnuplot/
 title: "Usando o GNUplot para plotar grágicos"
 ---
-[Pontos](/ComputationalPhysics/gnuplot#Pontos/)
 
 O GNUplot é um software muito bom para plotar grágicos 2D e 3D, ele possui diversas funções, muito mais do que consigo usar.
 
@@ -215,3 +214,27 @@ Para usar a escala logarítmica faça:
 set logscale xyz
 ```
 Note que não necessáriamente a escala logarítimica deve ser aplicada em todos os eixos.
+
+# Strings
+
+É possǘel usar strings como no c:
+```bash
+a=2
+plot "dados.dat" title sprintf("%o2d", a)
+```
+# Barra de erro
+
+Támbem é possível que, no arquivo de dados, além das coordenadas x e y de um ponto, uma linha contenha os valores da incerteza em uma medida.
+
+Por exemplo, em um arquivo, os dados de cada linha podem estar organizados da forma:
+
+x y xErro yErro
+
+Para plotar as barras de erro basta usar:
+```bash
+plot "dados.dat" with xyerrorbars
+```
+
+# Superfícies
+
+Para plotar curvas e superfúcies 3D basicamente basta trocar o *plot* por *splot* e todo o resto é igual.
