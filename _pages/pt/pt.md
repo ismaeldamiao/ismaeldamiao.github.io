@@ -4,4 +4,7 @@ title: ""
 excerpt: "Quem sou eu?"
 author_profile: true
 ---
-test 4.0
+
+{%- assign idioma = "pt" %}
+
+test 5.0
