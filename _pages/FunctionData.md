@@ -1,5 +1,5 @@
 ---
-permalink: /ComputationalPhysics/gnuplot/
+permalink: /ComputationalPhysics/FunctionData/
 title: "Usando c e Fortran para calcular o valor de uma função"
 ---
 
