@@ -7,4 +7,4 @@ author_profile: true
 
 {%- assign idioma = "pt" %}
 
-test 5.0
+test 6.0
