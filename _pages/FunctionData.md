@@ -2,7 +2,7 @@
 permalink: /ComputationalPhysics/FunctionData/
 title: "Usando c e Fortran para calcular o valor de uma função"
 ---
-El testeo 15.0
+El testeo 16.0
 
 Entender o que vou ensinar nesta página pode ser difícil se você não não sabe o que é umarquivo de dados e como plotar um gráfico com base nesse arquivo. Nesse caso, recomendo que antes vejas [essa página](/ComputationalPhysics/gnuplot/).
 
@@ -45,8 +45,8 @@ Obviamente não é possível seguir essa rotina indefinidamente, dessa forma, é
 Farei um exemplo um pouco mais robusto, sejam:
 $$
 \left \\\{\begin{align\*\}
-f_1(r, \theta) \&= r \cos(\theta) \\\\
-f_2(r, \theta) \&= r \sin(\theta)
+f_1(r, \theta) &= r \cos(\theta) \\\\
+f_2(r, \theta) &= r \sin(\theta)
 \end{align\*\}\right .
 $$
 
