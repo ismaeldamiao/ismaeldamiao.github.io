@@ -71,6 +71,7 @@ Além disso vamos adcionar theta como parâmetro das funções, e as funções s
 
 <div style="text-align: center;">
    Clique em um dos botões abaixo para ver o programa.
+       
    <button onclick="Show(source, sourceC)">C</button> 
    <button onclick="Show(source, sourceF)">Fortran</button>
 </div>
