@@ -6,6 +6,6 @@ author_profile: true
 ---
 
 {% if permalink == "/pt/\*" %}
-
+oi
 {% endif %}
-test 9.0
+test 10.0
