@@ -2,7 +2,7 @@
 permalink: /ComputationalPhysics/FunctionData/
 title: "Usando c e Fortran para calcular o valor de uma função"
 ---
-El testeo 17.0
+El testeo 18.0
 
 Entender o que vou ensinar nesta página pode ser difícil se você não não sabe o que é umarquivo de dados e como plotar um gráfico com base nesse arquivo. Nesse caso, recomendo que antes vejas [essa página](/ComputationalPhysics/gnuplot/).
 
@@ -48,10 +48,10 @@ Obviamente não é possível seguir essa rotina indefinidamente, dessa forma, é
 Farei um exemplo um pouco mais robusto, sejam:
 
 $$
-\left \\\{\begin{align\*\}
+\left \\\{\begin{align}
 f_1(r, \theta) &= r \cos(\theta) \\\\
 f_2(r, \theta) &= r \sin(\theta)
-\end{align\*\}\right .
+\end{align}\right .
 $$
 
 A fómula acima é conhecida como mudança de coordenadas polares para coordenadas cartezianas, note portanto que o método aqui apresentado é universal e serve para quaisquer tipos de coordenadas, desde que se faça uma mudança de coordenadas adequada.
@@ -65,11 +65,11 @@ $$
 e portanto, os pontos no plano carteziano que pertencem à rosácea são da forma:
 
 $$
-\begin{align\*}
+\begin{align}
 (x, y) &= \left (f_1(r, \theta), f_2(r, \theta)\right ) \\\\
        &= \left (r \cos(\theta), r \sin(\theta)\right ) \\\\
        &= \left (2 \cos(2\theta)\cos(\theta), 2 \cos(2\theta) \sin(\theta)\right )
-\end{align\*}
+\end{align}
 $$
 
 Como na prática $f_1$ e $f_2$ só dependem de $\theta$, iremos adcionar a variável theta ao programa principal, vamos adcionar também a variável dt, isso porque obviamente não é possível calcular o valor da função em todos os pontos, assim, sempre que calcularmos o valor para um dado $\theta$, iremos calcular para um $\theta$ um pouquinho maior, isto é em $\theta = \theta + dt$.
