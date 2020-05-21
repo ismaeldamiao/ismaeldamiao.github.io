@@ -7,7 +7,7 @@ excerpt: "Tutoriais"
 
 * [Ubuntu](/linux/ubuntu/)
 * [Android](/linux/android/)
-* [$\LaTex$](/pkg/latex/)
+* [$\LaTeX$](/pkg/latex/)
 
 # Tópicos de Física Computacional
 * [Usando o GNUplot para plotar grágicos](/ComputationalPhysics/gnuplot/)
