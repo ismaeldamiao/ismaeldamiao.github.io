@@ -11,7 +11,7 @@ Usar o GNUplot consiste em escrever um script, uma série de comandos de termina
 
 Você deve se lembrar em um plano cartesiano o ponto são representados por duas coordenadas x e y. Em geral, um arquivo de dados é um arquivo de texto com os valores de x e y de um ponto em cada linha, como no seguinte exemplo:
 
-<pre>
+```
   -5.00000000       25.0000000    
   -4.00000000       16.0000000    
   -3.00000000       9.00000000    
@@ -22,7 +22,7 @@ Você deve se lembrar em um plano cartesiano o ponto são representados por duas
    2.00000000       4.00000000    
    3.00000000       9.00000000    
    4.00000000       16.0000000 
-</pre>
+```
 
 Este será o conteúdo do nosso primeiro exemplo, que estará em um arquivo chamado <kbd>dados.dat</kbd>, o nome poderia ser qualquer outro.
 
