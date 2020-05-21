@@ -19,6 +19,17 @@
             {% endfor %}
           {% endif %}
           
+          {% if idioma == es %}
+            {% for link in site.data.navigation.es %}
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+                {% else %}
+                {% assign domain = base_path %}
+              {% endif %}
+              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% endfor %}
+          {% endif %}
+          
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
