@@ -12,19 +12,19 @@ Plotar gráficos é uma tarefa bastante simples!
 Tudo o que você precisa fazer é encontrar o valor de uma determinada função em diferentes pontos.
 
 Trabalharemos com o plano cartesiano, nesse plano todos os ponto podem ser descritos em termos de $x$ e $y$ da forma:
-\\(
+$$
 (x, y)
-\\)
+$$
 
 Uma curva colocada em um plano cartesiano pode, em geral, ser regida por leis. Sejam $f_1$ e $f_2$ duas leis então qualquer ponto do plano que pertença a curva pode ser descrito por:
-\\(
+$$
 (x, \, y) = (f_1, f_2)
-\\)
+$$
 
 Um exemplo comum é $f_1(x)=x$ e $f_2(x)=x^2$, essa curva é conhecida com parábola e é uma das primeiras que aprendemos, nela todos os pontos da parábola no plano são da forma:
-\\(
+$$
 (x, y) = (f_1(x), f_2(x)) = (x, x^2)
-\\)
+$$
 
 Quando a curva é do tipo $(x, y) = (x, f(x))$ ela é chamada de função.
 
@@ -42,28 +42,28 @@ Obviamente não é possível seguir essa rotina indefinidamente, dessa forma, é
 # Exemplo
 
 Farei um exemplo um pouco mais robusto, sejam:
-\\(
-\left \{\begin{matrix}
+$$
+\left \{\begin{align*}
 f_1(r, \theta) &= r \cos(\theta) \\
 f_2(r, \theta) &= r \sin(\theta)
-\end{matrix}\right .
-\\)
+\end{align*}\right .
+$$
 
 A fómula acima é conhecida como mudança de coordenadas polares para coordenadas cartezianas, note portanto que o método aqui apresentado é universal e serve para quaisquer tipos de coordenadas, desde que se faça uma mudança de coordenadas adequada.
 
 Uma curva comum em coordenadas polares é a rosácea, nela o raio $r$ de qualquer ponto está relacionado com o ângulo $\theta$ por:
-\\(
+$$
 r = 2 \cos(2\theta)
-\\)
+$$
 
 e portanto, os pontos no plano carteziano que pertencem à rosácea são da forma:
-\\(
-\begin{matrix}
+$$
+\begin{align*}
 (x, y) &= \left (f_1(r, \theta), f_2(r, \theta)\right ) \\
        &= \left (r \cos(\theta), r \sin(\theta)\right ) \\
        &= \left (2 \cos(2\theta)\cos(\theta), 2 \cos(2\theta) \sin(\theta)\right )
-\end{matrix}
-\\)
+\end{align*}
+$$
 
 Como na prática $f_1$ e $f_2$ só dependem de $\theta$, iremos adcionar a variável theta ao programa principal, vamos adcionar também a variável dt, isso porque obviamente não é possível calcular o valor da função em todos os pontos, assim, sempre que calcularmos o valor para um dado $\theta$, iremos calcular para um $\theta$ um pouquinho maior, isto é em $\theta = \theta + dt$.
 
