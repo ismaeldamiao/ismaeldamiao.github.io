@@ -47,7 +47,7 @@ Obviamente não é possível seguir essa rotina indefinidamente, dessa forma, é
 
 Farei um exemplo um pouco mais robusto, sejam:
 
-<div style="text-align: center;">
+<div>
 $$
 \left \{\begin{align*}
 f_1(r, \theta) &= r \cos(\theta) \\
@@ -66,13 +66,13 @@ $$
 
 e portanto, os pontos no plano carteziano que pertencem à rosácea são da forma:
 
-$$
+<div>
 \begin{align*}
 (x, y) &= (f_1(r, \theta), f_2(r, \theta) ) \\
        &= (r \cos(\theta), r \sin(\theta) ) \\
        &= (2 \cos(2\theta)\cos(\theta), 2 \cos(2\theta) \sin(\theta) )
 \end{align*}
-$$
+</div>
 
 Como na prática $f_1$ e $f_2$ só dependem de $\theta$, iremos adcionar a variável theta ao programa principal, vamos adcionar também a variável dt, isso porque obviamente não é possível calcular o valor da função em todos os pontos, assim, sempre que calcularmos o valor para um dado $\theta$, iremos calcular para um $\theta$ um pouquinho maior, isto é em $\theta = \theta + dt$.
 
