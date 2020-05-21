@@ -28,6 +28,11 @@ E por fim, mova o script para um diretório bin e dê permissões de execussão.
 mv tex2pdf ~/bin && chmod 755 ~/bin/tex2pdf
 ```
 
+Note que se o diretório *~/bin* não existir, você pode criá-lo com o comando:
+```bash
+mkdir ~/bin
+```
+
 Já no Termux faça:
 ```bash
 mv tex2pdf $PREFIX/bin && chmod 755 $PREFIX/bin/tex2pdf
