@@ -3,8 +3,7 @@ permalink: /
 title: ""
 ---
 
-[English](/en/)
+What language do you speak?
+{: .text-center}
 
-[Português](/pt/)
-
-[Español](/es/)
+[English](/en/){: .btn .btn--primary} [Português](/pt/){: .btn .btn--primary} [Español](/es/){: .btn .btn--primary}
