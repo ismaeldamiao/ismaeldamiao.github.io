@@ -6,7 +6,7 @@ author_profile: true
 idioma: pt
 ---
 
-{% if idioma == "pt" %}
+{% if idioma == pt %}
 oi
 {% endif %}
-test 12.0
+test 13.0
