@@ -19,10 +19,48 @@ Se o objetivo for fazer testes de segurança em redes e sistemas o [Kali Linux](
 
 # Comandos básicos
 
+* Para copiar o arquivo *arq* para o diretório *dir*
+```bash
+cp arq dir
+```
+* Para mover o arquivo *arq* para o diretório *dir*
+```bash
+mv arq dir
+```
+* Para entrar no diretório *dir*
+```bash
+cd dir
+```
+* Para ver os arquivos que tem no diretório que você está dentro
+```bash
+ls
+```
+* Para remover o arquivo *arq*
+```bash
+rm arq
+```
+* Para ver os processos rodando na máquina
+```bash
+ps arxu
+```
+* Para compilar o programa, escrito em c ou c++, *programa.c* e criar o executável *programa.out*
+```bash
+g++ programa.c -o programa.out
+```
+* Para compilar o programa, escrito em FORTRAN 90, *programa.f90* e criar o executável *programa.out*
+```bash
+gfortran programa.f90 -o programa.out
+```
+* Para executar o programa executável *programa.out*
+```bash
+./programa.out
+```
+
 # Pacotes de uso na física
 
 * Para compilar programas
-  * gcc e gfortran
+  * gcc
+  * gfortran
 * Para documentos acadêmicos
   * texlive-full
   * tex2pdf
