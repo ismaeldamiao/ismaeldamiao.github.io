@@ -5,6 +5,4 @@ excerpt: "Quem sou eu?"
 author_profile: true
 ---
 
-{%- assign idioma = "pt" %}
-
-test 6.0
+test 7.0
