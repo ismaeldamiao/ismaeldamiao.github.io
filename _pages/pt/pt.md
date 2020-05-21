@@ -6,4 +6,10 @@ author_profile: true
 idioma: pt
 ---
 
-test 19.0
+{% if idioma == es %}
+hola
+{% else %}
+olá
+{% endif %}
+    
+test 20.0
