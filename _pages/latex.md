@@ -42,7 +42,7 @@ mv tex2pdf $PREFIX/bin && chmod 755 $PREFIX/bin/tex2pdf
 
 # Testando
 
-Eu tenho um modelo com todas as configurações feitas, as principais biblioteca importadas e um exemplo para as principais funções. Tive que aprender tudo isso mas não se preocupe, voçê só vai precisar editar o principal, meio que a parte mais difícil eu já resolvi!
+Eu tenho um modelo com todas as configurações feitas, as principais biblioteca importadas e um exemplo para as principais funções. Tive que aprender tudo isso mas não se preocupe, você só vai precisar editar o principal, meio que a parte mais difícil eu já resolvi!
 
 Veja <a href="https://github.com/ismaeldamiao/modelo-latex/blob/master/relatorio/main.tex">neste repositório</a> o meu modelo.
 
