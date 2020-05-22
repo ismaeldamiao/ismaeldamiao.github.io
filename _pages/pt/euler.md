@@ -13,9 +13,9 @@ O método de Euler é um método simples de primeira ordem usado para resoluçã
 Seja o problema de valor inicial:
 
 $$
-\left \{\begin{align*}
-\frac{d}{dx}f(x) = F(x, \; f(x) ) \\
-f(x_0) = C
+\left \{ \begin{align*}
+\frac{d}{dx}f(x) \&= F(x, \; f(x) ) \\
+f(x_0) \&= C
 \end{align*} \right .
 $$
 
