@@ -14,8 +14,8 @@ excerpt: "Tutoriais"
 * [Usando c e Fortran para calcular o valor de uma função](/pt/ComputationalPhysics/FunctionData/)
 * [Método de Euler](/pt/ComputationalPhysics/euler/)
 * [Método de Runge-Kutta de 4ª ordem](/pt/ComputationalPhysics/rk4/)
-[comment]: <> (* [Método de Runge-Kutta](/pt/ComputationalPhysics/rk/))
-[comment]: <> (* [Método de Adams](/pt/ComputationalPhysics/abm/))
+* [Método de Runge-Kutta](/pt/ComputationalPhysics/rk/)
+* [Método de Adams](/pt/ComputationalPhysics/abm/)
 
 # Rotinas
 * [Gerador de números aleatórios](/pt/ComputationalPhysics/random/)
