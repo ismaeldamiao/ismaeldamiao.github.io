@@ -108,8 +108,8 @@ Além disso, fazendo $q_1(t) = x(t)$ e $q_2(t) = \dot x(t)$ o sistema de equaç�
 <div>
 $$
 \begin{align}
-\dot q_1(t) = q_2(t) \\
-\dot q_2(t) = -\omega_0^2 \;\; q_1(t)
+\dot q_1(t) &= q_2(t) \\
+\dot q_2(t) &= -\omega_0^2 \;\; q_1(t)
 \end{align}
 $$
 </div>
@@ -129,44 +129,44 @@ onde:
 <div style="text-align: center;">
 $$
 \left \{ \begin{matrix}
-   kx_1 = q_2(t) \\
-   kx_2 = q_2(t + \frac{dt}{2}) \\
-   kx_3 = q_2(t + \frac{dt}{2}) \\
-   kx_4 = q_2(t + dt)
+   kx_1 &=& q_2(t) \\
+   kx_2 &=& q_2(t + \frac{dt}{2}) \\
+   kx_3 &=& q_2(t + \frac{dt}{2}) \\
+   kx_4 &=& q_2(t + dt)
 \end{matrix}\right .
 $$ 
 $$
 \left \{ \begin{matrix}
-   kv_1 = -\omega_0^2 \;\; q_1(t) \\
-   kv_2 = -\omega_0^2 \;\; q_1(t + \frac{dt}{2}) \\
-   kv_3 = -\omega_0^2 \;\; q_1(t + \frac{dt}{2}) \\
-   kv_4 = -\omega_0^2 \;\; q_1(t + dt)
+   kv_1 &=& -\omega_0^2 \;\; q_1(t) \\
+   kv_2 &=& -\omega_0^2 \;\; q_1(t + \frac{dt}{2}) \\
+   kv_3 &=& -\omega_0^2 \;\; q_1(t + \frac{dt}{2}) \\
+   kv_4 &=& -\omega_0^2 \;\; q_1(t + dt)
 \end{matrix}\right .
 $$
 </div>
 
 
-Note que, para o PVI são conhecidos os valores de $q_2(t)$ , $q_1(t)$, mas o valor de $q_2(t + \frac{dt}{2})$, por exemplo, não é conhecido. Contudo, lembre-se da definição, $kx_2$ deve ser a velocidade na metade do intervalo, estimada usando algum $k_1$ pelo método de Euler, note que, pela eq. (4), $kv_1$ pode ser utilizado como a inclinação de Euler. <br /><br />
+Note que, para o PVI são conhecidos os valores de $q_2(t)$ , $q_1(t)$, mas o valor de $q_2(t + \frac{dt}{2})$, por exemplo, não é conhecido. Contudo, lembre-se da definição, $kx_2$ deve ser a velocidade na metade do intervalo, estimada usando algum $k_1$ pelo método de Euler, note que, pela eq. (11), $kv_1$ pode ser utilizado como a inclinação de Euler. <br /><br />
 
-De forma similar, pela eq. (3) $kx_1$ pode ser usado para estimar $q_1(t + \frac{dt}{2})$ em $kv_2$ por Euler.<br /><br />
+De forma similar, pela eq. (10) $kx_1$ pode ser usado para estimar $q_1(t + \frac{dt}{2})$ em $kv_2$ por Euler.<br /><br />
 
 Dessa forma, devemos aplicar o método de Euler em $kx_2$, $kx_3$, $kx_4$, $kv_2$, $kv_3$ e $kv_4$, daí:
 
 <div style="text-align: center;">
 $$
 \left \{ \begin{align*}
-   kx_1 = q_2(t) \\
-   kx_2 = q_2(t) + kv_1 \; \; \frac{dt}{2} \\
-   kx_3 = q_2(t) + kv_2 \; \; \frac{dt}{2} \\
-   kx_4 = q_2(t) + kv_3 \; \; dt \\
+   kx_1 &=& q_2(t) \\
+   kx_2 &=& q_2(t) + kv_1 \; \; \frac{dt}{2} \\
+   kx_3 &=& q_2(t) + kv_2 \; \; \frac{dt}{2} \\
+   kx_4 &=& q_2(t) + kv_3 \; \; dt \\
 \end{align*}\right .
 $$
 $$
 \left \{ \begin{align*}
-   kv_1 = -\omega_0^2 \;\; q_1(t) \\
-   kv_2 = -\omega_0^2 \;\; ( q_1(t) + kx_1 \;\; \frac{dt}{2} ) \\
-   kv_3 = -\omega_0^2 \;\; ( q_1(t) + kx_2 \;\; \frac{dt}{2} ) \\
-   kv_4 = -\omega_0^2 \;\; ( q_1(t) + kx_3 \;\; dt )
+   kv_1 &=& -\omega_0^2 \;\; q_1(t) \\
+   kv_2 &=& -\omega_0^2 \;\; ( q_1(t) + kx_1 \;\; \frac{dt}{2} ) \\
+   kv_3 &=& -\omega_0^2 \;\; ( q_1(t) + kx_2 \;\; \frac{dt}{2} ) \\
+   kv_4 &=& -\omega_0^2 \;\; ( q_1(t) + kx_3 \;\; dt )
 \end{align*}\right .
 $$
 </div><br />
@@ -174,19 +174,19 @@ $$
 Finalmente, retornando à nossa notação em termos de posição e velocidade, as equações de RK4 para o problema, que seriam colocadas dentro de um loop em um programa, serão:
 
 <div>
-&&
+$$
 \left \{ \begin{matrix}
-   kx_1 = \dot x(t) \\
-   kv_1 = -\omega_0^2 \;\; x(t) \\
-   kx_2 = \dot x(t) + kv_1 \; \; \frac{dt}{2} \\
-   kv_2 = -\omega_0^2 \;\; ( x(t) + kx_1 \;\; \frac{dt}{2} ) \\
-   kx_3 = \dot x(t) + kv_2 \; \; \frac{dt}{2} \\
-   kv_3 = -\omega_0^2 \;\; ( x(t) + kx_2 \;\; \frac{dt}{2} ) \\
-   kx_4 = \dot x(t) + kv_3 \; \; dt \\
-   kv_4 = -\omega_0^2 \;\; ( x(t) + kx_3 \;\; dt ) \\
-   x(t + dt) = x(t) + \frac{1}{6} \left ( kx_1 + 2kx_2 + 2kx_3 + kx_4 \right ) dt \\
-   \dot x(t + dt) = \dot x(t) + \frac{1}{6} \left ( kv_1 + 2kv_2 + 2kv_3 + kv_4 \right ) dt \\
-   t = t + dt
+   kx_1 &=& \dot x(t) \\
+   kv_1 &=& -\omega_0^2 \;\; x(t) \\
+   kx_2 &=& \dot x(t) + kv_1 \; \; \frac{dt}{2} \\
+   kv_2 &=& -\omega_0^2 \;\; ( x(t) + kx_1 \;\; \frac{dt}{2} ) \\
+   kx_3 &=& \dot x(t) + kv_2 \; \; \frac{dt}{2} \\
+   kv_3 &=& -\omega_0^2 \;\; ( x(t) + kx_2 \;\; \frac{dt}{2} ) \\
+   kx_4 &=& \dot x(t) + kv_3 \; \; dt \\
+   kv_4 &=& -\omega_0^2 \;\; ( x(t) + kx_3 \;\; dt ) \\
+   x(t + dt) &=& x(t) + \frac{1}{6} \left ( kx_1 + 2kx_2 + 2kx_3 + kx_4 \right ) dt \\
+   \dot x(t + dt) &=& \dot x(t) + \frac{1}{6} \left ( kv_1 + 2kv_2 + 2kv_3 + kv_4 \right ) dt \\
+   t &=& t + dt
 \end{matrix}\right .
 $$
 </div>
