@@ -4,7 +4,16 @@ title: ""
 excerpt: "Católico, monarquista e amante de física"
 author_profile: true
 sidebar:
-  nav: "main"
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /docs/quick-start-guide/
+      - title: "Structure"
+        url: /docs/structure/
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "testing"
+        url: /docs/upgrading/
 header:
   overlay_color: "#333"
   caption: "Photo credit: [**testando**](https://ismaeldamiao.github.io/pt/)"
