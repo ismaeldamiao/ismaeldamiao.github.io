@@ -87,7 +87,7 @@ $$
    k_2 &= (x + \frac{dx}{2}) \; (f(x) + k_1 \frac{dx}{2}) \\
    k_3 &=  (x + \frac{dx}{2}) \; (f(x) + k_2 \frac{dx}{2}) \\
    k_4 &= (x + dx) \; (f(x) + k_3 dx) \\
-   f(x + dx) &=& f(x) + \frac{1}{6} \left ( k_1 + 2k_2 + 2k_3 + k_4 \right ) \; dx \\
+   f(x + dx) &= f(x) + \frac{1}{6} \left ( k_1 + 2k_2 + 2k_3 + k_4 \right ) \; dx \\
    x &= x + dx
 \end{align*}\right .
 $$
