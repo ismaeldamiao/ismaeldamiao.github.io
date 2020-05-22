@@ -2,7 +2,7 @@
 permalink: /pt/ComputationalPhysics/euler/
 title: "Método de Euler"
 sidebar:
-  nav: "es"
+  nav: "pt"
 ---
 
 **Aviso**: A notação usada nesta página não é complicada, entretanto você pode não compreender se não entender a notação, portanto recomento que vejas antes [Equações Diferenciais Ordinárias](https://ismaeldamiao.blogspot.com/p/texto-aqui.html) onde explico a notação.
