@@ -1,5 +1,5 @@
 ---
-permalink: /pt/library
+permalink: /pt/library/
 title: "Biblioteca"
 ---
 
