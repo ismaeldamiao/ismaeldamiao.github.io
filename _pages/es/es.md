@@ -7,3 +7,4 @@ idioma: es
 ---
 
 Lo siento pero ente sitio está aún en construcción...
+{: .text-center}
