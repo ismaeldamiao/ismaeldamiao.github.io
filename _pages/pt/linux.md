@@ -63,12 +63,12 @@ gfortran programa.f90 -o programa.out
   * gfortran
 * Para documentos acadêmicos
   * texlive-full
-  * [tex2pdf](/pt/latex/)
+  * [tex2pdf](/pt/pkg/latex/)
 * Para plotar gráficos, curvas, superfícies, etc
   * gnuplot
 * Para editar texto
   * nano
-  * [sublime-text](/pt/linux/sublime/)
+  * [sublime-text](/pt/pkg/sublime/)
 * Para edição de imagens
   * inkscape
   
