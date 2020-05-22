@@ -1,18 +1,31 @@
-# Authors
+# /_data/authors.yml
 
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+Yu Zhang:
+  name             : "Yu Zhang"
+  avatar           : "/assets/images/my_bio_s.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "PhD student @ IVRC at Beijing Institute of Technology, visiting student @ WAVELab at University of Waterloo."
+  location         : "Beijing, China"
+  email            : yu.zhang.bit@gmail.com
+  uri              : http://yuzhangbit.github.io
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : yuzhangbit
+  google_plus      :
+  keybase          :
+  instagram        :
+  lastfm           :
+  linkedin         :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  steam            :
+  tumblr           :
+  twitter          :
+  vine             :
+  weibo            :
+  xing             :
+  youtube          : UCsgiPR2CMjsWcrtFIXQS6EQ # "https://youtube.com/c/MichaelRoseDesign"
