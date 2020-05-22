@@ -18,6 +18,7 @@ header:
 {% page.header.lang == "pt" %}
 true
 {% endif %}
+test 1.0
 
 Este site foi feito fisando divulgar meu trabalho, ajudar os calouros de física e aqueles interessados em física computacional. Seu conteúdo abrange desde meios de programar, plotar gráficos, escrever artigo e relatórios até métodos de cálculo numérico. A abordagem que tento seguir é sempre a mais clara e prática e, por suposto, também a mais simples e acessível.
 
