@@ -4,9 +4,9 @@ title: ""
 excerpt: "Católico, monarquista e amante de física"
 author_profile: true
 sidebar:
-  nav: "docs"
+  nav: "main"
 header:
-  image: ./images/site.jpg
+  image: ./images/site.png
   overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**testando**](https://ismaeldamiao.github.io/pt/)"
   actions:
