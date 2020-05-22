@@ -12,18 +12,19 @@ header:
   actions:
     - label: "Download"
       url: "https://github.com"
-pt: true
 ---
 
 {% if permalink contains "/pt/" %}
 true 1
 {% endif %}
 
-{% if page.permalink contains "/pt/" %}
+{% if page.permalink contains "/es/" %}
 true 2
 {% endif %}
 
-<a href="{{ permalink }}">{{ page.pt }}</a>
+{{ permalink }}
+
+{{ page.permalink }}
 
 test 6.0
 
