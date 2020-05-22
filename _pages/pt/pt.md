@@ -3,7 +3,7 @@ permalink: /pt/
 title: ""
 excerpt: "Católico, monarquista e amante de física"
 author_profile: true
-sidebar: false
+sidebar: true
 header:
   overlay_image: ./images/site.png
   overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
@@ -14,7 +14,7 @@ header:
 ---
 
 Este site foi feito fisando divulgar meu trabalho, ajudar os calouros de física e aqueles interessados em física computacional. Seu conteúdo abrange desde meios de programar, plotar gráficos, escrever artigo e relatórios até métodos de cálculo numérico. A abordagem que tento seguir é sempre a mais clara e prática e, por suposto, também a mais simples e acessível.
- 
+
 
 # Ismael Felipe Ferreira dos Santos
 
