@@ -4,8 +4,7 @@ title: ""
 excerpt: ""
 author_profile: true
 header:
-  overlay_image: /images/site.png
-  overlay_color: "#333"
+  image: /images/site.png
   caption: "Photo credit: [**testando**](https://github.com)"
   actions:
     - label: "Download"
