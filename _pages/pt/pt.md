@@ -1,7 +1,7 @@
 ---
 permalink: /pt/
 title: ""
-excerpt: "Católico, monarquista e amante de físia"
+excerpt: "Católico, monarquista e amante de física"
 author_profile: true
 header:
   overlay_color: "#333"
