@@ -54,7 +54,7 @@ atom_feed:
 # Site Author
 author:
   name             : "Ismael Damiao"
-  avatar           : "profile.png"
+  avatar           : "./images/profile.png"
   bio              : "Bacharelando em física"
   location         : "Maceió, Alagoas"
   employer         :
