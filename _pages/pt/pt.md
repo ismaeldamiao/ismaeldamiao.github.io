@@ -4,7 +4,9 @@ title: ""
 excerpt: "Católico, monarquista e amante de física"
 author_profile: true
 header:
-  overlay_image: /images/bio-photo.jpg
+  image: /images/site.png
+  og_image: /images/site.png
+  overlay_image: /images/site.png
   caption: "Photo credit: [**testando**](https://ismaeldamiao.github.io/pt/)"
   actions:
     - label: "Download"
