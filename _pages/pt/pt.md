@@ -4,8 +4,8 @@ title: ""
 excerpt: ""
 author_profile: true
 header:
-  image: /images/site.png
-  caption: "Photo credit: [**testando**](https://github.com)"
+  overlay_color: "#333"
+  caption: "Photo credit: [**testando**](https://ismaeldamiao.github.io/pt/)"
   actions:
     - label: "Download"
       url: "https://github.com"
@@ -15,4 +15,4 @@ header:
 
 Vamos ver no que dá
 
-![/images/site.png](/images/site.png)
+
