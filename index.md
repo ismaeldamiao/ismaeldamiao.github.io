@@ -1,9 +1,6 @@
 ---
 permalink: /
 sidebar: true
-#toc_label: "Sumário"
-#toc_icon: "file-alt"
-#toc_icon: "cog"
 title: ""
 ---
 
