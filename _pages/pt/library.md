@@ -1,5 +1,5 @@
 ---
-permalink: /pt/ComputationalPhysics/FunctionData/
+permalink: /pt/library
 title: "Biblioteca"
 ---
 
