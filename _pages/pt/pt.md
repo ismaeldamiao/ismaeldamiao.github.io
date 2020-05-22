@@ -12,10 +12,10 @@ header:
   actions:
     - label: "Download"
       url: "https://github.com"
-idioma: "pt"
+pt: true
 ---
 
-{% if page.header.idioma == "pt" %}
+{% if page.header.idioma %}
 true
 {% endif %}
 test 2.0
