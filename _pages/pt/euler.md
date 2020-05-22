@@ -13,8 +13,10 @@ O método de Euler é um método simples de primeira ordem usado para resoluçã
 Seja o problema de valor inicial:
 
 $$
-\left \{ { \frac{d}{dx}f(x) &= F(x, \; f(x) ) \\
-f(x_0) &= C } \right .
+\left \{\begin{align*}
+\frac{d}{dx}f(x) = F(x, \; f(x) ) \\
+f(x_0) = C
+\end{align*} \right .
 $$
 
 O método de Euler consiste em estimar $f(x)$ por uma soma discreta de aproximações lineares da EDO, ou seja:<br />
