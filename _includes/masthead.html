@@ -12,6 +12,10 @@
               {% else %}
                 {% assign domain = site.url | append: site.baseurl %}
               {% endif %}
+              <li class="masthead__menu-item">
+                <a href="{{ domain }}{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              </li>
+            {% endfor %}
           {% endif %}
           
           {% if page.permalink contains "/pt/" %}
@@ -21,6 +25,10 @@
               {% else %}
                 {% assign domain = site.url | append: site.baseurl %}
               {% endif %}
+              <li class="masthead__menu-item">
+                <a href="{{ domain }}{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              </li>
+            {% endfor %}
           {% endif %}
           
           {% if page.permalink contains "/en/" %}
@@ -30,6 +38,10 @@
               {% else %}
                 {% assign domain = site.url | append: site.baseurl %}
               {% endif %}
+              <li class="masthead__menu-item">
+                <a href="{{ domain }}{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              </li>
+            {% endfor %}
           {% endif %}
           
         </ul>
