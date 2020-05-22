@@ -1,16 +1,21 @@
 ---
-layout: archive
 title: "Publicações"
 permalink: /publications/
+layout: single
+classes: wide
 author_profile: true
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "cog"
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
 
-{% include base_path %}
+## Journal Articles
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+{% bibliography -q @article %}
+
+
+## Conferences
+
+{% bibliography -q @inproceedings %}
+
