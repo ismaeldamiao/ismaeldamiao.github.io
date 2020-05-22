@@ -14,6 +14,7 @@ Seja o problema de valor inicial:
 
 <div>
 $$
+$\hfill$
 \left \{ \begin{align}
 \frac{d}{dx}f(x) &= F(x, \; f(x) ) \\
 f(x_0) &= C
