@@ -15,7 +15,7 @@ header:
 pt: true
 ---
 
-{% if page.header.pt %}
+{% if page.header.permalink contains "/pt/" %}
 true
 {% endif %}
 test 3.0
