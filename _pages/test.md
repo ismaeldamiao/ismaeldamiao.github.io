@@ -5,8 +5,16 @@ toc_icon: "file-alt"
 toc_icon: "cog"
 ---
 
-{% include figure image_path="./images/t.png" alt="this is a placeholder image" caption="This is a figure caption." %}
+## Vídeo e galeria
 
-{% include figure image_path="./images/yo.png" alt="this is a placeholder image" caption="This is a figure caption." %}
+Para colocar vídeos do youtube use:
 
+```
 {% include video id="XsxDH4HcOWA" provider="youtube" %}
+```
+
+Para colocar uma imagem use:
+
+```
+{% include figure image_path="./images/t.png" alt="this is a placeholder image" caption="This is a figure caption." %}
+```
