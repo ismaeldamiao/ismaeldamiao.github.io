@@ -6,7 +6,7 @@ author_profile: true
 sidebar:
   nav: "main"
 header:
-  image: site.png
+  overlay_image: site.png
   overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**testando**](https://ismaeldamiao.github.io/pt/)"
   actions:
