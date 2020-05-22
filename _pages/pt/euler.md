@@ -14,8 +14,8 @@ Seja o problema de valor inicial:
 
 $$
 \left \{ \begin{align*}
-\frac{d}{dx}f(x) \&= F(x, \; f(x) ) \\
-f(x_0) \&= C
+\frac{d}{dx}f(x) &&= F(x, \; f(x) ) \\
+f(x_0) &&= C
 \end{align*} \right .
 $$
 
