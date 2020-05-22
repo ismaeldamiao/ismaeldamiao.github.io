@@ -14,11 +14,12 @@ Seja o problema de valor inicial:
 
 <div>
 $$
-$\hfill$
-\left \{ \begin{align}
+\begin{equation}
+\left \{ \begin{align*}
 \frac{d}{dx}f(x) &= F(x, \; f(x) ) \\
 f(x_0) &= C
-\end{align} \right .
+\end{align*} \right .
+\end{equation}
 $$
 </div>
 
