@@ -133,7 +133,7 @@ $$
    kx_2 &= q_2(t + \frac{dt}{2}) \\
    kx_3 &= q_2(t + \frac{dt}{2}) \\
    kx_4 &= q_2(t + dt)
-\end{matrix}\right .
+\end{align*}\right .
 $$ 
 $$
 \left \{ \begin{align*}
@@ -146,9 +146,9 @@ $$
 </div>
 
 
-Note que, para o PVI são conhecidos os valores de $q_2(t)$ , $q_1(t)$, mas o valor de $q_2(t + \frac{dt}{2})$, por exemplo, não é conhecido. Contudo, lembre-se da definição, $kx_2$ deve ser a velocidade na metade do intervalo, estimada usando algum $k_1$ pelo método de Euler, note que, pela eq. (11), $kv_1$ pode ser utilizado como a inclinação de Euler. <br /><br />
+Note que, para o PVI são conhecidos os valores de $q_2(t)$ , $q_1(t)$, mas o valor de $q_2(t + \frac{dt}{2})$, por exemplo, não é conhecido. Contudo, lembre-se da definição, $kx_2$ deve ser a velocidade na metade do intervalo, estimada usando algum $k_1$ pelo método de Euler, note que, pela eq. (10), $kv_1$ pode ser utilizado como a inclinação de Euler. <br /><br />
 
-De forma similar, pela eq. (10) $kx_1$ pode ser usado para estimar $q_1(t + \frac{dt}{2})$ em $kv_2$ por Euler.<br /><br />
+De forma similar, pela eq. (9) $kx_1$ pode ser usado para estimar $q_1(t + \frac{dt}{2})$ em $kv_2$ por Euler.<br /><br />
 
 Dessa forma, devemos aplicar o método de Euler em $kx_2$, $kx_3$, $kx_4$, $kv_2$, $kv_3$ e $kv_4$, daí:
 
