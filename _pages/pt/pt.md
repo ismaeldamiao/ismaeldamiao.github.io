@@ -1,6 +1,6 @@
 ---
 permalink: /pt/
-lang: "pt"
+idioma: "pt"
 title: ""
 excerpt: "Católico, monarquista e amante de física"
 author_profile: true
