@@ -87,12 +87,6 @@ Além disso vamos adcionar theta como parâmetro das funções, e as funções s
 <div id="source"></div>
 
 <div hidden="" id="sourceC">
-       <script src="https://gist.github.com/ismaeldamiao/553c08676881dc919a70193de561dc67.js"></script>
-</div>
-<div hidden="" id="sourceF">
-       <script src="https://gist.github.com/ismaeldamiao/890367569c152c890e1fcf59ab92ab0e.js"></script>
-</div>
-
 {% highlight c %}
 #include<stdio.h>
 #include<math.h>
@@ -111,3 +105,28 @@ int main(void){
    return 0;
 }
 {% endhighlight %}
+</div>
+<div hidden="" id="sourceF">
+{% highlight fortran %}
+PROGRAM plotar
+
+   IMPLICIT none
+   REAL(8) :: x, y, theta = 0.0d0, dt = 0.01d0
+   INTEGER, PARAMETER :: arquivo = 10
+
+   OPEN(arquivo, FILE="pontos.dat")
+
+   DO; IF(theta > 2.0d0 * 3.1415d0) EXIT
+
+      x = 2.0d0 * cos(2.0d0 * theta) * cos(theta)
+      y = 2.0d0 * cos(2.0d0 * theta) * sin(theta)
+      WRITE(arquivo, FMT=*) x, y
+      theta = theta + dt
+
+   END DO
+
+   CLOSE(arquivo)
+
+END PROGRAM plotar
+{% endhighlight %}
+</div>
