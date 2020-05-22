@@ -15,7 +15,7 @@ header:
 idioma: "pt"
 ---
 
-{% page.header.lang == "pt" %}
+{% page.header.lang %}
 true
 {% endif %}
 test 1.0
