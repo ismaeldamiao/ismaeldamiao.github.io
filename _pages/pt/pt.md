@@ -19,18 +19,13 @@ pt: true
 true 1
 {% endif %}
 
-{% if page.header.permalink contains "/pt/" %}
+{% if page.permalink contains "/pt/" %}
 true 2
 {% endif %}
 
-{% if permalink contains '/pt/' %}
-true 3
-{% endif %}
+<a href="{{ permalink }}">{{ page.pt }}</a>
 
-{% if page.header.permalink contains '/pt/' %}
-true 4
-{% endif %}
-test 5.0
+test 6.0
 
 Este site foi feito fisando divulgar meu trabalho, ajudar os calouros de física e aqueles interessados em física computacional. Seu conteúdo abrange desde meios de programar, plotar gráficos, escrever artigo e relatórios até métodos de cálculo numérico. A abordagem que tento seguir é sempre a mais clara e prática e, por suposto, também a mais simples e acessível.
 
