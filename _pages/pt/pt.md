@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /pt/
 title: ""
 excerpt: "Católico, monarquista e amante de física"
