@@ -12,21 +12,23 @@ O método de Euler é um método simples de primeira ordem usado para resoluçã
 
 Seja o problema de valor inicial:
 
+<div>
 $$
 \left \{ \begin{align}
-\frac{d}{dx}f(x) &&= F(x, \; f(x) ) \\
-f(x_0) &&= C
+\frac{d}{dx}f(x) &= F(x, \; f(x) ) \\
+f(x_0) &= C
 \end{align} \right .
 $$
+</div>
 
 O método de Euler consiste em estimar $f(x)$ por uma soma discreta de aproximações lineares da EDO, ou seja:<br />
 
 <div>
 $$
 \begin{align}
-f(x_0 + dx) &= f(x_0) \; + \; \left . \frac{d}{dx}f(x) \right |_{x_0} \; dx \\
+f(x_0 + dx) &= f(x_0) \; + \; \left . \frac{d}{dx}f(x) \right |_{x_0} \; dx
             &= C      \; + \; F(x_0, \; f(x_0) )                      \; dx
-\end{align}\; \; \; \; (2)
+\end{align}
 $$
 </div>
 
@@ -37,7 +39,7 @@ Em geral, queremos estimar o valor de $f$ em mais do que um ponto, daí, como j�
 Devido esse carater recursivo da aplicação do método de Euler, é conveniente usar a notação:
 
 $$
-f(x + dx) = f(x) \; + \; f'(x) \; dx \; \; \; \; (3)
+f(x + dx) = f(x) \; + \; f'(x) \; dx
 $$
 
 
@@ -47,10 +49,10 @@ Seja o PVI:
 
 <div>
 $$
-\left \{ \begin{align*}
+\left \{ \begin{align}
 \frac{d}{dx}f(x) &= x \; f(x) \\
 f(x_0) &= C
-\end{align*}\right .
+\end{align}\right .
 $$
 </div>
 
@@ -58,10 +60,10 @@ Para estimar o valor de $f(x_0 + dx)$ basta aplicar o método de Euler:
 
 <div>
 $$
-\begin{align*}
+\begin{align}
 f(x_0 + dx) &= f(x_0) + F(x_0, f(x_0)) \; dx \\
             &= C + x_0 \; C \; dx
-\end{align*}
+\end{align}
 $$
 </div>
 
@@ -69,10 +71,10 @@ Finalmente, as equações do método de Euler para o problema, que seriam coloca
 
 <div>
 $$
-\left \{ \begin{align*}
+\left \{ \begin{align}
 f(x + dx) &= f(x) + x \; f(x) \; dx \\
 x &= x + dx
-\end{align*}\right .
+\end{align}\right .
 $$
 </div>
 
@@ -101,10 +103,10 @@ Agora basta aplicar o método de Euler para as duas equações:
 
 <div>
 $$
-\left \{ \begin{align*}
+\left \{ \begin{align}
 q_1(t + dt) &= q_1(t) + q_2(t) \; dt \\
 q_2(t + dt) &= q_2(t) - \omega_0^2 \; q_1(t) \; dt
-\end{align*}\right .
+\end{align}\right .
 $$
 </div>
 
@@ -112,11 +114,11 @@ Finalmente, retornando à nossa notação em termos de posição e velocidade, a
 
 <div>
 $$
-\left \{ \begin{align*}
+\left \{ \begin{align}
 x(t + dt) &= x(t) + \dot x(t) \; dt \\
 \dot x(t + dt) &= \dot x(t) - \omega_0^2 x(t) \; dt \\
 t &= t + dt
-\end{align*}\right .
+\end{align}\right .
 $$
 </div>
 
