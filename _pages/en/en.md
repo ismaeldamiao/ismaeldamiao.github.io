@@ -1,9 +1,11 @@
 ---
 permalink: /en/
 title: ""
-excerpt: "Who I am?"
-sidebar: true
+excerpt: "I love Catholicism, monarchy and physics"
 author_profile: true
+sidebar: true
+header:
+  overlay_image: ./images/site.png
 ---
 
 Site under construction...
