@@ -45,7 +45,7 @@ Ainda estou tentando descobrir um geito de programar no Android sem esse passo, 
 Execute o seguinte comando para baixar e untalar o Ubuntu-chroot no Termux:
 
 ```bash
-wget -O ubuntu.sh 'https://drive.google.com/uc?export=download&id=1XGqchzzzz3bc9JuO8eKvHyHRrqRdOlFy' && bash ubuntu.sh
+wget -qO ubuntu.sh 'https://drive.google.com/uc?export=download&id=1XGqchzzzz3bc9JuO8eKvHyHRrqRdOlFy' && bash ubuntu.sh
 
 ```
 
