@@ -4,7 +4,7 @@ sidebar: true
 title: ""
 excerpt: "Católico, monarquista e amante de física"
 author_profile: true
-sidebar:
+sidebar: true
   nav: "main"
 header:
   overlay_image: ./images/site.png
