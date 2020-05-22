@@ -14,12 +14,10 @@ Seja o problema de valor inicial:
 
 <div>
 $$
-\begin{equation}
-\left \{ \begin{align*}
+\left \{ \begin{matrix}
 \frac{d}{dx}f(x) &= F(x, \; f(x) ) \\
 f(x_0) &= C
-\end{align*} \right .
-\end{equation}
+\end{matrix} \right .
 $$
 </div>
 
