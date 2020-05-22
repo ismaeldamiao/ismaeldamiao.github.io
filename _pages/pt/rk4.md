@@ -193,9 +193,7 @@ $$
 
 lembrando de fazer $x(t) = x_0$, $\dot x(t) = v_0$, $t = t_0$ e $dt = 1.0 \cdot 10^{-3}$ antes do loop.<br /><br />
 
-Veja um exemplo de programa em c no <a href="https://github.com/ismaeldamiao/ismael-damiao-repo/tree/master/c/Oscilador%20simples" target="_blank">GitHub</a>.<br /><br />
+Veja um exemplo de programa em c no <a href="https://github.com/ismaeldamiao/ismael-damiao-repo/tree/master/c/Oscilador%20simples" target="_blank">GitHub</a>.
 
 
-Veja um exemplo de programa em fontran no <a href="https://github.com/ismaeldamiao/ismael-damiao-repo/tree/master/fortran/Oscilador%20simples" target="_blank">GitHub</a>.<br /><br />
-
-</div>
+Veja um exemplo de programa em fontran no <a href="https://github.com/ismaeldamiao/ismael-damiao-repo/tree/master/fortran/Oscilador%20simples" target="_blank">GitHub</a>.
