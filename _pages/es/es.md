@@ -3,7 +3,7 @@ permalink: /es/
 title: ""
 excerpt: "Quien soy"
 author_profile: true
-idioma: es
+sidebar: true
 ---
 
 Lo siento pero ente sitio está aún en construcción...
