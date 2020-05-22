@@ -1,9 +1,10 @@
 ---
 permalink: /pt/ComputationalPhysics/FunctionData/
-layout: splash
+layout: single
 toc: true
 toc_label: "Sumário"
-toc_icon: "cog"
+toc_icon: "file-alt"
+#toc_icon: "cog"
 title: "Usando c e Fortran para calcular o valor de uma função"
 ---
 
