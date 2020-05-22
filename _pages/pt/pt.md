@@ -4,18 +4,10 @@ title: ""
 excerpt: "Católico, monarquista e amante de física"
 author_profile: true
 sidebar:
-  - title: Getting Started
-    children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "testing"
-        url: /docs/upgrading/
+  nav: "docs"
 header:
-  overlay_color: "#333"
+  image: ./images/site.jpg
+  overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**testando**](https://ismaeldamiao.github.io/pt/)"
   actions:
     - label: "Download"
