@@ -1,12 +1,8 @@
 ---
-layout: default
 permalink: /pt/
 title: ""
 excerpt: "Católico, monarquista e amante de física"
 author_profile: true
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "cog"
 sidebar:
   nav: "main"
 header:
