@@ -16,7 +16,7 @@
                   {% else %}
                   {% assign domain = base_path %}
                 {% endif %}
-                <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+                document.write('<li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>');
               {% endfor %}
             }else{
               if (window.location.href.match('/es/')){
@@ -26,7 +26,7 @@
                     {% else %}
                     {% assign domain = base_path %}
                   {% endif %}
-                  <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+                  document.write('<li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>');
                 {% endfor %}
               }else{
                 {% for link in site.data.navigation.main %}
@@ -35,7 +35,7 @@
                     {% else %}
                     {% assign domain = base_path %}
                   {% endif %}
-                  <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+                  document.write('<li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>');
                 {% endfor %}
               }
             }
