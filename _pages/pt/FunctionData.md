@@ -1,5 +1,6 @@
 ---
 permalink: /pt/ComputationalPhysics/FunctionData/
+layout: single
 toc: true
 toc_label: "Sumário"
 toc_icon: "cog"
