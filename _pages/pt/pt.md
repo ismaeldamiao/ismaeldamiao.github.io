@@ -1,6 +1,5 @@
 ---
 permalink: /pt/
-idioma: "pt"
 title: ""
 excerpt: "Católico, monarquista e amante de física"
 author_profile: true
@@ -13,6 +12,7 @@ header:
   actions:
     - label: "Download"
       url: "https://github.com"
+idioma: "pt"
 ---
 
 {% page.header.lang == "pt" %}
