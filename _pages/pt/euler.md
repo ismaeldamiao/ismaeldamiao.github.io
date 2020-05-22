@@ -94,8 +94,7 @@ $$
 Fazendo $q_1(t) = x(t)$ e $q_2(t) = \dot x(t)$ o sistema de equações de 1ª ordem será:
 
 $$
-\left \{ {
-\dot q_1(t) = q_2(t) \\
+\left \{ { \dot q_1(t) = q_2(t) \\
 \dot q_2(t) = -\omega_0^2 q_1(t)
 }\right .
 $$
