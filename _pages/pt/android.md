@@ -21,21 +21,20 @@ Logo ao abrir ele pela primeira vez você verá uma tela preta onde você digita
 
 Digite os seguintes comandos, um a um, para instalar o pacote de download <kbd>wget</kbd> e baixar um script, explicarei sobre o script mais adiante:
 
-<pre>
+```bash
 apt update
 apt install -y wget
 wget -q https://github.com/ismaeldamiao/scripts/raw/master/termux_config.bash
 
-</pre>
+```
 
 Este script irá executar vários comando para configurar automáticamente o seu Termux, caso queira saber o que ele faz acesse [termux_config.bash](https://github.com/ismaeldamiao/scripts/blob/master/termux_config.bash).
 
 Digite o seguinte comando para executar o script:
 
-<pre>
+```bash
 bash termux_config.bash
-
-</pre>
+```
 
 Pronto, seu Termux está configurado e, quase, pronto para uso!
 
@@ -45,15 +44,15 @@ Ainda estou tentando descobrir um geito de programar no Android sem esse passo, 
 
 Execute o seguinte comando para baixar e untalar o Ubuntu-chroot no Termux:
 
-<pre>
+```bash
 wget -O ubuntu.sh 'https://drive.google.com/uc?export=download&id=1XGqchzzzz3bc9JuO8eKvHyHRrqRdOlFy' && bash ubuntu.sh
 
-</pre>
+```
 
 Pronto! Se tudo seu certo certo, sempre que quiser entrar no seu ubuntu digite:
 
-<pre>
+```bash
 start-ubuntu
-</pre>
+```
 
 Assim você estará executando uma distribuição Ubuntu no seu Termux!
