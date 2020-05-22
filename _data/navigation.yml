@@ -12,24 +12,24 @@ pt:
 
 en:
   - title: "Library"
-    url: /pt/library/
+    url: /en/library/
   - title: "Computational Physics"
-    url: /pt/ComputationalPhysics/
+    url: /en/ComputationalPhysics/
   - title: "Blog"
-    url: /pt/year-archive/
+    url: /en/year-archive/
   - title: "Publications"
-    url: /pt/publications/
+    url: /en/publications/
   - title: "cv"
     url: http://lattes.cnpq.br/1281887099263383
 
 es:
   - title: "Biblioteca"
-    url: /pt/library/
+    url: /es/library/
   - title: "Física Computacional"
-    url: /pt/ComputationalPhysics/
+    url: /es/ComputationalPhysics/
   - title: "Blog"
-    url: /pt/year-archive/
+    url: /es/year-archive/
   - title: "Publicaciones"
-    url: /pt/publications/
+    url: /es/publications/
   - title: "cv"
     url: http://lattes.cnpq.br/1281887099263383
