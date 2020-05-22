@@ -26,4 +26,4 @@ Este site foi feito fisando divulgar meu trabalho, ajudar os calouros de física
 
 **Religião**: Católico
 
-**Plítica**: [Monarquista](https://monarquia.org.br/)
+**Política**: [Monarquista](https://monarquia.org.br/)
