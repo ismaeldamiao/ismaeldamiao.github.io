@@ -4,29 +4,34 @@
       <nav id="site-nav" class="greedy-nav">
         <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
         <ul class="visible-links">
-          <script>
-            if (window.location.href.match('/pt/')){
-              document.write('<li class="masthead__menu-item"><a href="/pt/library/">Biblioteca</a></li>');
-              document.write('<li class="masthead__menu-item"><a href="/pt/ComputationalPhysics/">Física Computacional</a></li>');
-              document.write('<li class="masthead__menu-item"><a href="/pt/year-archive/">Blog</a></li>');
-              document.write('<li class="masthead__menu-item"><a href="/publications/">Publicações</a></li>');
-              document.write('<li class="masthead__menu-item"><a href="http://lattes.cnpq.br/1281887099263383">Lattes</a></li>');
-            }else{
-              if (window.location.href.match('/es/')){
-                document.write('<li class="masthead__menu-item"><a href="/es/library/">Biblioteca</a></li>');
-                document.write('<li class="masthead__menu-item"><a href="/es/ComputationalPhysics/">Física Computacional</a></li>');
-                document.write('<li class="masthead__menu-item"><a href="/es/year-archive/">Blog</a></li>');
-                document.write('<li class="masthead__menu-item"><a href="/publications/">Publicaciones</a></li>');
-                document.write('<li class="masthead__menu-item"><a href="http://lattes.cnpq.br/1281887099263383">Lattes</a></li>');
-              }else{
-                document.write('<li class="masthead__menu-item"><a href="/en/library/">Library</a></li>');
-                document.write('<li class="masthead__menu-item"><a href="/en/ComputationalPhysics/">Computational Physics</a></li>');
-                document.write('<li class="masthead__menu-item"><a href="/en/year-archive/">Blog</a></li>');
-                document.write('<li class="masthead__menu-item"><a href="/publications/">Publicações</a></li>');
-                document.write('<li class="masthead__menu-item"><a href="http://lattes.cnpq.br/1281887099263383">cv</a></li>');
-              }
-            }
-          </script>
+          
+          {% if page.permalink contains "/es/" %}
+            {% for link in site.data.navigation.es %}
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = site.url | append: site.baseurl %}
+              {% endif %}
+          {% endif %}
+          
+          {% if page.permalink contains "/pt/" %}
+            {% for link in site.data.navigation.pt %}
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = site.url | append: site.baseurl %}
+              {% endif %}
+          {% endif %}
+          
+          {% if page.permalink contains "/en/" %}
+            {% for link in site.data.navigation.en %}
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = site.url | append: site.baseurl %}
+              {% endif %}
+          {% endif %}
+          
         </ul>
         {% if site.search == true %}
         <button class="search__toggle" type="button">
