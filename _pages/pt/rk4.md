@@ -1,6 +1,6 @@
 ---
-permalink: /pt/ComputationalPhysics/euler/
-title: "Método de Euler"
+permalink: /pt/ComputationalPhysics/rk4/
+title: "Método de Runge-Kutta de 4ª ordem"
 ---
 
 **Aviso**: A notação usada nesta página não é complicada, entretanto você pode não compreender se não entender a notação, portanto recomento que vejas antes [Equações Diferenciais Ordinárias](https://ismaeldamiao.blogspot.com/p/texto-aqui.html) onde explico a notação.
