@@ -1,6 +1,6 @@
 ---
 title: "Publicações"
-permalink: /publications/
+permalink: /pt/publications/
 layout: single
 classes: wide
 author_profile: true
