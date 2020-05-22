@@ -1,17 +1,12 @@
 # main links links
 main:
-
-  - title: "Biblioteca"
-    url: /pt/library/
-
-  - title: "Física Computacional"
-    url: /pt/ComputationalPhysics/
-        
-  - title: "Blog"
-    url: /pt/year-archive/
-
-  - title: "Publicações"
-    url: /pt/publications/
-    
-  - title: "cv - Lattes"
-    url: http://lattes.cnpq.br/1281887099263383
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /docs/quick-start-guide/
+      - title: "Structure"
+        url: /docs/structure/
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "Upgrading"
+        url: /docs/upgrading/
