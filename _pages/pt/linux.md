@@ -1,11 +1,14 @@
 ---
 permalink: /pt/linux/
 title: "Linux"
+toc: true
+toc_label: "Sumário"
+toc_icon: "file-alt"
 ---
 
 Recomendo muito o uso de uma distribuição Linux na física, na verdade para qualquer atividade que não seja jogar eu recomendo o uso do Linux, entretanto sei que há pessoas que não gostam nem querem usar o Linux, temo que esta página não seja direcionada a essas pessoas.
 
-# Distribuiçao
+## Distribuiçao
 
 Existem vários sistemas operasionais (SO) baseados no kernel linux, estes SO são conhecidos como distribuições linux, ou distros, a nível de curiosidade [este arquivo](https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg) da wikimedia pretende, se é que isso é possível, mostrar todas as distribuições baseadas no kernel Linux.
 
@@ -17,7 +20,7 @@ Já se você quer personalizar seu linux e entender melhor como ele funciona, us
 
 Se o objetivo for fazer testes de segurança em redes e sistemas o [Kali Linux](https://pt.wikipedia.org/wiki/Kali_Linux) é uma boa opção.
 
-# Comandos básicos
+## Comandos básicos
 
 * Para copiar o arquivo *arq* para o diretório *dir*
 ```bash
@@ -56,7 +59,7 @@ gfortran programa.f90 -o programa.out
 ./programa.out
 ```
 
-# Pacotes de uso na física
+## Pacotes de uso na física
 
 * Para compilar programas
   * gcc
