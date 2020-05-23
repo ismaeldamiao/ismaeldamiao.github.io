@@ -1,7 +1,9 @@
 ---
 permalink: /pt/linux/android/
 title: "Android"
-excerpt: "Física computacional desde Android"
+toc: true
+toc_label: "Sumário"
+toc_icon: "file-alt"
 ---
 
 É possível criar programas de física, documentos $\LaTeX$ e gráficos pelo GNUPlot usando o bom e velho Android e nessa página eu mostro como fazer isso.
@@ -10,7 +12,7 @@ Antes de começar, recomendo que baixe um teclado como [AnySoftKey-board](https:
 
 Também recomendo o uso de algum editor de texto, como o [DroidEdit](https://play.google.com/store/apps/details?id=com.aor.droidedit), para escrever os programas.
 
-# Termux
+## Termux
 
 O terminal é nosso melhor ambiente de trabalho, mesmo no android. Gosto muito do Termux e acho que ele é o melhor que tem para Android, baixe ele em uma das opções abaixo:
 
@@ -38,7 +40,7 @@ bash termux_config.bash
 
 Pronto, seu Termux está configurado e, quase, pronto para uso!
 
-# Ubuntu no Termux
+## Ubuntu no Termux
 
 Ainda estou tentando descobrir um geito de programar no Android sem esse passo, mas por enquanto ele é necessário...
 
