@@ -10,7 +10,7 @@ O GNUplot é um software muito bom para plotar grágicos 2D e 3D, ele possui div
 
 Usar o GNUplot consiste em escrever um script, uma série de comandos de terminal, para obter um gráfico dos dados dispostos em um arquivo de dados. Me explico.
 
-# O arquivo de dados
+## O arquivo de dados
 
 Você deve se lembrar em um plano cartesiano o ponto são representados por duas coordenadas x e y. Em geral, um arquivo de dados é um arquivo de texto com os valores de x e y de um ponto em cada linha, como no seguinte exemplo:
 
@@ -31,7 +31,7 @@ Este será o conteúdo do nosso primeiro exemplo, que estará em um arquivo cham
 
 Note que se for um gráfico 3D então cada linha deverá conter os valores das três coordenadas de cada ponto.
 
-# Pra começar
+## Pra começar
 
 Usando seu editor de texto favorito crie um arquivo com um nome qualquer, eu costumo colocar um <kbd>.gr</kbd> depois do nome pra indicar que se trata de um script para gráfico.
 
@@ -57,7 +57,7 @@ set output "output.svg"
 
 Neste caso o tamanho da fonte é 18 e o gráfico terá o formato 720px, quadrado.
 
-# Plotando
+## Plotando
 
 O comando para plotar é simples:
 
@@ -81,7 +81,7 @@ Para gerar o gráfico basta abrir o terminal no mesmo diretório que o script e 
 gnuplot test.gr
 ```
 
-# Pontos
+## Pontos
 
 Para mudar o tipo dos pontos para 7 e o tamanho dos pontos para 1, faça:
 ```bash
@@ -95,14 +95,14 @@ Para mudar a cor dos pontos para azul, faça:
 plot "dados.dat" w p lt rgb "blue" pt 6 ps 1
 ```
 
-# Linhas
+## Linhas
 
 Para mudar a cor das linhas para azul, faça:
 ```bash
 plot "dados.dat" w l lt rgb "blue"
 ```
 
-# Caixa
+## Caixa
 
 Para mudar a posição da caixa coloque, antes do *plot*:
 
@@ -155,7 +155,7 @@ Também é possível mudar o título de um gráfico:
 plot "dados.dat" w p lt rgb "blue" pt 6 ps 3 title "Massa 1"
 ```
 
-# Eixos e Título
+## Eixos e Título
 
 Já os eixos e o título da figura podem ser auterados assim:
 ```bash
@@ -165,7 +165,7 @@ set zlabel "Eixo z"
 set title "Tutorial"
 ```
 
-# Curva de ajuste
+## Curva de ajuste
 
 Primeiro crie uma função dependente de quantos parâmetros quiser, na física use não mais que dois sempre que possível:
 ```bash
@@ -210,7 +210,7 @@ plot data w p lt rgb "blue" pt 6 ps 3 title "Massa 1", \
      f(x) w l lt rgb "red"
 ```
 
-# Escala logarítmica
+## Escala logarítmica
 
 Para usar a escala logarítmica faça:
 ```bash
@@ -218,14 +218,14 @@ set logscale xyz
 ```
 Note que não necessáriamente a escala logarítimica deve ser aplicada em todos os eixos.
 
-# Strings
+## Strings
 
 É possǘel usar strings como no c:
 ```bash
 a=2
 plot "dados.dat" title sprintf("%02d", a)
 ```
-# Barra de erro
+## Barra de erro
 
 Támbem é possível que, no arquivo de dados, além das coordenadas x e y de um ponto, uma linha contenha os valores da incerteza em uma medida.
 
@@ -238,6 +238,6 @@ Para plotar as barras de erro basta usar:
 plot "dados.dat" with xyerrorbars
 ```
 
-# Superfícies
+## Superfícies
 
 Para plotar curvas e superfúcies 3D basicamente basta trocar o *plot* por *splot* e todo o resto é igual.
