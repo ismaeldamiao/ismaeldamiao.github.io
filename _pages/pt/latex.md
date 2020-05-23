@@ -1,13 +1,16 @@
 ---
 permalink: /pt/pkg/latex/
 title: "$\\LaTeX$"
+toc: true
+toc_label: "Sumário"
+toc_icon: "file-alt"
 ---
 
 O $\LaTeX$ é o programa que uso para fazer documentos segundo as normas na ABNT. Através dele é possível usar notação matemática, inserir tabelas, gráficos, fórmulas químicas, numerar automaticamente equações, leis, teoremas, imagens e etc dentre uma infinidade de outras funções.
 
 Tudo isso é feito através de codigos inseridos no arquivo .tex, dessa forma a formatação é feita automaticamente quando o arquivo é compilado. O resultado é um documento PDF muito bonito.
 
-# instalando
+## instalando
 
 O primeiro componente que iremos instalar é o *texlive*, ele contém os pacotes para usar $\LaTeX$. Se você está usando Ubuntu, Debian ou similar, digite no terminal:
 
@@ -40,7 +43,7 @@ Já no Termux faça:
 mv tex2pdf $PREFIX/bin && chmod 755 $PREFIX/bin/tex2pdf
 ```
 
-# Testando
+## Testando
 
 Eu tenho um modelo com todas as configurações feitas, as principais biblioteca importadas e um exemplo para as principais funções. Tive que aprender tudo isso mas não se preocupe, você só vai precisar editar o principal, meio que a parte mais difícil eu já resolvi!
 
@@ -68,7 +71,7 @@ tex2pdf main.tex
 
 Se tudo deu certo, deve aparecer no diretório um arquivo chamado *main.pdf* resultado de compilar o conteúdo do arquivo *main.tex*, use seu editor de texto preferido para editar o *main.tex*.
 
-# Saiba mais
+## Saiba mais
 * [O que vou aprendendo em Latex](https://aprendolatex.wordpress.com/)
 * [LaTex BR](https://latexbr.blogspot.com/2010/04/introducao-ao-latex.html)
 * [Modelos de documentos em LaTex](http://dl.bintray.com/laurocesar/generic/abntex2-modelos-1.9.7.zip)
