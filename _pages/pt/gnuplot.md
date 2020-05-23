@@ -1,6 +1,9 @@
 ---
 permalink: /pt/ComputationalPhysics/gnuplot/
 title: "Usando o GNUplot para plotar grágicos"
+toc: true
+toc_label: "Sumário"
+toc_icon: "file-alt"
 ---
 
 O GNUplot é um software muito bom para plotar grágicos 2D e 3D, ele possui diversas funções, muito mais do que consigo usar.
