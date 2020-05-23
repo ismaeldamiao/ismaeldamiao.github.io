@@ -1,9 +1,6 @@
 ---
 permalink: /pt/ComputationalPhysics/
 title: "Física Computacional"
-toc: true
-toc_label: "Sumário"
-toc_icon: "file-alt"
 ---
 ## Programação, SO Linux e mais
 
