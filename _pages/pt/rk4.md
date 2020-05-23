@@ -1,12 +1,15 @@
 ---
 permalink: /pt/ComputationalPhysics/rk4/
 title: "Método de Runge-Kutta de 4ª ordem"
+toc: true
+toc_label: "Sumário"
+toc_icon: "file-alt"
 ---
 
 **Aviso**: A notação usada nesta página não é complicada, entretanto você pode não compreender se não entender a notação, portanto recomento que vejas antes [Equações Diferenciais Ordinárias](https://ismaeldamiao.blogspot.com/p/texto-aqui.html) onde explico a notação.
 
 
-# O método de Runge-Kutta de 4ª ordem
+## O método de Runge-Kutta de 4ª ordem
 
 O Método de Runge-Kutta de 4ª ordem, ou simplesmente RK4, é um método de cálculo numérico que permite colher resultados com maior precisão do que se usássemos o método de Euler ou, se quisermos a mesma precisão, com menos tempo do que usando Euler.
 
@@ -50,7 +53,7 @@ ou seja:
 * $k_3$ é a inclinação de $f$ na metade do intervalo $[x, x + dx]$ estimada através do método de Euler usando $k_2$;
 * $k_4$ é a inclinação de $f$ no fim do intervalo $[x, x + dx]$ estimada através do método de Euler usando $k_3$.
 
-# Exemplo (1ª ordem)
+## Exemplo (1ª ordem)
 
 Seja o PVI:
 <div>
@@ -96,7 +99,7 @@ $$
 lembrando de fazer $f(x) = C$, $x = x_0$ e $dx = 1.0 \cdot 10^{-3}$ antes do loop.
 
 
-# Exemplo (2ª ordem):
+## Exemplo (2ª ordem):
 
 Para ficar mais claro, vamos voltar ao problema do oscilador harmônico simples. A EDO era da forma:
 
