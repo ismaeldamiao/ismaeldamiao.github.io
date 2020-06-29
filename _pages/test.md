@@ -13,8 +13,6 @@ header:
       url: "https://github.com"
 ---
 
-{% include breadcrumbs.html %}
-
 ## Vídeo e galeria
 
 Para colocar vídeos do youtube use:

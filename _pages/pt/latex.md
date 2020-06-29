@@ -23,9 +23,9 @@ Já se você está usando Android, digite no terminal Termux:
 apt install -y texlive-full
 ```
 
-Por fim, vamos baixar um [script](https://github.com/ismaeldamiao/scripts/blob/master/.bashrc) para compilar os documento $\LaTeX$ mais facilmente, em um terminal digite:
+Por fim, vamos baixar um [script](https://raw.githubusercontent.com/ismaeldamiao/scripts/master/tex2pdf.bash) para compilar os documento $\LaTeX$ mais facilmente, em um terminal digite:
 ```bash
-wget -qO tex2pdf https://github.com/ismaeldamiao/scripts/raw/master/.bashrc
+wget -qO tex2pdf https://raw.githubusercontent.com/ismaeldamiao/scripts/master/tex2pdf.bash
 ```
 
 E por fim, mova o script para um diretório bin e dê permissões de execussão. Em uma distro Linux faça:

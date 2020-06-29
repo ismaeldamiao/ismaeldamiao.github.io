@@ -3,8 +3,6 @@ pt:
     url: /pt/library/
   - title: "Física Computacional"
     url: /pt/ComputationalPhysics/
-  - title: "Blog"
-    url: /pt/year-archive/
   - title: "Publicações"
     url: /pt/publications/
   - title: "Lattes"
@@ -13,13 +11,9 @@ pt:
 en:
   - title: "Library"
     url: /en/library/
-  - title: "Computational Physics"
-    url: /en/ComputationalPhysics/
-  - title: "Blog"
-    url: /en/year-archive/
   - title: "Publications"
     url: /en/publications/
-  - title: "cv"
+  - title: "cv (in portuguese)"
     url: http://lattes.cnpq.br/1281887099263383
 
 es:
@@ -27,9 +21,7 @@ es:
     url: /es/library/
   - title: "Física Computacional"
     url: /es/ComputationalPhysics/
-  - title: "Blog"
-    url: /es/year-archive/
   - title: "Publicaciones"
     url: /es/publications/
-  - title: "cv"
+  - title: "cv (en portugues)"
     url: http://lattes.cnpq.br/1281887099263383

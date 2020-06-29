@@ -46,9 +46,9 @@ rm arq
 ```bash
 ps arxu
 ```
-* Para compilar o programa, escrito em c ou c++, *programa.c* e criar o executável *programa.out*
+* Para compilar o programa, escrito em c, *programa.c* e criar o executável *programa.out*
 ```bash
-g++ programa.c -o programa.out
+gcc programa.c -o programa.out -lm
 ```
 * Para compilar o programa, escrito em FORTRAN 90, *programa.f90* e criar o executável *programa.out*
 ```bash
@@ -71,7 +71,7 @@ gfortran programa.f90 -o programa.out
   * gnuplot
 * Para editar texto
   * nano
-  * [sublime-text](/pt/pkg/sublime/)
+  * xed
 * Para edição de imagens
   * inkscape
   
@@ -86,5 +86,5 @@ sudo yum install -y nome_do_pacote
 ```
 * [zypper](https://pt.wikipedia.org/wiki/ZYpp)
 ```bash
-sudo zypper install --non-interactive nome_do_pacote
+sudo zypper install nome_do_pacote
 ```
