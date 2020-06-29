@@ -123,7 +123,7 @@ Pronto, seu modo gráfico deve esta a funcionar!
 
 Se quiser fazer um teste, tente usar o terminal via modo gráfico.
 
-{% include figure image_path="./images/Screenshot_20200629-175317_VNC_Viewer.png" caption="Login no VNC Viewer." %}
+{% include figure image_path="./images/Screenshot_20200629-175317_VNC_Viewer.png" caption="Modo gráfico usando termux." %}
 
 ## Ubuntu no Termux
 
