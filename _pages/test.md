@@ -13,7 +13,7 @@ header:
       url: "https://github.com"
 ---
 
-{% include page__hero.html %}
+{% include breadcrumbs.html %}
 
 ## Vídeo e galeria
 
