@@ -13,7 +13,7 @@ header:
       url: "https://github.com"
 ---
 
-{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}
+{% include page__hero.html %}
 
 ## Vídeo e galeria
 
