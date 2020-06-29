@@ -44,13 +44,13 @@ Pronto, seu Termux está configurado e, quase, pronto para uso!
 
 Clang é compilador para C disponível nos repositórios oficiais do Termux.
 
-Para compilar um programa podemos seguir a mesma lógica que utilizamos o comando:
+Para compilar um programa podemos usar o comando:
 
 ```bash
 clang programa.c -lm
 ```
 
-Entretando, ao ser instalado o Clang cria um script para você também conseguir compilar usando o comando:
+Entretando, ao ser instalado, o Clang cria um script para você também conseguir compilar usando o comando:
 
 ```bash
 gcc programa.c -lm
@@ -60,11 +60,11 @@ Exatamente como faria para compilar usando o gcc em uma distro linux.
 
 Note que se ouver algo em seu código exclusivo para quando for executado no android então você deve indicar isso ao compilador usando a macro:
 
-```C
+{% highlight c %}
 #if __ANDROID_API__ >= 18
    /* Seu codigo */
 #endif
-```
+{% endhighlight %}
 
 Onde __ANDROID_API__ é a versão do android. 18 refere-se à última versão do Jellybean, a versão mais atual (em junho de 2020) é o Android Q (API 29). Veja [api-level.h](https://android.googlesource.com/platform/bionic/+/refs/heads/master/libc/include/android/api-level.h) para mais detalhes.
 
@@ -106,18 +106,28 @@ Would you like to enter a view-only password (y/n)? n
 
 Note que se o termux for reiniciado então o comando acima deverá ser executado novamente.
 
+Antes de seguir, diga ao vnc para usar o gestor de janelas fluxbox:
+
+```bash
+echo "fluxbox & " >> ~/.vnc/xstartup
+```
+
 Agora para ver seu modo gráfico baixe o [VNC Viewer](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android) e:
 * toque no ícone para adcionar nova conecção
 * Em Address: localhost:1
 * Coloque sua senha
 
-Pronto, seu modo gráfico deve estar funcionando!
+{% include figure image_path="./images/Screenshot_20200629-175500_VNC_Viewer.png" caption="Login no VNC Viewer." %}
+
+Pronto, seu modo gráfico deve esta a funcionar!
 
 Se quiser fazer um teste, tente usar o terminal via modo gráfico.
 
+{% include figure image_path="./images/Screenshot_20200629-175317_VNC_Viewer.png" caption="Login no VNC Viewer." %}
+
 ## Ubuntu no Termux
 
-Apesar de ser um ótimo terminal, o termux pode não ser útil para uma ou outra função que necessite de um terminal linux e pode ser conveniente instalar uma disto. Veja como instalar o ubuntu no termux.
+Apesar de ser um ótimo terminal, o termux pode não ser útil para uma ou outra função que necessite de um terminal linux e pode ser conveniente instalar uma distro linux. Veja como instalar o ubuntu no termux.
 
 Execute o seguinte comando para baixar e intalar o Ubuntu-chroot no Termux:
 
