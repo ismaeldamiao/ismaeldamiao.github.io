@@ -13,6 +13,8 @@ header:
       url: "https://github.com"
 ---
 
+{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}
+
 ## Vídeo e galeria
 
 Para colocar vídeos do youtube use:
