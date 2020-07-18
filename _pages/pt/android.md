@@ -42,21 +42,15 @@ Pronto, seu Termux está configurado e, quase, pronto para uso!
 
 ## Programando em c
 
-Clang é compilador para C disponível nos repositórios oficiais do Termux.
+O compilador que iremos utilizar no Termux é o gcc. Esta versão do gcc
+foi disponibilizada por Sasha Chukov do [CCTools](https://cctools.info/)
+a quem sou muito grato.
 
-Para compilar um programa podemos usar o comando:
-
-```bash
-clang programa.c -lm
-```
-
-Entretando, ao ser instalado, o Clang cria um script para você também conseguir compilar usando o comando:
+Para compilar um programa em c podemos usar o comando:
 
 ```bash
 gcc programa.c -lm
 ```
-
-Exatamente como faria para compilar usando o gcc em uma distro linux.
 
 Note que se ouver algo em seu código exclusivo para quando for executado no android então você deve indicar isso ao compilador usando a macro:
 
@@ -70,9 +64,15 @@ Onde __ANDROID_API__ é a versão do android. 18 refere-se à última versão do
 
 ## Programando em Fortran
 
-Ainda não há compiladores para Fortran nos repositórios oficiais do Termux então a maneira mais simples de compilar em fortran é instalar uma distro linux no seu Termux. Mais adiante eu explico como instalar o ubuntu no Termux.
+O [CCTools](https://cctools.info/) também disponibilizou o gfortran para
+o Termux, sem essa ajuda imprescindível não seria possível compilar
+programas escritos em Fortran no Termux.
 
-Uma vez dentro da sua distro linux você poderá usar o gfortran normalmente para compilar programa em fortran.
+Para compilar um programa em Fortran 90 podemos usar o comando: 
+
+```bash
+gfortran programa.f90
+```
 
 ## Modo gráfico
 
