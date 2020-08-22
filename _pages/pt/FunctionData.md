@@ -18,7 +18,7 @@ Trabalharemos com o plano cartesiano, nesse plano todos os ponto podem ser descr
 
 $$
 \begin{bmatrix}
-x \\\\ y
+x \\ y
 \end{bmatrix}
 $$
 
@@ -47,9 +47,24 @@ t \\ t^2
 \end{bmatrix}
 $$
 
-Quando a curva é do tipo $(x, y) = (x, f(x))$, como a apresentada acima, ela é chamada de função.
+Quando a curva é do tipo
+$
+\begin{bmatrix}
+x \\ y
+\end{bmatrix} =
+\begin{bmatrix}
+x \\ f(x)
+\end{bmatrix}
+$,
+como a apresentada acima, ela é chamada de função.
 
-Em geral, plotar uma curva, ou uma função, consiste em <b>escrever em um arquivo os valores dos pontos $(x, y)$ que pertencem à curva</b>. Ou seja, simplesmente temos que resolver $x(t_1, ..., t_n)$ e $y(t_1, ..., t_n)$ muitas vezes, até que tenhamos bastante pontos $(x, y)$ para plotar.
+Em geral, plotar uma curva, ou uma função, consiste em <b>escrever em um arquivo os valores dos pontos
+$\begin{bmatrix}
+x \\ y
+\end{bmatrix}$
+que pertencem à curva</b>. Ou seja, simplesmente temos que resolver $x(t_1, ..., t_n)$ e $y(t_1, ..., t_n)$ muitas vezes, até que tenhamos bastante pontos $\begin{bmatrix}
+x \\ y
+\end{bmatrix}$ para plotar.
 
 ## Script
 
