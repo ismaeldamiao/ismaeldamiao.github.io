@@ -16,9 +16,9 @@ Tudo o que você precisa fazer é encontrar o valor de uma determinada função 
 
 Trabalharemos com o plano cartesiano, nesse plano todos os ponto podem ser descritos em termos de $x$ e $y$ da forma:
 
-\$$$
+$$
 (x, y)
-\$$$
+$$
 
 Em geral, as coordenadas $x$ e $y$ podem ser descritas por leis escritas em termos de um ou mais parâmetros da forma. No caso de 1 parâmetro temos:
 
@@ -34,7 +34,7 @@ $$
 
 Quando a curva é do tipo $(x, y) = (x, f(x))$, como mostrada acima, ela é chamada de função.
 
-Em geral, plotar uma curva, ou uma função, consiste em <b>escrever em um arquivo os valores dos pontos $(x, y)$ que pertencem à curva</b>. Ou seja, simplesmente temos que resolver $f_1$ e $f_2$ mutas vezes, até que tenhamos bastante pontos $(x, y)$ para plotar.
+Em geral, plotar uma curva, ou uma função, consiste em <b>escrever em um arquivo os valores dos pontos $(x, y)$ que pertencem à curva</b>. Ou seja, simplesmente temos que resolver $x(t_1, ..., t_n)$ e $y(t_1, ..., t_n)$ muitas vezes, até que tenhamos bastante pontos $(x, y)$ para plotar.
 
 ## Script
 
