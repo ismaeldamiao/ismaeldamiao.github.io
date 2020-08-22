@@ -19,16 +19,13 @@ NOVO ARTIGO
 I.F.F. dos Santos, M.O. Sales, A. Ranciaro Neto et al., <b> Delocalization and energy dynamics in a one-dimensional disordered nonlinear lattice</b>, Physica A (2020) 125126.
 </div>
 
-
 <div>
-<button class="bibtexbtn"  onclick="Show(s1, s01)">Bibtex</button>
+<button class="bibtexbtn"  onclick="Show(s01)">Bibtex</button>
 <a href="https://doi.org/10.1016/j.physa.2020.125126"><input class="doibtn" type="button" value="doi" /></a>
 </div>
 
-<div id="s000"></div>
-
-<div id="s01">
-{% highlight LaTeX %}
+<div id="s01" style="display: none">
+{% highlight latex %}
 @article{ismael2020,
   author = {I.F.F. dos Santos, M.O. Sales, A. Ranciaro Neto et al.},
   title = {Delocalization and energy dynamics in a one-dimensional disordered nonlinear lattice},
