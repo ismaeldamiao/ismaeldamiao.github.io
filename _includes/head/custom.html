@@ -3,7 +3,13 @@
    MathJax.Hub.Config({
       jax: ["input/TeX","output/HTML-CSS"],
       extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
-      TeX: { equationNumbers: { autoNumber: "all" } },
+      TeX: {
+         equationNumbers: { autoNumber: "all" },
+         Macros: {
+            sen: "\\operatorname{sen}\\,",
+            asen: "\\operatorname{arcsen}\\,"
+         }
+      },
       tex2jax: {
          inlineMath: [ ['\\(','\\)'], ['$','$'] ],
          displayMath: [ ['\\[','\\]'], ['$$','$$'] ]
