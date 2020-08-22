@@ -64,13 +64,13 @@ $$
 r = 2 \cos(2\theta)
 $$
 
-e portanto, os pontos no plano carteziano que pertencem à rosácea são da forma:
+e portanto, os pontos no plano cartesiano que pertencem à rosácea são da forma:
 
 <div>
 \begin{align*}
-(x, y) &= (f_1(r, \theta), f_2(r, \theta) ) \\
-       &= (r \cos(\theta), r \sin(\theta) ) \\
-       &= (2 \cos(2\theta)\cos(\theta), 2 \cos(2\theta) \sin(\theta) )
+(x, y) &= (x(r, \theta), y(r, \theta) ) \\
+       &= (r\,\cos(\theta), r\,\sen(\theta) ) \\
+       &= (2\,\cos(2\theta)\cos(\theta),\; 2\,\cos(2\theta) \sen(\theta) )
 \end{align*}
 </div>
 
