@@ -9,14 +9,6 @@ toc_label: "Table of Contents"
 toc_icon: "cog"
 ---
 
-## Artigos em revistas
-
-\{% bibliography -q @article %\}
-
-## Conferências
-
-\{% bibliography -q @inproceedings %\}
-
 <div class="text-justify">{{reference}}</div>
 <button class="bibtexbtn"  onclick="toggleBibtex{{entry.key}}()">Bibtex</button>
 
