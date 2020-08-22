@@ -16,17 +16,17 @@ Tudo o que você precisa fazer é encontrar o valor de uma determinada função 
 
 Trabalharemos com o plano cartesiano, nesse plano todos os ponto podem ser descritos em termos de $x$ e $y$ da forma:
 
-\(
+\$$
 (x, y)
-\)
+\$$
 
-Uma curva colocada em um plano cartesiano pode, em geral, ser regida por leis. Sejam $f_1$ e $f_2$ duas leis então qualquer ponto do plano que pertença a curva pode ser descrito por:
+Em geral, as coordenadas $x$ e $y$ podem ser 
 
 $$
 (x, \, y) = (f_1, f_2)
 $$
 
-Um exemplo comum é $f_1(x)=x$ e $f_2(x)=x^2$, essa curva é conhecida com parábola e é uma das primeiras que aprendemos, nela todos os pontos da parábola no plano são da forma:
+Um exemplo comum é $f_1(t)=t$ e $f_2(t)=t^2$, essa curva é conhecida com parábola e é uma das primeiras que aprendemos, nela todos os pontos da parábola no plano são da forma:
 
 $$
 (x, y) = (f_1(x), f_2(x)) = (x, x^2)
