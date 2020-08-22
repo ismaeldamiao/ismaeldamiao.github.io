@@ -9,11 +9,10 @@ toc_label: "Table of Contents"
 toc_icon: "cog"
 ---
 
+## Artigos em revistas
 
-## Journal Articles
+{% bibliography -q @article %}
 
+## Conferências
 
-
-## Conferences
-
- bibliography -q @inproceedings 
+{% bibliography -q @inproceedings %}
