@@ -20,7 +20,7 @@ $$
 (x, y)
 $$
 
-Em geral, as coordenadas $x$ e $y$ podem ser descritas por leis escritas em termos de um ou mais parâmetros da forma. No caso de 1 parâmetro temos:
+Em geral, as coordenadas $x$ e $y$ podem ser descritas por leis escritas em termos de um ou mais parâmetros. No caso de 1 parâmetro temos:
 
 $$
 (x, \, y) = (x(t), y=y(t))
