@@ -22,6 +22,8 @@ I.F.F. dos Santos, M.O. Sales, A. Ranciaro Neto et al., <b> Delocalization and e
 <button class="bibtexbtn"  onclick="Show(00, 01)">Bibtex</button>
 <a href="https://doi.org/10.1016/j.physa.2020.125126"><input class="doibtn" type="button" value="doi" /></a>
 
+<div hidden="" id="00"></div>
+
 <div hidden="" id="01">
 {% highlight LaTex %}
 @article{zhang2018speed,
