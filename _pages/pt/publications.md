@@ -31,7 +31,7 @@ I.F.F. dos Santos, M.O. Sales, A. Ranciaro Neto et al., <b> Delocalization and e
 {% highlight LaTeX %}
 @article{ismael2020,
   author = {I.F.F. dos Santos, M.O. Sales, A. Ranciaro Neto et al.},
-  title = {{Delocalization and energy dynamics in a one-dimensional disordered nonlinear lattice}},
+  title = {Delocalization and energy dynamics in a one-dimensional disordered nonlinear lattice},
   journal = {Physica A},
   year = {2020},
   number = {125126},
