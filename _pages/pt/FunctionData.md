@@ -52,7 +52,7 @@ Farei um exemplo um pouco mais robusto, sejam:
 $$
 \left \{\begin{align*}
 x(r, \theta) &= r \cos(\theta) \\
-y(r, \theta) &= r \sin(\theta)
+y(r, \theta) &= r \sen(\theta)
 \end{align*}\right .
 $$
 
@@ -61,20 +61,18 @@ A fómula acima é conhecida como mudança de coordenadas polares para coordenad
 Uma curva comum em coordenadas polares é a rosácea, nela o raio $r$ de qualquer ponto está relacionado com o ângulo $\theta$ por:
 
 $$
-r = 2 \cos(2\theta)
+r = r(\theta) = 2 \cos(2\theta)
 $$
 
 e portanto, os pontos no plano cartesiano que pertencem à rosácea são da forma:
 
-<div>
 \begin{align*}
 (x, y) &= (x(r, \theta), y(r, \theta) ) \\
        &= (r\,\cos(\theta), r\,\sen(\theta) ) \\
        &= (2\,\cos(2\theta)\cos(\theta),\; 2\,\cos(2\theta) \sen(\theta) )
 \end{align*}
-</div>
 
-Como na prática $f_1$ e $f_2$ só dependem de $\theta$, iremos adcionar a variável theta ao programa principal, vamos adcionar também a variável dt, isso porque obviamente não é possível calcular o valor da função em todos os pontos, assim, sempre que calcularmos o valor para um dado $\theta$, iremos calcular para um $\theta$ um pouquinho maior, isto é em $\theta = \theta + dt$.
+Como na prática $x$ e $y$ só dependem de $\theta$, iremos adcionar a variável theta ao programa principal, vamos adcionar também a variável dt, isso porque obviamente não é possível calcular o valor da função em todos os pontos, assim, sempre que calcularmos o valor para um dado $\theta$, iremos calcular para um $\theta$ um pouquinho maior, isto é em $\theta = \theta + dt$.
 
 Além disso vamos adcionar theta como parâmetro das funções, e as funções serão preenchidas conforme a equação acima.
 
