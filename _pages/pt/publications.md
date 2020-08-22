@@ -13,8 +13,7 @@ toc_icon: "cog"
 ## Artigos em revistas
 
 <div class="text-justify">
-I.F.F. dos Santos, M.O. Sales, A. Ranciaro Neto et al., **Delocalization and energy dynamics in a one-dimensional disordered
-nonlinear lattice**, Physica A (2020) 125126.
+I.F.F. dos Santos, M.O. Sales, A. Ranciaro Neto et al., <b> Delocalization and energy dynamics in a one-dimensional disordered nonlinear lattice</b>, Physica A (2020) 125126.
 </div>
 
 <button class="bibtexbtn"  onclick="toggleBibtex{{entry.key}}()">Bibtex</button>
