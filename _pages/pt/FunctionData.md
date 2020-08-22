@@ -26,17 +26,25 @@ Em geral, as coordenadas $x$ e $y$ podem ser descritas por leis escritas em term
 
 $$
 \begin{bmatrix}
-x \\\\ y
+x \\ y
 \end{bmatrix} =
 \begin{bmatrix}
-x(t) \\\\ y(t)
+x(t) \\ y(t)
 \end{bmatrix}
 $$
 
 Um exemplo comum é $x(t)=t$ e $y(t)=t^2$, essa curva é conhecida com parábola e é uma das primeiras que aprendemos, nela todos os pontos da parábola no plano são da forma:
 
 $$
-(x, y) = (x(t), y(t)) = (t,\,t^2)
+\begin{bmatrix}
+x \\ y
+\end{bmatrix} = 
+\begin{bmatrix}
+x(t) \\ y(t)
+\end{bmatrix} =
+\begin{bmatrix}
+t \\ t^2
+\end{bmatrix}
 $$
 
 Quando a curva é do tipo $(x, y) = (x, f(x))$, como a apresentada acima, ela é chamada de função.
