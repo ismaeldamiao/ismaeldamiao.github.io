@@ -16,23 +16,23 @@ Tudo o que você precisa fazer é encontrar o valor de uma determinada função 
 
 Trabalharemos com o plano cartesiano, nesse plano todos os ponto podem ser descritos em termos de $x$ e $y$ da forma:
 
-\$$
+\$$$
 (x, y)
-\$$
+\$$$
 
-Em geral, as coordenadas $x$ e $y$ podem ser 
-
-$$
-(x, \, y) = (f_1, f_2)
-$$
-
-Um exemplo comum é $f_1(t)=t$ e $f_2(t)=t^2$, essa curva é conhecida com parábola e é uma das primeiras que aprendemos, nela todos os pontos da parábola no plano são da forma:
+Em geral, as coordenadas $x$ e $y$ podem ser descritas por leis escritas em termos de um ou mais parâmetros da forma. No caso de 1 parâmetro temos:
 
 $$
-(x, y) = (f_1(x), f_2(x)) = (x, x^2)
+(x, \, y) = (x(t), y=y(t))
 $$
 
-Quando a curva é do tipo $(x, y) = (x, f(x))$ ela é chamada de função.
+Um exemplo comum é $x(t)=t$ e $y(t)=t^2$, essa curva é conhecida com parábola e é uma das primeiras que aprendemos, nela todos os pontos da parábola no plano são da forma:
+
+$$
+(x, y) = (x(t), y(t)) = (t, t^2)
+$$
+
+Quando a curva é do tipo $(x, y) = (x, f(x))$, como mostrada acima, ela é chamada de função.
 
 Em geral, plotar uma curva, ou uma função, consiste em <b>escrever em um arquivo os valores dos pontos $(x, y)$ que pertencem à curva</b>. Ou seja, simplesmente temos que resolver $f_1$ e $f_2$ mutas vezes, até que tenhamos bastante pontos $(x, y)$ para plotar.
 
