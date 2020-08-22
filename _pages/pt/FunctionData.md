@@ -50,13 +50,12 @@ $$
 Quando a curva é do tipo
 $
 \begin{bmatrix}
-x \\ y
+x \\\\ y
 \end{bmatrix} =
 \begin{bmatrix}
-x \\ f(x)
+x \\\\ f(x)
 \end{bmatrix}
-$,
-como a apresentada acima, ela é chamada de função.
+$, como a apresentada acima, ela é chamada de função.
 
 Em geral, plotar uma curva, ou uma função, consiste em <b>escrever em um arquivo os valores dos pontos
 $\begin{bmatrix}
@@ -80,10 +79,13 @@ Obviamente não é possível seguir essa rotina indefinidamente, dessa forma, é
 Farei um exemplo um pouco mais robusto, sejam:
 
 $$
-\left \{\begin{align*}
-x(r, \theta) &= r \cos(\theta) \\
-y(r, \theta) &= r \sen(\theta)
-\end{align*}\right .
+\begin{bmatrix}
+x(r, \theta) \\ y(r, \theta)
+\end{bmatrix}
+=
+\begin{bmatrix}
+r \cos(\theta) \\ r \sen(\theta)
+\end{bmatrix}
 $$
 
 A fómula acima é conhecida como mudança de coordenadas polares para coordenadas cartesianas, note portanto que o método aqui apresentado é universal e serve para quaisquer tipos de coordenadas, desde que se faça uma mudança de coordenadas adequada.
