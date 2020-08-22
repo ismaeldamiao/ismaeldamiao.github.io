@@ -59,10 +59,10 @@ $, como a apresentada acima, ela é chamada de função.
 
 Em geral, plotar uma curva, ou uma função, consiste em <b>escrever em um arquivo os valores dos pontos
 $\begin{bmatrix}
-x \\ y
+x \\\\ y
 \end{bmatrix}$
 que pertencem à curva</b>. Ou seja, simplesmente temos que resolver $x(t_1, ..., t_n)$ e $y(t_1, ..., t_n)$ muitas vezes, até que tenhamos bastante pontos $\begin{bmatrix}
-x \\ y
+x \\\\ y
 \end{bmatrix}$ para plotar.
 
 ## Script
@@ -99,11 +99,21 @@ $$
 e portanto, os pontos no plano cartesiano que pertencem à rosácea são da forma:
 
 $$
-\begin{align*}
-(x, y) &= (x(r, \theta), y(r, \theta) ) \\
-       &= (r\,\cos(\theta), r\,\sen(\theta) ) \\
-       &= (2\,\cos(2\theta)\cos(\theta),\; 2\,\cos(2\theta) \sen(\theta) )
-\end{align*}
+\begin{bmatrix}
+x \\ y
+\end{bmatrix}
+=
+\begin{bmatrix}
+x(r, \theta) \\ y(r, \theta)
+\end{bmatrix}
+=
+\begin{bmatrix}
+r\,\cos(\theta) \\ r\,\sen(\theta)
+\end{bmatrix}
+=
+\begin{bmatrix}
+2\,\cos(2\theta)\cos(\theta) \\ 2\,\cos(2\theta) \sen(\theta)
+\end{bmatrix}
 $$
 
 Como na prática $x$ e $y$ só dependem de $\theta$, iremos adicionar a variável theta ao programa principal, vamos adicionar também a variável $dt$, isso porque obviamente não é possível calcular o valor da função em todos os pontos, assim, sempre que calcularmos o valor para um dado $\theta$, iremos calcular para um $\theta$ um pouquinho maior, isto é em $\theta = \theta + dt$.
