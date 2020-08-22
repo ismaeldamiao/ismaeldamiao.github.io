@@ -16,9 +16,7 @@ Tudo o que você precisa fazer é encontrar o valor de uma determinada função 
 
 Trabalharemos com o plano cartesiano, nesse plano todos os ponto podem ser descritos em termos de $x$ e $y$ da forma:
 
-$$
-(x, y)
-$$
+$$(x, y)$$
 
 Uma curva colocada em um plano cartesiano pode, em geral, ser regida por leis. Sejam $f_1$ e $f_2$ duas leis então qualquer ponto do plano que pertença a curva pode ser descrito por:
 
