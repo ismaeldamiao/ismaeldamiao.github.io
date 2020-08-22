@@ -27,7 +27,7 @@ I.F.F. dos Santos, M.O. Sales, A. Ranciaro Neto et al., <b> Delocalization and e
 
 <div id="s000"></div>
 
-<div hidden="" id="s01">
+<div id="s01">
 {% highlight LaTeX %}
 @article{ismael2020,
   author = {I.F.F. dos Santos, M.O. Sales, A. Ranciaro Neto et al.},
