@@ -17,13 +17,20 @@ Tudo o que você precisa fazer é encontrar o valor de uma determinada função 
 Trabalharemos com o plano cartesiano, nesse plano todos os ponto podem ser descritos em termos de $x$ e $y$ da forma:
 
 $$
-(x, y)
+\begin{bmatrix}
+x \\\\ y
+\end{bmatrix}
 $$
 
 Em geral, as coordenadas $x$ e $y$ podem ser descritas por leis escritas em termos de um ou mais parâmetros. No caso de 1 parâmetro temos:
 
 $$
-(x, \, y) = (x(t),\;y=y(t))
+\begin{bmatrix}
+x \\\\ y
+\end{bmatrix} =
+\begin{bmatrix}
+x(t) \\\\ y(t)
+\end{bmatrix}
 $$
 
 Um exemplo comum é $x(t)=t$ e $y(t)=t^2$, essa curva é conhecida com parábola e é uma das primeiras que aprendemos, nela todos os pontos da parábola no plano são da forma:
