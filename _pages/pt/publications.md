@@ -22,7 +22,7 @@ I.F.F. dos Santos, M.O. Sales, A. Ranciaro Neto et al., <b> Delocalization and e
 <button class="bibtexbtn"  onclick="Show(s000, s01)">Bibtex</button>
 <a href="https://doi.org/10.1016/j.physa.2020.125126"><input class="doibtn" type="button" value="doi" /></a>
 
-<div hidden="" id="s000"></div>
+<div id="s000"></div>
 
 <div hidden="" id="s01">
 {% highlight LaTeX %}
