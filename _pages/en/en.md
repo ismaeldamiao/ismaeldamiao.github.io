@@ -12,7 +12,7 @@ This site has been made for the dissemination of my work, the portuguese version
 
 # Ismael Felipe Ferreira dos Santos
 
-**Birth**: Maceió, Alagoas, Brasil 09 de december de 1999
+**Birth**: Maceió, Alagoas, Brazil. 09th December 1999
 
 **Alma Mater**: [Universidade Federal de Alagoas](http://www.ufal.edu.br/ufal)
 
