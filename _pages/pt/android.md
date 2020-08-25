@@ -14,6 +14,8 @@ Também recomendo o uso de algum editor de texto, como o [DroidEdit](https://pla
 
 ## Termux
 
+{% include video id="YryaNplee2k" provider="youtube" %}
+
 O terminal é nosso melhor ambiente de trabalho, mesmo no android. Gosto muito do Termux e acho que ele é o melhor que tem para Android, baixe ele em uma das opções abaixo:
 
   * [Fdroid](https://f-droid.org/repository/browse/?fdid=com.termux)
@@ -75,21 +77,7 @@ gfortran programa.f90
 ```
 
 Note que o [CCTools](https://cctools.info/) foi, ou deve ter sido,
-instalado pelo [termux_config.bash](https://github.com/ismaeldamiao/scripts/blob/master/termux_config.bash)
-nas linhas onde tem:
-
-```bash
-arch="$(dpkg --print-architecture)"
-cctoolshttp="http://cctools.info/downloads/termux"
-wget -q \
-"${cctoolshttp}/${arch}/binutils-cctools_2.34_${arch}.deb"
-wget -q \
-"${cctoolshttp}/${arch}/gcc-cctools_10.1.0_${arch}.deb"
-wget -q \
-"${cctoolshttp}/${arch}/ndk-sysroot-cctools-api-26-${arch}_1.0r15c_all.deb"
-
-dpkg -i *.deb
-```
+instalado pelo script [termux_config.bash](https://github.com/ismaeldamiao/scripts/blob/master/install-termux-cctools.bash).
 
 ## Modo gráfico
 
