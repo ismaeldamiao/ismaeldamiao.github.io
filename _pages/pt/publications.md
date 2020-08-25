@@ -5,7 +5,7 @@ layout: single
 classes: wide
 author_profile: true
 toc: true
-toc_label: "Table of Contents"
+toc_label: "Sumário"
 toc_icon: "cog"
 ---
 
