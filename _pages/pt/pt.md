@@ -17,7 +17,7 @@ Este site foi feito fisando divulgar meu trabalho, ajudar os calouros de física
 
 **Alma Mater**: [Universidade Federal de Alagoas](http://www.ufal.edu.br/ufal)
 
-**Orientador**: [Drº Francisco Fidelis](http://200.17.113.231/~fidelis)
+**Orientador**: [Dr. Francisco Fidelis](http://200.17.113.231/~fidelis)
 
 **Religião**: Católico
 
