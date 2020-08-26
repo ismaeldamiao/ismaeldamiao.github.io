@@ -35,6 +35,7 @@ apt install nano wget ncurses-utils coreutils
 # bashrc
 wget https://raw.githubusercontent.com/ismaeldamiao/scripts/master/.bashrc
 # Atalhos
+mkdir .termux
 cat > $HOME/.termux/termux.properties <<EOF
 extra-keys = [ \
  ['ESC','|','/','HOME','UP','END','-','DEL'], \
