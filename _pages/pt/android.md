@@ -26,6 +26,7 @@ O terminal é nosso melhor ambiente de trabalho, mesmo no android. Gosto muito d
 {% include video id="HFPpYZVaP7E" provider="youtube" %}
 
 Seguem abaixo os comandos mostrados no vídeo:
+
 ```bash
 # Atualizar e baixar pacotes
 apt update
@@ -54,16 +55,20 @@ back-key=back
 EOF
 ```
 
-## Programando em c
+## Programando
 
-O compilador que iremos utilizar no Termux é o gcc. Esta versão do gcc
-foi disponibilizada por Sasha Chukov do [CCTools](https://cctools.info/)
-a quem sou muito grato.
+{% include video id="HFPpYZVaP7E" provider="youtube" %}
 
-Para compilar um programa em c podemos usar o comando:
+Agradeço a equipe do [CCTools](https://cctools.info/) por disponibilizar os compiladores para o Termux, em especial ao programador Sasha Chukov.
+
+Seguem abaixo os comandos mostrados no vídeo:
 
 ```bash
-gcc programa.c -lm
+# Instalando clang
+apt install clang
+# Instalando gcc e gfortran
+wget "https://github.com/ismaeldamiao/scripts/raw/master/install-termux-cctools.bash"
+bash install-termux-cctools.bash
 ```
 
 Note que se ouver algo em seu código exclusivo para quando for executado no android então você deve indicar isso ao compilador usando a macro:
@@ -74,22 +79,7 @@ Note que se ouver algo em seu código exclusivo para quando for executado no and
 #endif
 {% endhighlight %}
 
-Onde __ANDROID_API__ é a versão do android. 18 refere-se à última versão do Jellybean, a versão mais atual (em junho de 2020) é o Android Q (API 29). Veja [api-level.h](https://android.googlesource.com/platform/bionic/+/refs/heads/master/libc/include/android/api-level.h) para mais detalhes.
-
-## Programando em Fortran
-
-O [CCTools](https://cctools.info/) também disponibilizou o gfortran para
-o Termux, sem essa ajuda imprescindível não seria possível compilar
-programas escritos em Fortran no Termux.
-
-Para compilar um programa em Fortran 90 podemos usar o comando: 
-
-```bash
-gfortran programa.f90
-```
-
-Note que o [CCTools](https://cctools.info/) foi, ou deve ter sido,
-instalado pelo script [termux_config.bash](https://github.com/ismaeldamiao/scripts/blob/master/install-termux-cctools.bash).
+Onde \_\_ANDROID_API\_\_ é a versão do android. 18 refere-se à última versão do Jellybean, a versão mais atual (em junho de 2020) é o Android Q (API 29). Veja [api-level.h](https://android.googlesource.com/platform/bionic/+/refs/heads/master/libc/include/android/api-level.h) para mais detalhes.
 
 ## Modo gráfico
 
