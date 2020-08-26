@@ -14,7 +14,7 @@ Também recomendo o uso de algum editor de texto, como o [DroidEdit](https://pla
 
 ## Termux
 
-{% include video id="YryaNplee2k" provider="youtube" %}
+{% include video id="HFPpYZVaP7E" provider="youtube" %}
 
 O terminal é nosso melhor ambiente de trabalho, mesmo no android. Gosto muito do Termux e acho que ele é o melhor que tem para Android, baixe ele em uma das opções abaixo:
 
