@@ -21,26 +21,38 @@ O terminal é nosso melhor ambiente de trabalho, mesmo no android. Gosto muito d
   * [Fdroid](https://f-droid.org/repository/browse/?fdid=com.termux)
   * [PlayStore](https://play.google.com/store/apps/details?id=com.termux)
 
-Logo ao abrir ele pela primeira vez você verá uma tela preta onde você digita comandos e coisas acontecem conforme o comando digitado.
+## Configurando
 
-Digite os seguintes comandos, um a um, para instalar o pacote de download <kbd>wget</kbd> e baixar um script, explicarei sobre o script mais adiante:
+{% include video id="HFPpYZVaP7E" provider="youtube" %}
 
+Seguem abaixo os comandos mostrados no vídeo:
 ```bash
+# Atualizar e baixar pacotes
 apt update
-apt install -y wget
-wget -q https://github.com/ismaeldamiao/scripts/raw/master/termux_config.bash
-
+apt upgrade
+apt install nano wget ncurses-utils coreutils
+# bashrc
+wget https://raw.githubusercontent.com/ismaeldamiao/scripts/master/.bashrc
+# Atalhos
+cat > $HOME/.termux/termux.properties <<EOF
+extra-keys = [ \
+ ['ESC','|','/','HOME','UP','END','-','DEL'], \
+ ['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','+','BKSP'] \
+]
+# Open a new terminal with ctrl + t (volume down + t)
+shortcut.create-session = ctrl + t
+# Go one session down with (for example) ctrl + 2
+shortcut.next-session = ctrl + 2
+# Go one session up with (for example) ctrl + 1
+shortcut.previous-session = ctrl + 1
+# Rename a session with (for example) ctrl + n
+shortcut.rename-session = ctrl + n
+# Ignore bell character (vibrate,beep,ignore)
+bell-character=ignore
+# Send the Escape key.
+back-key=back
+EOF
 ```
-
-Este script irá executar vários comando para configurar automáticamente o seu Termux, caso queira saber o que ele faz acesse [termux_config.bash](https://github.com/ismaeldamiao/scripts/blob/master/termux_config.bash).
-
-Digite o seguinte comando para executar o script:
-
-```bash
-bash termux_config.bash
-```
-
-Pronto, seu Termux está configurado e, quase, pronto para uso!
 
 ## Programando em c
 
