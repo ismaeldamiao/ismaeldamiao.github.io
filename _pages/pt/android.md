@@ -23,7 +23,7 @@ O terminal é nosso melhor ambiente de trabalho, mesmo no android. Gosto muito d
 
 ## Configurando
 
-{% include video id="HFPpYZVaP7E" provider="youtube" %}
+{% include video id="sqr7IkqBewI" provider="youtube" %}
 
 Seguem abaixo os comandos mostrados no vídeo:
 
