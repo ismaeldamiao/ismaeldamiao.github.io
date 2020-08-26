@@ -58,7 +58,7 @@ EOF
 
 ## Programando
 
-{% include video id="HFPpYZVaP7E" provider="youtube" %}
+{% include video id="7hcEWWwnrik" provider="youtube" %}
 
 Agradeço a equipe do [CCTools](https://cctools.info/) por disponibilizar os compiladores para o Termux, em especial ao programador Sasha Chukov.
 
