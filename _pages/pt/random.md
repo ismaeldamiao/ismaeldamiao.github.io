@@ -214,5 +214,5 @@ END PROGRAM SeuPrograma
 
 Dessa forma você só precisa compilar o seu programa:
 ```
-gfortran SeuPrograma.c -o a.out
+gfortran SeuPrograma.f90 -o a.out
 ```
