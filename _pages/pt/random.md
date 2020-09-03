@@ -6,11 +6,6 @@ toc_label: "Sumário"
 toc_icon: "file-alt"
 ---
 
-**Aviso**: A notação usada nesta página não é complicada, entretanto você pode não compreender se não entender a notação, portanto recomento que vejas antes [Equações Diferenciais Ordinárias](https://ismaeldamiao.blogspot.com/p/texto-aqui.html) onde explico a notação.
-
-
-## O gerador de números aleatórios:
-
 Um gerador de números aleatórios é um rotina que gera números pseudo-aleatórios a partir de uma parâmetro de entrada chamado de _semente_. Em geral o número gerado é um número real no intervalo $[0,1)$. O papél da semente é fazer com que o gerador retorne sempre os mesmos números se for iniciado com a mesma semente. Por exemplo, se você executa o gerador duas vezes sendo que na primeira você usou a semente igual a $-1$ e em cada vez obteve, respectivamente, os números $a_1$ e $a_2$ então se você reiniciar a gerador com a mesma semente e executar-lo duas vezes então irá obter novamente os mesmos valores $a_1$ e $a_2$.
 
 Dizemos que os números são pseudo-aleatórios pois na prática é impossível gerar números verdadeiramente aleatórios sem uso de alguma "moeda quântica", entretanto a correlação entre os números gerados por uma bom gerador não é forte o suficiente para interferir em cálculos físicos, o que já nos basta. Apresentarei aqui a rotina _ran1_ retirada do livro _numerical recipes_ com pequenas alterações.
@@ -110,7 +105,7 @@ wget -O ran1.c https://github.com/ismaeldamiao/avulsos/raw/master/c/rotinas/ran1
 
 ## ran1 em FORTRAN 90
 
-<button class="btn btn--primary" onclick="Show(sourceF)">ran1.c</button>
+<button class="btn btn--primary" onclick="Show(sourceF)">ran1.f90</button>
 
 <div id="sourceF" style="display: none">
 {% highlight fortran %}
