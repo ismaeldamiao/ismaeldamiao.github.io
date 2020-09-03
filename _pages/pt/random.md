@@ -103,6 +103,17 @@ Use o comando abaixo para descarregar o arquivo [ran1.c](https://github.com/isma
 wget -O ran1.c https://github.com/ismaeldamiao/avulsos/raw/master/c/rotinas/ran1.c
 ```
 
+Para usar lembre-se de declarar a função _ran1_ como global do seguinte jeito:
+{% highlight c %}
+double ran1(long int*);
+{% endhighlight %}
+
+Para compilar use um dos dois comandos abaixo:
+```
+gcc ran1.c SeuPrograma.c -o a.out
+clang ran1.c SeuPrograma.c -o a.out
+```
+
 ## ran1 em FORTRAN 90
 
 <button class="btn btn--primary" onclick="Show(sourceF)">ran1.f90</button>
@@ -149,4 +160,14 @@ Use o comando abaixo para descarregar o arquivo [ran1.f90](https://github.com/is
 
 ```
 wget -O ran1.f90 https://github.com/ismaeldamiao/avulsos/raw/master/fortran/rotinas/ran1.f90
+```
+
+Para usar lembre-se de declarar a função _ran1_ como global do seguinte jeito:
+{% highlight c %}
+double ran1(long int*);
+{% endhighlight %}
+
+Para compilar use o comando abaixo:
+```
+gfortran ran1.f90 SeuPrograma.f90 -o a.out
 ```
