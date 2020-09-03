@@ -11,13 +11,35 @@ toc_icon: "file-alt"
 
 ## O gerador de números aleatórios:
 
-Um gerador de números aleatórios é um rotina que gera números pseudo-aleatórios a partir de uma parâmetro de entrada chamado de _semente_. Em geral o número gerado é um número real no intervalo $[0,1)$. O papél da semente é fazer com que o gerador retorne sempre os mesmos números se for iniciado com a mesma semente. Por exemplo, se você executa o gerador duas vezes sendo que na primeira você usou a $-1$ e em cada vez obteve, respectivamente, os números $a_1$ e $a_2$ então se você reiniciar a gerador com a mesma semente e executar-lo duas vezes então irá obter novamente os mesmos valores $a_1$ e $a_2$.
+Um gerador de números aleatórios é um rotina que gera números pseudo-aleatórios a partir de uma parâmetro de entrada chamado de _semente_. Em geral o número gerado é um número real no intervalo $[0,1)$. O papél da semente é fazer com que o gerador retorne sempre os mesmos números se for iniciado com a mesma semente. Por exemplo, se você executa o gerador duas vezes sendo que na primeira você usou a semente igual a $-1$ e em cada vez obteve, respectivamente, os números $a_1$ e $a_2$ então se você reiniciar a gerador com a mesma semente e executar-lo duas vezes então irá obter novamente os mesmos valores $a_1$ e $a_2$.
 
-Dizemos que os números são pseudo-aleatórios por na prática é impossível gerar números verdadeiramente aleatórios sem uso de alguma "moeda quântica", entretanto a correlação entre os números gerados por uma bom gerador não é forte o suficiente para interferir em cálculos físicos, o que já nos basta. Apresentarei aqui a rotina _ran1_ retirada do livro _numerical recipes_ com pequenas alterações.
+Dizemos que os números são pseudo-aleatórios pois na prática é impossível gerar números verdadeiramente aleatórios sem uso de alguma "moeda quântica", entretanto a correlação entre os números gerados por uma bom gerador não é forte o suficiente para interferir em cálculos físicos, o que já nos basta. Apresentarei aqui a rotina _ran1_ retirada do livro _numerical recipes_ com pequenas alterações.
 
 ## A rotina ran1:
 
+Usaremos uma variável inteira chamada _semente_ para, adivinhem, guardar a semente. Ao chamar a _ran1_ pela primeira vez em um programa _semente_ deverá ser um valor negativo. _ran1_ irá alterar o valor de _semente_ para um número positivo assim da próxima vez que você chamar _ran1_ ela entenderá que não está sendo inicializada e irá gerar um número aleatório sem correlação com o anterior. Por causa disso acho interessante usar uma variável _semente0_ para a semente propriamente dita e _semente1_ para usar como argumento para _ran1_ onde, no começo, _semente1=semente0_, dessa forma não perdemos a informação da semente que utilizamos para inicializar o gerador.
 
+O número aleatório $p$ gerado tem precisão dupla então não tente guardalo em uma variável inteira sem converter.
+
+Suponha que queremos um número aleatório no intervalo $[x_0, x_1)$ sendo $Dx = x_1-x_0$ o comprimento desse intervalo. O primeiro que fazemos é:
+
+```
+p = _ran1_(semente1)
+```
+
+Como $p\in[0, 1)$ multiplicamos ele por $Dx$:
+
+```
+p = p*Dx
+```
+
+Dessa forma temos $p\in[0, Dx)$ e ao subtrair $x_0$ de $p$:
+
+```
+p = p-x0
+```
+
+Temos, finalmente $p\in[x_0, x_1)$ como queríamos.
 
 ## ran1 em C
 
