@@ -33,13 +33,13 @@ Como $p\in[0, 1)$ multiplicamos ele por $Dx$:
 p = p*Dx
 ```
 
-Dessa forma temos $p\in[0, Dx)$ e ao subtrair $x_0$ de $p$:
+Dessa forma temos $p\in[0, Dx)$ e ao somar $x_0$ a $p$:
 
 ```
-p = p-x0
+p = p+x0
 ```
 
-Temos, finalmente $p\in[x_0, x_1)$ como queríamos.
+Temos, finalmente, $p\in[x_0, x_1)$ como queríamos.
 
 ## ran1 em C
 
@@ -100,39 +100,58 @@ double ran1(long int *idum){
    else return temp;
 }
 {% endhighlight %}
+</div>
+
+Use o comando abaixo para descarregar o arquivo [ran1.c](https://github.com/ismaeldamiao/avulsos/raw/master/c/rotinas/ran1.c)
+
+```
+wget -O ran1.c https://github.com/ismaeldamiao/avulsos/raw/master/c/rotinas/ran1.c
+```
 
 ## ran1 em FORTRAN 90
 
-<div style="text-align: center;">
-   Clique em um dos botões abaixo para ver o programa.<br />
-       
-   <button class="btn btn--primary" onclick="Show(sourceC)">C</button> 
-   <button class="btn btn--primary" onclick="Show(sourceF)">Fortran</button>
-</div>
+<button class="btn btn--primary" onclick="Show(sourceF)">ran1.c</button>
 
-
-</div>
 <div id="sourceF" style="display: none">
 {% highlight fortran %}
-PROGRAM plotar
+MODULE ran
+! Subrotina para preencher a matriz
 
-   IMPLICIT none
-   REAL(8) :: x, y, theta = 0.0d0, dt = 0.01d0
-   INTEGER, PARAMETER :: arquivo = 10
+CONTAINS
 
-   OPEN(arquivo, FILE="pontos.dat")
-
-   DO; IF(theta > 2.0d0 * 3.1415d0) EXIT
-
-      x = 2.0d0 * cos(2.0d0 * theta) * cos(theta)
-      y = 2.0d0 * cos(2.0d0 * theta) * sin(theta)
-      WRITE(arquivo, FMT=*) x, y
-      theta = theta + dt
-
-   END DO
-
-   CLOSE(arquivo)
-
-END PROGRAM plotar
+   FUNCTION ran1(idum)
+      INTEGER(8), PARAMETER :: IA = 16807, IM = 2147483647, IQ = 127773,&
+      NTAB = 32, NDIV = 1+(IM-1)/NTAB, IR = 2836
+      REAL(8), PARAMETER :: AM = 1.0d0/IM, EPS = 1.2d-7, RNMX = 1.0d0-EPS
+      INTEGER(8), intent(inout) :: idum
+      INTEGER(8) :: j, k
+      INTEGER(8), SAVE :: iy = 0, iv(NTAB)
+      
+      IF((idum.le.0) .or. (iy.eq.0)) THEN
+         idum = MAX(-idum, 1)
+         DO j = NTAB+8, 1, -1
+            k = idum / IQ
+            idum = IA*(idum-k*IQ)-IR*k
+            IF(idum .lt. 0) idum = idum + IM
+            IF(j .le. NTAB) iv(j) = idum
+         ENDDO
+         iy=iv(1)
+      ENDIF
+      k = idum/IQ
+      idum = IA*(idum-k*IQ)-IR*k
+      IF(idum.lt.0) idum = idum+IM
+      j = 1 + iy/NDIV
+      iy = iv(j)
+      iv(j) = idum
+      ran1 = MIN(AM*iy, RNMX)
+      return
+   END FUNCTION ran1
+END MODULE ran
 {% endhighlight %}
 </div>
+
+Use o comando abaixo para descarregar o arquivo [ran1.f90](https://github.com/ismaeldamiao/avulsos/raw/master/fortran/rotinas/ran1.f90)
+
+```
+wget -O ran1.f90 https://github.com/ismaeldamiao/avulsos/raw/master/fortran/rotinas/ran1.f90
+```
