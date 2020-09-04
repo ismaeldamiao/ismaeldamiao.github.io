@@ -12,7 +12,7 @@ Dizemos que os números são pseudo-aleatórios pois na prática é impossível 
 
 ## A rotina ran1:
 
-Usaremos uma variável inteira chamada _semente_ para, adivinhem, guardar a semente. Ao chamar a _ran1_ pela primeira vez em um programa _semente_ deverá ser um valor negativo. _ran1_ irá alterar o valor de _semente_ para um número positivo assim da próxima vez que você chamar _ran1_ ela entenderá que não está sendo inicializada e irá gerar um número aleatório sem correlação com o anterior. Por causa disso acho interessante usar uma variável _semente0_ para a semente propriamente dita e _semente1_ para usar como argumento para _ran1_ onde, no começo, _semente1=semente0_, dessa forma não perdemos a informação da semente que utilizamos para inicializar o gerador.
+Usaremos uma variável inteira chamada _semente_ para, adivinhem, guardar a semente. Ao chamar a _ran1_ pela primeira vez em um programa, _semente_ deverá ser um valor negativo. _ran1_ irá alterar o valor de _semente_ para um número positivo assim da próxima vez que você chamar _ran1_ ela entenderá que não está sendo inicializada e irá gerar um número aleatório sem correlação com o anterior. Por causa disso acho interessante usar uma variável _semente0_ para a semente propriamente dita e _semente1_ para usar como argumento para _ran1_ onde, no começo, _semente1=semente0_, dessa forma não perdemos a informação da semente que utilizamos para inicializar o gerador.
 
 O número aleatório $p$ gerado tem precisão dupla então não tente guardalo em uma variável inteira sem converter.
 
