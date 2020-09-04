@@ -32,8 +32,6 @@ Seguem abaixo os comandos mostrados no vídeo:
 apt update
 apt upgrade
 apt install nano wget ncurses-utils coreutils gnupg
-# bashrc
-wget https://raw.githubusercontent.com/ismaeldamiao/scripts/master/.bashrc
 # Atalhos
 mkdir .termux
 cat > $HOME/.termux/termux.properties <<EOF
@@ -54,6 +52,8 @@ bell-character=ignore
 # Send the Escape key.
 back-key=back
 EOF
+# bashrc
+wget https://raw.githubusercontent.com/ismaeldamiao/scripts/master/.bashrc
 ```
 
 ## Programando
