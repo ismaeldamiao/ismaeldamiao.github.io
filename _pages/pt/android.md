@@ -31,7 +31,7 @@ Seguem abaixo os comandos mostrados no vídeo:
 # Atualizar e baixar pacotes
 apt update
 apt upgrade
-apt install nano wget ncurses-utils coreutils
+apt install nano wget ncurses-utils coreutils gnupg
 # bashrc
 wget https://raw.githubusercontent.com/ismaeldamiao/scripts/master/.bashrc
 # Atalhos
