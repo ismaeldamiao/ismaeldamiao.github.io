@@ -19,7 +19,7 @@ O número aleatório $p$ gerado tem precisão dupla então não tente guardalo e
 Suponha que queremos um número aleatório no intervalo $[x_0, x_1)$ sendo $Dx = x_1-x_0$ o comprimento desse intervalo. O primeiro que fazemos é:
 
 ```
-p = _ran1_(semente1)
+p = ran1(semente1)
 ```
 
 Como $p\in[0, 1)$ multiplicamos ele por $Dx$:
@@ -34,7 +34,11 @@ Dessa forma temos $p\in[0, Dx)$ e ao somar $x_0$ a $p$:
 p = p+x0
 ```
 
-Temos, finalmente, $p\in[x_0, x_1)$ como queríamos.
+Temos, finalmente, $p\in[x_0, x_1)$ como queríamos. De forma mais reduzida, pode-se fazer tudo em um cálculo só quando se chama o gerador, da forma:
+
+```
+p = ran1(semente1) * Dx + x0
+```
 
 ## ran1 em C
 
