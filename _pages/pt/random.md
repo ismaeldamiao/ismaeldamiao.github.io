@@ -147,7 +147,7 @@ clang SeuPrograma.c -o a.out
 ! Adaptado ao Fortran 90 por SANTOS. I.F.F. (Ismael Damião)
 ! https://ismaeldamiao.github.io/
 ! "Numerical Recipes in Fortran 77" (Cambridge Univ. Press)
-! The Art of Scientific Computing, 2nd Edition, 1992 p 280
+! The Art of Scientific Computing, 2nd Edition, 1992 p 271
 ! by W.H. Press, S.A. Teukolsky, W.T. Vetterling, and B.P. Flannery
 
 ! Nao usar para gerar mais de 100000000 de numeros, use ran2 ou ran3
