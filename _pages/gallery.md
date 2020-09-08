@@ -31,4 +31,6 @@ gallery-07.09.2020:
     title: "¿? - Santa Luzia do Norte, Alagoas, Brasil"
 ---
 
-{% include gallery id="gallery-07.09.2020" caption="This is a second gallery example with images hosted externally." %}
+# 07 de novembro de 2020
+
+{% include gallery id="gallery-07.09.2020" %}
