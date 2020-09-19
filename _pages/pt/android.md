@@ -23,7 +23,7 @@ O terminal é nosso melhor ambiente de trabalho, mesmo no android. Gosto muito d
 
 ## Configurando
 
-{% include video id="sqr7IkqBewI" provider="youtube" %}
+{% include video id="CIvA4KnTZZg" provider="youtube" %}
 
 Seguem abaixo os comandos mostrados no vídeo:
 
@@ -58,7 +58,7 @@ wget https://raw.githubusercontent.com/ismaeldamiao/scripts/master/.bashrc
 
 ## Programando
 
-{% include video id="7hcEWWwnrik" provider="youtube" %}
+{% include video id="g7PwcSnp0SI" provider="youtube" %}
 
 Agradeço a equipe do [CCTools](https://cctools.info/) por disponibilizar os compiladores para o Termux, em especial ao programador Sasha Chukov.
 
