@@ -10,3 +10,31 @@ Desde © 2020 os códigos desta página estão protegidos pela licença MIT. Vej
 Estes links pode ser de alguma utilidade:
 
 [archive-layout-with-content.md](https://github.com/academicpages/academicpages.github.io/blob/master/_pages/archive-layout-with-content.md)
+
+## Criando seu site
+
+### Baixando jekyll
+Comandos(no ubuntu):
+```
+sudo apt install jekyll
+sudo gem install minimal-mistakes-jekyll unicode jekyll-scholar jekyll-seo-tag jekyll bundler
+```
+
+### Site de testes
+
+#### Opção 1: Usando template
+
+Ainda estou fazendo o template...
+
+#### Opção 2: Manualmente
+
+```
+jekyll new www
+cd www
+jekyll server
+```
+
+Vá ao navegador e acesse
+```
+http://localhost:4000/
+```
