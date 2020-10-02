@@ -8,13 +8,17 @@ Este é o repositório do site [https://ismaeldamiao.github.io/](https://ismaeld
 Desde © 2020 os códigos desta página estão protegidos pela licença MIT. Veja LICENSE.
 
 Repositórios que serviram de modelo:
+
 * [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes)
-* [academicpages.github.io](https://github.com/academicpages/academicpages.github.io)
+* [academicpages](https://github.com/academicpages/academicpages.github.io)
 * [Yu Zhang](https://github.com/tesschin/yuzhangbit.github.io)
 
-Estes links pode ser de alguma utilidade:
+Tutoriais sobre páginas usando `MarkDown`:
 
-[archive-layout-with-content.md](https://github.com/academicpages/academicpages.github.io/blob/master/_pages/archive-layout-with-content.md)
+* [academicpages](https://academicpages.github.io/markdown/)
+* [Ismael Damião](https://ismaeldamiao.github.io/pt/markdown)
+
+Considere fazer-me uma [doação](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D66EM3DGU35EE&source=url).
 
 ## Criando seu site
 
@@ -66,7 +70,9 @@ Vá ao navegador e acesse
 http://localhost:4000/
 ```
 
-### Enviandoo seu site para o GuiHub
+### Enviando seu site para o GuiHub
 
 * Crie um repositório com o seu nome de usuário seguido de .github.io. Por exemplo, meu nome de usuário é `ismaeldamiao` e o nome do meu repositório é `ismaeldamiao.github.io`.
 * Usando o botão de enviar arquivos arraste para o navegador todos os arquivos e diretórios do seu site.
+* Vá até as configurações do seu repositório e em `GitHub Pages` selecione como `source` o branch correto (no meu caso `main`) e o diretório root e salve.
+* Navegue até seu site, o endereço deve ser o mesmo que o nome do seu repositório.
