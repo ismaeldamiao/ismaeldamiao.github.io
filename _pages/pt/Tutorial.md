@@ -18,11 +18,11 @@ gallery-07.09.2020:
 Para adcionar vídeos, do YouTube, por exemplo, use a tag liquid
 
 ```liquid
-{% raw %}{% include video id="XsxDH4HcOWA" provider="youtube" %}{% endraw %}
+{% raw %}{% include video id="ndZl7L_ciAQ" provider="youtube" %}{% endraw %}
 ```
 
 Resultado
-{% include video id="XsxDH4HcOWA" provider="youtube" %}
+{% include video id="ndZl7L_ciAQ" provider="youtube" %}
 
 ## Imagem
 
