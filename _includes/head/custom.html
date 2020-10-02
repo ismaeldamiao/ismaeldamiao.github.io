@@ -1,0 +1,42 @@
+<!-- start custom head snippets -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js' type='text/javascript'>
+   MathJax.Hub.Config({
+      jax: ["input/TeX","output/HTML-CSS"],
+      extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+      TeX: {
+         equationNumbers: { autoNumber: "all" },
+         Macros: {
+            sen: "\\operatorname{sen}\\,",
+            asen: "\\operatorname{arcsen}\\,"
+         }
+      },
+      tex2jax: {
+         inlineMath: [ ['\\(','\\)'], ['$','$'] ],
+         displayMath: [ ['\\[','\\]'], ['$$','$$'] ]
+      },
+      "HTML-CSS": { availableFonts: ["TeX"] }
+   });
+</script>
+
+<script>
+   function Show(id1){
+      //id1.innerHTML = id2.innerHTML;
+      if(id1.style.display === 'none'){
+         id1.style.display = 'block';
+      }else{
+         id1.style.display = 'none';
+      }
+   }
+</script>
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KQ4PZJF');</script>
+<!-- End Google Tag Manager -->
