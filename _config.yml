@@ -3,8 +3,8 @@
 # Este é o arquivo de configuração da sua página web
 
 # Site Settings
-theme                    : minimal-mistakes-jekyll # Use este para hopedar o site localmente
-#remote_theme             : "mmistakes/minimal-mistakes@4.20.2" # Use este para hospedar o site no GitHub
+#theme                    : minimal-mistakes-jekyll # Use este para hopedar o site localmente
+remote_theme             : "mmistakes/minimal-mistakes@4.20.2" # Use este para hospedar o site no GitHub
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 locale                   : "pt-BR"
 title                    : "Ismael Damião"
