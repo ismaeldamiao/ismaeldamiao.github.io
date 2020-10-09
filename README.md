@@ -40,6 +40,7 @@ Por exemplo, para baixar esse repositório usando o `git` faça
 
 ```
 git clone https://github.com/ismaeldamiao/ismaeldamiao.github.io.git
+cd ismaeldamiao.github.io
 ```
 
 Depois use os seguintes comandos para executar o site no seu computador
