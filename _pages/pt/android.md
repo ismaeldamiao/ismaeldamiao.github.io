@@ -37,9 +37,10 @@ apt install nano wget ncurses-utils coreutils gnupg
 # Atalhos
 mkdir .termux
 cat > $HOME/.termux/termux.properties <<EOF
-extra-keys = [ \
- ['ESC','|','/','HOME','UP','END','-','DEL'], \
- ['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','+','BKSP'] \
+extra-keys = [\
+   ['$','{','}','(',')','<','>','#',';'],\
+   ['ALT','HOME','END','BACKSLASH','-','+','APOSTROPHE','&','BKSP'],\
+   ['CTRL','TAB','|','/','LEFT','UP','DOWN','RIGHT','ESC']\
 ]
 # Open a new terminal with ctrl + t (volume down + t)
 shortcut.create-session = ctrl + t
@@ -54,6 +55,7 @@ bell-character=ignore
 # Send the Escape key.
 back-key=back
 EOF
+termux-reload-settings
 # bashrc
 wget https://raw.githubusercontent.com/ismaeldamiao/scripts/master/.bashrc
 ```
