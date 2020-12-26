@@ -70,4 +70,8 @@ Daí vem que o sistema somente é estável quando $I=0$, ou seja, para controlar
 
 Este número mede, em média, quantas pessoas alguém infectado é capaz de infectar. Se o **número básico de reprodução** ($R_0$) é maior que 1 a doença se propaga de forma epidêmica, já se ele for menor que 1 a doença termina por ser controlada e erradicada (note que se for uma doença como a dengue que pode ser transmitida por um vetor animal não humano então a doença pode estar somente temporariamente controlada).
 
-Neste modelo $R_0$ é definido por $R_0 = \frac{\beta}{\gamma}$ e a equação 2
+Neste modelo $R_0$ é definido por $R_0 = \frac{\beta}{\gamma}$ e a equação 2 fica:
+
+$$
+\frac{d}{dt} I = (R_0\frac{S}{N} - 1)\gamma I
+$$
