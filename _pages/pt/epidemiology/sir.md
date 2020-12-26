@@ -66,12 +66,26 @@ $$
 
 Daí vem que o sistema somente é estável quando $I=0$, ou seja, para controlar a epidemia é necessário que não haja ninguém infectado.
 
-## O Número básico de reprodução
+## O número básico de reprodução
 
 Este número mede, em média, quantas pessoas alguém infectado é capaz de infectar. Se o **número básico de reprodução** ($R_0$) é maior que 1 a doença se propaga de forma epidêmica, já se ele for menor que 1 a doença termina por ser controlada e erradicada (note que se for uma doença como a dengue que pode ser transmitida por um vetor animal não humano então a doença pode estar somente temporariamente controlada).
 
-Neste modelo $R_0$ é definido por $R_0 = \frac{\beta}{\gamma}$ e a equação 2 fica:
+Neste modelo $R_0$ é definido por $R_0 \equiv \frac{\beta}{\gamma}$ e a equação 2 fica:
 
 $$
-\frac{d}{dt} I = (R_0\frac{S}{N} - 1)\gamma I
+\frac{d}{dt} I = \left(R_0\frac{S}{N} - 1\right)\gamma I
 $$
+
+## A fase exponencial
+
+Note que bem no começo da epidemia quando o número de sucetíveis é praticamente igual à população total podemos simplificar a equação 2 tomando $\frac{S}{N}\approxeq 1$:
+
+$$
+\begin{matrix}
+\frac{d}{dt} I \approxeq \left(R_0 - 1\right)\gamma I &\Rightarrow\\
+\int_{I(0)}^{I(t)} {frac{1}{I} dI \approxeq \int_{0}^{t} (R_0-1) \gamma dt &\Rightarrow\\
+I(t) \approxeq I(0) e^{\gamma (R_0 -1) t}
+\end{matrix}
+$$
+
+Como essa solução exponencial é valida somente no começo da epidemia se diz que esta é a fase exponencial da epidemia.
