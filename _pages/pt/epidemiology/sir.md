@@ -40,7 +40,7 @@ $$
 \frac{d}{dt} R = \gamma I
 $$
 
-Sendo $N$ a população total. Além dessas equações temos a equação para o número de mostos em função do número de removidos:
+Sendo $N$ a população total. Além dessas equações temos a equação para o número de mortos em função do número de removidos:
 
 $$
 M = \mu R
