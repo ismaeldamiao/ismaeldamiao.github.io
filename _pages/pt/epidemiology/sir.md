@@ -49,3 +49,25 @@ ainda que para determinar $\mu$ acho interessante notar que de $R = C + M$ vem:
 $$
 C = (1 - \mu) R
 $$
+
+## Pontos fixos
+
+Em qualquer sistema de equações diferenciais os pontos fixos, se existirem, serão um conjunto de valores que o sistema não muda com o tempo. Neste caso, são solução do sistema:
+
+$$
+\left\{
+\begin{matrix}
+0 = -\beta I \frac{S}{N} \\
+0 = \beta I \frac{S}{N} + \gamma I \\
+0 = \gamma I
+\end{matrix}
+\right.
+$$
+
+Daí vem que o sistema somente é estável quando $I=0$, ou seja, para controlar a epidemia é necessário que não haja ninguém infectado.
+
+## O Número básico de reprodução
+
+Este número mede, em média, quantas pessoas alguém infectado é capaz de infectar. Se o **número básico de reprodução** ($R_0$) é maior que 1 a doença se propaga de forma epidêmica, já se ele for menor que 1 a doença termina por ser controlada e erradicada (note que se for uma doença como a dengue que pode ser transmitida por um vetor animal não humano então a doença pode estar somente temporariamente controlada).
+
+Neste modelo $R_0$ é definido por $R_0 = \frac{\beta}{\gamma}$ e a equação 2
