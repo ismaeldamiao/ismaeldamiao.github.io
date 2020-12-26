@@ -1,5 +1,5 @@
 ---
-permalink: /pt/epidemiology/sir
+permalink: /pt/epidemiology/sir/
 title: "O Modelo SIR"
 toc: true
 toc_label: "Sumário"
