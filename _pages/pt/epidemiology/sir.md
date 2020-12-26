@@ -16,6 +16,8 @@ Para estudar o que acontece no começo de uma epidemia, consideremos o que se se
 
 Para simplicar, consideremos uma única categoria que abrange os curados e os mostos, a dos **removidos** ($R$), onde $R = C + M$.
 
+Ao que se segue irei mostrar um modelo determinístico baseado em equações diferenciais para tentar descrever como que essas categorias mudam no tempo. Para qualquer efeito, se considera que o modelo é útil para descrever o observado na realidade se as curvas observadas na realidade podem ser reproduzidas por este modelo.
+
 ## As equações
 
 A parte central de trabalhar as equações do modelo SIR aqui apresentado é entender o papel das seguintes **taxas**:
@@ -24,7 +26,7 @@ A parte central de trabalhar as equações do modelo SIR aqui apresentado é ent
 * $\gamma$ - taxa de recuperação: Taxa com que cresce o número de removidos;
 * $\mu$ - taxa de mortalidade: Percentual dos removidos que morreram.
 
-Dessa forma o modelo SIR fica:
+Dessa forma as equações do modelo SIR são:
 
 $$
 \frac{d}{dt} S = -\beta I \frac{S}{N}
@@ -49,6 +51,8 @@ ainda que para determinar $\mu$ acho interessante notar que de $R = C + M$ vem:
 $$
 C = (1 - \mu) R
 $$
+
+Lembre que resolver o sistema de equações significa encontrar um conjunto de funções $S = S(t)$, $I = I(t)$ e $R = R(t)$ capazes de satisfazer a equações.
 
 ## Pontos fixos
 
@@ -78,12 +82,12 @@ $$
 
 ## A fase exponencial
 
-Note que bem no começo da epidemia quando o número de sucetíveis é praticamente igual à população total podemos simplificar a equação 2 tomando $\frac{S}{N}\approxeq 1$:
+Note que bem no começo da epidemia quando o número de sucetíveis é praticamente igual à população total e podemos simplificar a equação 2 tomando $\frac{S}{N}\approxeq 1$:
 
 $$
 \begin{matrix}
 \frac{d}{dt} I \approxeq \left(R_0 - 1\right)\gamma I &\Rightarrow \\
-\int_{I(0)}^{I(t)} \frac{1}{I} dI \approxeq \int_{0}^{t} (R_0-1) \gamma dt &\Rightarrow \\
+\int_{I(0)}^{I(t)} I^{-1} dI \approxeq \int_{0}^{t} (R_0-1) \gamma dt &\Rightarrow \\
 I(t) \approxeq I(0) e^{\gamma (R_0 -1) t} &
 \end{matrix}
 $$
