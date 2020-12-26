@@ -28,9 +28,11 @@ Dessa forma o modelo SIR fica
 $$
 \frac{d}{dt} S = -\beta I \frac{S}{N}
 $$
+
 $$
 \frac{d}{dt} I = beta I \frac{S}{N} - \gamma I
 $$
+
 $$
 \frac{d}{dt} R = \gamma I
 $$
