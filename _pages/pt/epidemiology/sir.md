@@ -82,8 +82,8 @@ Note que bem no começo da epidemia quando o número de sucetíveis é praticame
 
 $$
 \begin{matrix}
-\frac{d}{dt} I \approxeq \left(R_0 - 1\right)\gamma I &\Rightarrow\\
-\int_{I(0)}^{I(t)} {frac{1}{I} dI \approxeq \int_{0}^{t} (R_0-1) \gamma dt &\Rightarrow\\
+\frac{d}{dt} I \approxeq \left(R_0 - 1\right)\gamma I &\Rightarrow \\
+\int_{I(0)}^{I(t)} \frac{1}{I} dI \approxeq \int_{0}^{t} (R_0-1) \gamma dt &\Rightarrow \\
 I(t) \approxeq I(0) e^{\gamma (R_0 -1) t} &
 \end{matrix}
 $$
