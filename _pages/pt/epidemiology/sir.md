@@ -12,7 +12,7 @@ Para estudar o que acontece no começo de uma epidemia, consideremos o que se se
 
 * Quando **infectados** (I) e **suscetíveis** (S) interagem, uma parcela da população é removida da categoria suscetíveis e colocada na categoria infectados;
 * Parte dos infectados se curam em um dado intervalo de tempo. Estes são removidos da categoria infectados e colocados na categoria **curados** (C);
-* Outra parte dos infectados morrem devido à doença. Estes são removidos da categoria infectados e colocados na categoria **mortos** (M);
+* Outra parte dos infectados morrem devido à doença. Estes são removidos da categoria infectados e colocados na categoria **mortos** (M).
 
 Para simplicar, consideremos uma única categoria que abrange os curados e os mostos, a dos **removidos** (R), onde \(R = C + M\).
 
