@@ -24,17 +24,28 @@ A parte central de trabalhar as equações do modelo SIR aqui apresentado é ent
 * $\gamma$ - taxa de recuperação: Taxa com que cresce o número de removidos;
 * $\mu$ - taxa de mortalidade: Percentual dos removidos que morreram.
 
-Dessa forma o modelo SIR fica
+Dessa forma o modelo SIR fica:
+
 $$
 \frac{d}{dt} S = -\beta I \frac{S}{N}
 $$
 
 $$
-\frac{d}{dt} I = beta I \frac{S}{N} - \gamma I
+\frac{d}{dt} I = \beta I \frac{S}{N} - \gamma I
 $$
 
 $$
 \frac{d}{dt} R = \gamma I
 $$
 
-Sendo $N$ a população total.
+Sendo $N$ a população total. Além dessas equações temos a equação para o número de mostos em função do número de removidos:
+
+$$
+M = \mu R
+$$
+
+ainda que para determinar $\mu$ acho interessante notar que de $R = C + M$ vem:
+
+$$
+C = (1 - \mu) R
+$$
