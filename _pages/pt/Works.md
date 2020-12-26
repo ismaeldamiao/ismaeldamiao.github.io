@@ -1,5 +1,5 @@
 ---
-permalink: /pt/trabalhos/
+permalink: /pt/works/
 title: "Trabalhos"
 ---
 
