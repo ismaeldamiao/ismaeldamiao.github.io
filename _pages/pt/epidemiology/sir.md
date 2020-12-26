@@ -1,6 +1,6 @@
 ---
-permalink: /pt/linux/android/
-title: "Android"
+permalink: /pt/epidemiology/sir
+title: "O Modelo SIR"
 toc: true
 toc_label: "Sumário"
 toc_icon: "file-alt"
