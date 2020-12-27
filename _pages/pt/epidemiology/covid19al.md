@@ -11,7 +11,8 @@ toc_icon: "file-alt"
 
 **Avisos**:
 * Esta página trata de um evento epidêmico em acontecimento e seus dados estão sujeitos a revisão;
-* Recomendo que leia sobre o [modelo SIR](/pt/epidemiology/sir/).
+* Recomendo que leia sobre o [modelo SIR](/pt/epidemiology/sir/);
+* Estou a considerar a população total de Alagoas \(N = 3.3*10^{6}\).
 
 ## Dados oficiais
 
