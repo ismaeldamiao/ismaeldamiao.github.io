@@ -7,4 +7,16 @@ toc_label: "Sumário"
 toc_icon: "file-alt"
 ---
 
-Nada ainda...
+**Última atualização em 27/12/2020.**
+
+**Avisos**:
+* Esta página trata de um evento epidêmico em acontecimento e seus dados estão sujeitos a revisão;
+* Recomendo que leia sobre o [modelo SIR](/pt/epidemiology/sir/).
+
+## Dados oficiais
+
+
+
+## Fase exponencial
+
+## Reproduzindo o grágico
