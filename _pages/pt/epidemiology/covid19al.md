@@ -1,4 +1,3 @@
-
 ---
 permalink: /pt/epidemiology/covid19al/
 title: "COVID-19 em Alagoas"
