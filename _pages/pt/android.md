@@ -5,7 +5,7 @@ toc: true
 toc_label: "Sumário"
 toc_icon: "file-alt"
 ---
-
+ 
 [![DISCORD](https://img.shields.io/discord/765774817910980618?label=discord)](https://discord.gg/Hf9E33N)
 
 É possível criar programas de física, documentos $\LaTeX$ e gráficos pelo GNUPlot usando o bom e velho Android e nessa página eu mostro como fazer isso.
