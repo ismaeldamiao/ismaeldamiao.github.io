@@ -15,7 +15,7 @@ toc_icon: "file-alt"
 
 ## Dados oficiais
 
-
+Os boletins epidemiológicos informam sobre os casos letais (mortos), recuperados (curados)...
 
 ## Fase exponencial
 
