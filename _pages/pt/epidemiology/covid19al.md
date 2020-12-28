@@ -17,6 +17,9 @@ toc_icon: "file-alt"
 
 Os [boletins epidemiológicos](http://www.alagoascontraocoronavirus.al.gov.br/) informam sobre os casos letais (mortos - M), recuperados (curados - C) e portanto os removidos são $R = C + M$.
 
+{% include figure image_path="./images/epidemiology/dados_oficiais_R.png" caption="Fonte..." %}
+{% include figure image_path="./images/epidemiology/dados_oficiais_I.png" caption="Fonte..." %}
+
 ## Fase exponencial
 
 Considerando a fase exponencial até o dia 44...
