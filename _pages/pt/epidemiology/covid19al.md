@@ -15,8 +15,10 @@ toc_icon: "file-alt"
 
 ## Dados oficiais
 
-Os boletins epidemiológicos informam sobre os casos letais (mortos), recuperados (curados)...
+Os [boletins epidemiológicos](http://www.alagoascontraocoronavirus.al.gov.br/) informam sobre os casos letais (mortos - M), recuperados (curados - C) e portanto os removidos são $R = C + M$.
 
 ## Fase exponencial
+
+Considerando a fase exponencial até o dia 44...
 
 ## Reproduzindo o grágico
