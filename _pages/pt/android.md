@@ -8,22 +8,23 @@ toc_icon: "file-alt"
 
 [![DISCORD](https://img.shields.io/discord/765774817910980618?label=discord)](https://discord.gg/Hf9E33N)
 
-É possível criar programas de física, documentos $\LaTeX$ e gráficos pelo GNUPlot usando o bom e velho Android e nessa página eu mostro como fazer isso.
+Na física, em geral, queremos usar o computador para criar programas de física, documentos $\LaTeX$ e gráficos pelo GNUPlot. É possível fazer tudo isso pelo android quase do mesmo jeito que em outros sistemas linux e aqui você aprenderá como.
 
-Antes de começar, recomendo que baixe um teclado como [AnySoftKey-board](https://f-droid.org/en/packages/com.menny.android.anysoftkeyboard/) ou [Go Keyboard](https://play.google.com/store/apps/details?id=com.jb.emoji.gokeyboard), esses teclados facilitam a escrita no terminal.
+A principal ferramenta android que iremos utilizar em física computacional é o termux, entretanto algumas outras também serão úteis. Baixe elas nos links abaixo.
 
-Também recomendo o uso de algum editor de texto, como o [DroidEdit](https://play.google.com/store/apps/details?id=com.aor.droidedit), para escrever os programas.
+* [Termux](https://f-droid.org/repository/browse/?fdid=com.termux) - Para emular um terminal UNIX.
+* [AnySoftKeyboard](http://anysoftkeyboard.github.io/download/) - teclado virtual melhorado.
+* [Material Files](https://github.com/zhanghai/MaterialFiles) - Gestor de arquivos que consegue ler e modificar a $HOME do termux.
+* [DroidEdit](https://play.google.com/store/apps/details?id=com.aor.droidedit.pro) - Editor de códigos.
 
 ## Termux
 
 {% include video id="HFPpYZVaP7E" provider="youtube" %}
 
-O terminal é nosso melhor ambiente de trabalho, mesmo no android. Gosto muito do Termux e acho que ele é o melhor que tem para Android, baixe ele em uma das opções abaixo:
+O terminal é nosso melhor ambiente de trabalho, mesmo no android. Gosto muito do Termux e acho que ele é o melhor que tem para Android.
+Após instalar e configurar o termux você poderá seguir outros tutoriais que trabalham em terminais linux, de fato, para aprender termux é preciso primeiro aprender terminal linux pois a grande maioria dos comandos serão iguais e funcionaram do mesmo jeito.
 
-  * [Fdroid](https://f-droid.org/repository/browse/?fdid=com.termux)
-  * [PlayStore](https://play.google.com/store/apps/details?id=com.termux)
-
-## Configurando
+### Configurando
 
 {% include video id="CIvA4KnTZZg" provider="youtube" %}
 
@@ -60,7 +61,7 @@ termux-reload-settings
 wget https://raw.githubusercontent.com/ismaeldamiao/scripts/master/.bashrc
 ```
 
-## Programando
+### Programando
 
 {% include video id="g7PwcSnp0SI" provider="youtube" %}
 
@@ -86,7 +87,9 @@ Note que se ouver algo em seu código exclusivo para quando for executado no and
 
 Onde \_\_ANDROID_API\_\_ é a versão do android. 18 refere-se à última versão do Jellybean, a versão mais atual (em junho de 2020) é o Android Q (API 29). Veja [api-level.h](https://android.googlesource.com/platform/bionic/+/refs/heads/master/libc/include/android/api-level.h) para mais detalhes.
 
-## Modo gráfico
+## Atenção: Obsoleto!
+
+### Modo gráfico
 
 Caso você queira usar programas gráficos então você pode instalar o x no termux. Comece com o comando:
 
@@ -137,7 +140,7 @@ Se quiser fazer um teste, tente usar o terminal via modo gráfico.
 
 {% include figure image_path="./images/Screenshot_20200629-175317_VNC_Viewer.png" caption="Modo gráfico usando termux." %}
 
-## Ubuntu no Termux
+### Ubuntu no Termux
 
 Apesar de ser um ótimo terminal, o termux pode não ser útil para uma ou outra função que necessite de um terminal linux e pode ser conveniente instalar uma distro linux. Veja como instalar o ubuntu no termux.
 
