@@ -2,10 +2,12 @@
 permalink: /pt/ComputationalPhysics/
 title: "Física Computacional"
 ---
+
 ## Programação, SO Linux e mais
 
 * [Linux](/pt/linux/)
    * [Android](/pt/linux/android/)
+   * [Softwares que utilizo](/pt/linux/softwares/)
 * [$\LaTeX$](/pt/pkg/latex/)
 
 ## Tópicos de Física Computacional
