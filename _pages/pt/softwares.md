@@ -12,7 +12,7 @@ Em geral, utilizo somente dois sistemas operacionais, ambos baseados em linux, a
 
 ## Ubuntu
 
-* [DroidCam](https://www.dev47apps.com/) - Clente para receber imagem da câmera do telefone (para usar como webcam).
+* [DroidCam](https://www.dev47apps.com/) - Cliente para receber imagem da câmera do telefone (para usar como webcam).
 
 ## Android
 
