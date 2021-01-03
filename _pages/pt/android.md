@@ -72,7 +72,7 @@ Seguem abaixo os comandos mostrados no vídeo:
 # Instalando clang
 apt install clang
 # Instalando gcc e gfortran
-wget "https://github.com/ismaeldamiao/scripts/raw/master/install-termux-cctools.bash"
+wget "https://raw.githubusercontent.com/ismaeldamiao/termux/main/install-termux-cctools.sh"
 bash install-termux-cctools.bash
 ```
 
