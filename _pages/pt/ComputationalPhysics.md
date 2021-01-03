@@ -5,7 +5,7 @@ title: "Física Computacional"
 ## Programação, SO Linux e mais
 
 * [Linux](/pt/linux/)
-* [Android](/pt/linux/android/)
+ * [Android](/pt/linux/android/)
 * [$\LaTeX$](/pt/pkg/latex/)
 
 ## Tópicos de Física Computacional
