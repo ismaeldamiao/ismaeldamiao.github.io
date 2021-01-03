@@ -17,6 +17,8 @@ A principal ferramenta android que iremos utilizar em física computacional é o
 * [Material Files](https://github.com/zhanghai/MaterialFiles) - Gestor de arquivos que consegue ler e modificar a $HOME do termux.
 * [DroidEdit](https://play.google.com/store/apps/details?id=com.aor.droidedit.pro) - Editor de códigos.
 
+Para informações mais detalhadas, embora, talvez, menos didáticas consulte o o repositório [termux](https://github.com/ismaeldamiao/termux).
+
 ## Termux
 
 {% include video id="HFPpYZVaP7E" provider="youtube" %}
