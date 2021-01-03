@@ -73,7 +73,7 @@ Seguem abaixo os comandos mostrados no vídeo:
 apt install clang
 # Instalando gcc e gfortran
 wget "https://raw.githubusercontent.com/ismaeldamiao/termux/main/install-termux-cctools.sh"
-bash install-termux-cctools.bash
+bash install-termux-cctools.sh
 ```
 
 Note que se ouver algo em seu código exclusivo para quando for executado no android então você deve indicar isso ao compilador usando a macro:
