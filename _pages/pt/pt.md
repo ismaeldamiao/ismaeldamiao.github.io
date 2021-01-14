@@ -8,10 +8,17 @@ header:
   overlay_image: ./images/site.png
 ---
 
-Este site foi feito fisando divulgar meu trabalho, ajudar os calouros de física e aqueles interessados em física computacional. Seu conteúdo abrange desde meios de programar, plotar gráficos, escrever artigo e relatórios até métodos de cálculo numérico. A abordagem que tento seguir é sempre a mais clara e prática e, por suposto, também a mais simples e acessível.
+Este site tem por objetivo:
+* Divulgar meu trabalho;
+* Compartilhar cadernos de anotações e experiências acadâmicas;
+* Compartilhar tutoriais sobre alguns temas de física computacional.
 
+Seu conteúdo abrange desde meios de programar, plotar gráficos, escrever artigo e relatórios até métodos de cálculo numérico.
 
-# Ismael Felipe Ferreira dos Santos
+Como adicional, ofereço serviços de hospedagem para ganhar um extra.
+Interessado clique [aqui](/pt/servidores).
+
+## Ismael Felipe Ferreira dos Santos
 
 **Nascimento**: Maceió, Alagoas, Brasil 09 de dezembro de 1999
 
