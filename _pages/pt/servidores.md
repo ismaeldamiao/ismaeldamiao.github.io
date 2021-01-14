@@ -7,6 +7,8 @@ Caso se interesse por algum serviço entre em contato:
 * Email - [ismaellxd@gmail.com](mailto:ismaellxd@gmail.com)
 * Telefone/WhatsApp/Telegram/Signal - [+55 82 99345-2161](tel:+5582993452161)
 
+**Obs**.: Os preços se referem à mensalidade para manter o servidor online.
+
 ## Minecraft
 
 Quer um servidor de minecraft ligado 24h por dia para jogar com seus amigos?
