@@ -32,7 +32,7 @@ Em geral, utilizo somente dois sistemas operacionais, ambos baseados em linux, a
 * [F-Droid](https://f-droid.org/pt_BR/) - Loja de apps de código aberto.
 * [Termux](https://f-droid.org/repository/browse/?fdid=com.termux) - Para emular um terminal UNIX.
 * [AnySoftKeyboard](http://anysoftkeyboard.github.io/download/) - Teclado virtual melhorado.
-* [Material Files](https://github.com/zhanghai/MaterialFiles) - Gestor de arquivos que consegue ler e modificar a $HOME do termux.
+* [Material Files](https://github.com/zhanghai/MaterialFiles) - Gestor de arquivos que consegue ler e modificar a `$HOME` do termux.
 * [DroidEdit](https://play.google.com/store/apps/details?id=com.aor.droidedit.pro) - Editor de códigos.
 * [Open Camera](https://f-droid.org/en/packages/net.sourceforge.opencamera/) - App de câmera.
 * [DroidCam](https://www.dev47apps.com/) - Servidor para enviar imagem da câmera (para usar como webcam).
