@@ -12,35 +12,34 @@ Tudo isso é feito através de codigos inseridos no arquivo .tex, dessa forma a 
 
 ## instalando
 
-O primeiro componente que iremos instalar é o *texlive*, ele contém os pacotes para usar $\LaTeX$. Se você está usando Ubuntu, Debian ou similar, digite no terminal:
+O primeiro componente que iremos instalar é o *texlive*, ele contém os pacotes necessários para usar $\LaTeX$.
+Para instalar use os comandos abaixo conforme sua distribuição ou clique [aqui](http://tug.org/texlive/acquire-netinstall.html).
 
 ```bash
+# No debian, ubuntu, linux-mint ou similar
 sudo apt install -y texlive-full
-```
-
-Já se você está usando Android, digite no terminal Termux:
-```bash
+# No opensuse
+zypper install texlive
+# No android (termux)
 apt install -y texlive-full
 ```
 
-Por fim, vamos baixar um [script](https://raw.githubusercontent.com/ismaeldamiao/scripts/master/tex2pdf.bash) para compilar os documento $\LaTeX$ mais facilmente, em um terminal digite:
+Por fim, você deve baixar um [script](https://raw.githubusercontent.com/ismaeldamiao/scripts/master/tex2pdf.bash) para compilar os documento $\LaTeX$ mais facilmente, em um terminal digite:
+
 ```bash
-wget -qO tex2pdf https://raw.githubusercontent.com/ismaeldamiao/scripts/master/tex2pdf.bash
+wget -q https://raw.githubusercontent.com/ismaeldamiao/scripts/master/tex2pdf.bash
 ```
 
-E por fim, mova o script para um diretório bin e dê permissões de execussão. Em uma distro Linux faça:
-```bash
-mv tex2pdf ~/bin && chmod 755 ~/bin/tex2pdf
-```
+E por fim, mova o script para um diretório `bin` e dê permissões de execussão, conforme os comandos abaixo.
 
-Note que se o diretório *~/bin* não existir, você pode criá-lo com o comando:
 ```bash
-mkdir ~/bin
-```
-
-Já no Termux faça:
-```bash
-mv tex2pdf $PREFIX/bin && chmod 755 $PREFIX/bin/tex2pdf
+# No android (termux)
+mv tex2pdf.bash $PREFIX/bin/tex2pdf
+chmod 700 $PREFIX/bin/tex2pdf
+# Em qualquer outra distribuicao
+[ -d ~/bin ] || mkdir ~/bin
+mv tex2pdf.bash ~/bin/tex2pdf
+chmod 700 ~/bin/tex2pdf
 ```
 
 ## Testando
