@@ -19,7 +19,7 @@ Para instalar use os comandos abaixo conforme sua distribuição ou clique [aqui
 # No debian, ubuntu, linux-mint ou similar
 sudo apt install -y texlive-full
 # No opensuse
-zypper install texlive
+sudo zypper install texlive
 # No android (termux)
 apt install -y texlive-full
 ```
