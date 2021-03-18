@@ -1,5 +1,5 @@
 ---
-permalink: /pt/wiki/clmc
+permalink: /pt/wiki/clmc/intro/
 title: "wiki - CLMC"
 toc: true
 toc_label: "Sumário"
