@@ -42,3 +42,19 @@ E_n = \frac{P_n^2}{2M_n}
 $$
 
 Dessa forma o hamiltoniano que descreve o sistema é $H=\sum_{n=1}^NE_n$.
+Onde os fatores $\eta_{i,n}$ são termos de acoplamento. O expoente $i=2$
+dá os termos de potencial harmônico.
+
+## O PVI
+
+Dado o hamiltoniano, a principal tarefa do CLMC é resolver as equações
+de Hamilton, que são:
+
+$$
+   \frac{d}{dt} x_n = \frac{P_n}{M_n}
+$$
+
+$$
+   \frac{d}{dt} P_n = \sum_{i=2}^{4}
+   \eta_{i,n+1}(x_{n+1} - x_n)^{i-1} - \eta_{i,n}(x_n - Q_{n-1})^{i-1}
+$$
