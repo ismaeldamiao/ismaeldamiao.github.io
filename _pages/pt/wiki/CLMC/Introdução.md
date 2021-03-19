@@ -59,7 +59,7 @@ $$
 
 $$
    \frac{d}{dt} P_n = \sum_{i=2}^{4}
-   \eta_{i,n+1}(x_{n+1} - x_n)^{i-1} - \eta_{i,n}(x_n - Q_{n-1})^{i-1}
+   \eta_{i,n+1}(x_{n+1} - x_n)^{i-1} - \eta_{i,n}(x_n - x_{n-1})^{i-1}
 $$
 
 Note que estas são equações diferenciais ordinárias (EDO),
