@@ -25,18 +25,20 @@ resolver um sistema de `N` equações.
 
 ## O Hamiltoniano
 
-Considere um sistema físico com grau de liberdade 1 formado por \(N\)
+Considere um sistema físico com grau de liberdade 1 formado por $N$
 partículas. Considere também que o acoplamento entre partículas
 vizinhas pode ser descrito por um potencial harmônico e por
 generalizações anarmônicas desse potencial, todos dependendo da
 distância entre as partículas vizinhas.
 
-Seja \(x_n\) a distância em relação à própria posição de equilíbrio
-da partícula \(n\) de massa \(M_n\) e momento linear \(P_n\).
-A energia \(E_n\) dessa partícula é dada por:
+Seja $x_n$ a distância em relação à própria posição de equilíbrio
+da partícula $n$ de massa $M_n$ e momento linear $P_n$.
+A energia $E_n$ dessa partícula é dada por:
 
-\[
+$$
 E_n = \frac{P_n^2}{2M_n}
    + \sum_{i = 2}^{4}
    \frac{1}{2i}\left[\eta_{i,n}(x_n - x_{n-1})^i + \eta_{i,n+1}(x_{n+1} - x_n)^i\right]
-\]
+$$
+
+Dessa forma o hamiltoniano que descreve o sistema é $H=\sum_{n=1}^NE_n$.
