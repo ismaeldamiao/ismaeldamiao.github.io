@@ -15,7 +15,7 @@ e de medidas de localização.
 É possível resolver o **problema de valor inicial** (PVI) com diversos metodos iterativos,
 tais como:
 * Runge-Kutta de 4a, 8a e 14a ordem;
-* Adams-Bashforth-Moulton de 8a e 10a ordem.
+* Adams-Bashforth-Moulton de 5a e 10a ordem.
 
 Disponibilizei este programa como material de aprendizagem para quem tem interesse
 nos diversos métodos de resolução numérica de equações diferenciais ordinárias
@@ -66,14 +66,16 @@ Note que estas são equações diferenciais ordinárias (EDO),
 na verdade este é um sistema com $2N$ EDO e todas precisam ser resolvidas
 simultaneamente. Entretanto, para resolver o sistema, precisamos
 conhecer sua condição inicial.
-A condição inicial é $x_n=0$ e $P_n=\delta_{n,n/2}\forall n$, além dos valores
-das massas, que explicarei mais tarde como são escolhidos,
-e os valores das constantes de acoplamente que, neste programa,
-contém invariância translacional, ou seja, $\eta_{i,n} = \eta_i$.
 
+Este programa, o CLMC, considera como condição inicial:
+* $x_n=0\forall n$ - todas as partículas na posição de equilíbrio.
+* $P_n=v_0M_n\delta_{n,N/2}\forall n$ - todas as partículas em repouso, exceto a do meio, que tem velocidade $v_0$.
+* $\eta_{i,n} = \eta_i$ - os acoplamentos não dependem da partícula mas somente do tipo (harmônico, anarmônico de sugunda ordem, etc).
+* As massas $M_n$ escolhidas com base em critérios que as correlacionam.
 
 Para editar as equações de Hamilton veja os arquivos no diretório
 [hamiltoniano](https://github.com/ismaeldamiao/CLMC/tree/master/hamiltoniano).
 
 Para editar as condições iniciais veja os arquivos no diretório
 [sistema_inicial](https://github.com/ismaeldamiao/CLMC/tree/master/sistema_inicial).
+
