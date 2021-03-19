@@ -45,6 +45,9 @@ Dessa forma o hamiltoniano que descreve o sistema é $H=\sum_{n=1}^NE_n$.
 Onde os fatores $\eta_{i,n}$ são termos de acoplamento. O expoente $i=2$
 dá os termos de potencial harmônico.
 
+Para editar o hamiltoniano veja o arquivo
+[energia.c](https://github.com/ismaeldamiao/CLMC/blob/master/hamiltoniano/energia.c).
+
 ## O PVI
 
 Dado o hamiltoniano, a principal tarefa do CLMC é resolver as equações
@@ -58,3 +61,19 @@ $$
    \frac{d}{dt} P_n = \sum_{i=2}^{4}
    \eta_{i,n+1}(x_{n+1} - x_n)^{i-1} - \eta_{i,n}(x_n - Q_{n-1})^{i-1}
 $$
+
+Note que estas são equações diferenciais ordinárias (EDO),
+na verdade este é um sistema com $2N$ EDO e todas precisam ser resolvidas
+simultaneamente. Entretanto, para resolver o sistema, precisamos
+conhecer sua condição inicial.
+A condição inicial é $x_n=0$ e $P_n=\delta_{n,n/2}\forall n$, além dos valores
+das massas, que explicarei mais tarde como são escolhidos,
+e os valores das constantes de acoplamente que, neste programa,
+contém invariância translacional, ou seja, $\eta_{i,n} = \eta_i$.
+
+
+Para editar as equações de Hamilton veja os arquivos no diretório
+[hamiltoniano](https://github.com/ismaeldamiao/CLMC/tree/master/hamiltoniano).
+
+Para editar as condições iniciais veja os arquivos no diretório
+[sistema_inicial](https://github.com/ismaeldamiao/CLMC/tree/master/sistema_inicial).
