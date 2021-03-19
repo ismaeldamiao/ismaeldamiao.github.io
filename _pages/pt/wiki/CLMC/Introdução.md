@@ -79,3 +79,10 @@ Para editar as equações de Hamilton veja os arquivos no diretório
 Para editar as condições iniciais veja os arquivos no diretório
 [sistema_inicial](https://github.com/ismaeldamiao/CLMC/tree/master/sistema_inicial).
 
+## Escolhendo as massas
+
+### C1
+
+### C2
+
+### C3
