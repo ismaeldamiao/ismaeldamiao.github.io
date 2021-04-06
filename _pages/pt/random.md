@@ -174,28 +174,32 @@ Use o comando abaixo para descarregar o arquivo [ran1.f90](https://github.com/is
 wget -O ran1.f90 https://github.com/ismaeldamiao/avulsos/raw/master/fortran/rotinas/ran1.f90
 ```
 
-Para usar lembre-se de "usar" o módulo _ran_ do seguinte jeito:
-{% highlight fortran %}
-USE ran
-{% endhighlight %}
+Usar a `ran1` em `FORTRAN 90` é fácil. Simplesmente faça:
 
-Para compilar use o comando abaixo:
+* No diretório do seu programa em `FORTRAN 90` baixe o arquivo [ran1.90](https://github.com/ismaeldamiao/avulsos/raw/master/fortran/rotinas/ran1.f90) digitando no terminal
+```bash
+wget -O https://github.com/ismaeldamiao/avulsos/raw/master/fortran/rotinas/ran1.f90
 ```
-gfortran ran1.f90 SeuPrograma.f90 -o a.out
+* Utilize a seguinte linha dentro do `CONTAINS`, ela irá incluir a funcão `REAL(8) ran1(INTEGER(8))` no seu programa:
+```fortran
+INCLUDE "ran1.f90"
 ```
-
-De maneira alternativa você pode copiar toda a função ran1 do arquivo [ran1.f90](https://github.com/ismaeldamiao/avulsos/raw/master/fortran/rotinas/ran1.f90) e colar no final do seu programa, mais ou menos assim:
-{% highlight fortran %}
+Deve ficar mais ou menos assim:
+```fortran
 PROGRAM SeuPrograma
 ! Seu codigo
 CONTAINS
-   REAL(8) FUNCTION ran1(idum)
-   ! ...
-   END FUNCTION ran1
+   INCLUDE "ran1.f90"
 END PROGRAM SeuPrograma
-{% endhighlight %}
+```
+* Declare uma variável `INTEGER(8)` para guardar a semente, que inicialmente deve ser negativa, por exemplo:
+```fortran
+INTEGER(8) :: semente = -1
+```
+* Chame a função `ran1` quantas vezes quiser, lembrando de indicar a região da memória da semente, por exemplo:
+```fortran
+REAL(8) :: aleatorio
 
-Dessa forma você só precisa compilar o seu programa:
+aleatorio = ran1(&semente)
 ```
-gfortran SeuPrograma.f90 -o a.out
-```
+* Compile seu programa normalmente.
