@@ -17,6 +17,7 @@ Usaremos uma variável inteira chamada `semente` para, adivinhem, guardar a seme
 O número aleatório `p` gerado tem precisão dupla então não tente guardalo em uma variável inteira sem converter.
 
 Suponha que queremos guardar na variável de precisão dupla `p` um número aleatório no intervalo $[x_0, x_1)$, para isso faça:
+
 * 
 ```
 p = ran1(semente1)
