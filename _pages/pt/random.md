@@ -174,23 +174,23 @@ Usar a `ran1` em `FORTRAN 90` é fácil. Simplesmente faça:
 ```bash
 wget -O https://github.com/ismaeldamiao/avulsos/raw/master/fortran/rotinas/ran1.f90
 ```
-* Utilize a seguinte `INCLUDE "ran1.f90"` dentro do `CONTAINS`, ela irá incluir a funcão `REAL(8) ran1(INTEGER(8))` no seu programa. Deve ficar mais ou menos assim:
-```fortran
+* Utilize a linha `INCLUDE "ran1.f90"` dentro do `CONTAINS`, ela irá incluir a funcão `REAL(8) ran1(INTEGER(8))` no seu programa. Deve ficar mais ou menos assim:
+{% highlight fortran %}
 PROGRAM SeuPrograma
 ! Seu codigo
 CONTAINS
    INCLUDE "ran1.f90"
 END PROGRAM SeuPrograma
-```
+{% endhighlight %}
 * Declare uma variável `INTEGER(8)` para guardar a semente, que inicialmente deve ser negativa, por exemplo:
 ```fortran
 INTEGER(8) :: semente = -1
 ```
 * Chame a função `ran1` quantas vezes quiser, por exemplo:
-```fortran
+{% highlight fortran %}
 REAL(8) :: aleatorio
 
 aleatorio = ran1(semente)
-```
+{% endhighlight %}
 * Compile seu programa normalmente.
 
