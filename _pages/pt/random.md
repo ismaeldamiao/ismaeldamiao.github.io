@@ -168,12 +168,6 @@ END FUNCTION ran1
 {% endhighlight %}
 </div>
 
-Use o comando abaixo para descarregar o arquivo [ran1.f90](https://github.com/ismaeldamiao/avulsos/raw/master/fortran/rotinas/ran1.f90)
-
-```
-wget -O ran1.f90 https://github.com/ismaeldamiao/avulsos/raw/master/fortran/rotinas/ran1.f90
-```
-
 Usar a `ran1` em `FORTRAN 90` é fácil. Simplesmente faça:
 
 * No diretório do seu programa em `FORTRAN 90` baixe o arquivo [ran1.90](https://github.com/ismaeldamiao/avulsos/raw/master/fortran/rotinas/ran1.f90) digitando no terminal
