@@ -30,8 +30,7 @@ p = p*(x1-x0)
 ```
 p = p+x0
 ```
-Temos, finalmente, $p\in[x_0, x_1)$ como queríamos.
-* De forma mais reduzida, pode-se fazer tudo em um cálculo só quando se chama o gerador, da forma:
+* Temos, finalmente, $p\in[x_0, x_1)$ como queríamos. De forma mais reduzida, pode-se fazer tudo em um cálculo só quando se chama o gerador, da forma:
 ```
 p = ran1(semente1) * (x1-x0) + x0
 ```
