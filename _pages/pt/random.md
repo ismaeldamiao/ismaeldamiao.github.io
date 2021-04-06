@@ -190,11 +190,10 @@ END PROGRAM SeuPrograma
 ```fortran
 INTEGER(8) :: semente = -1
 ```
-* Chame a função `ran1` quantas vezes quiser, lembrando de indicar a região da memória da semente, por exemplo:
+* Chame a função `ran1` quantas vezes quiser, por exemplo:
 ```fortran
 REAL(8) :: aleatorio
 
-aleatorio = ran1(&semente)
-
+aleatorio = ran1(semente)
 ```
 * Compile seu programa normalmente.
