@@ -12,32 +12,27 @@ Dizemos que os números são pseudo-aleatórios pois na prática é impossível 
 
 ## A rotina ran1:
 
-Usaremos uma variável inteira chamada _semente_ para, adivinhem, guardar a semente. Ao chamar a _ran1_ pela primeira vez em um programa, _semente_ deverá ser um valor negativo. _ran1_ irá alterar o valor de _semente_ para um número positivo assim da próxima vez que você chamar _ran1_ ela entenderá que não está sendo inicializada e irá gerar um número aleatório sem correlação com o anterior. Por causa disso acho interessante usar uma variável _semente0_ para a semente propriamente dita e _semente1_ para usar como argumento para _ran1_ onde, no começo, _semente1=semente0_, dessa forma não perdemos a informação da semente que utilizamos para inicializar o gerador.
+Usaremos uma variável inteira chamada `semente` para, adivinhem, guardar a semente. Ao chamar a `ran1` pela primeira vez em um programa, `semente` deverá ser um valor negativo. `ran1` irá alterar o valor de `semente` para um número positivo assim da próxima vez que você chamar `ran1` ela entenderá que não está sendo inicializada e irá gerar um número aleatório sem correlação com o anterior. Por causa disso acho interessante usar uma variável `semente0` para a semente propriamente dita e `semente1` para usar como argumento para `ran1` onde, no começo, `semente1=semente0` dessa forma não perdemos a informação da semente que utilizamos para inicializar o gerador.
 
-O número aleatório $p$ gerado tem precisão dupla então não tente guardalo em uma variável inteira sem converter.
+O número aleatório `p` gerado tem precisão dupla então não tente guardalo em uma variável inteira sem converter.
 
-Suponha que queremos um número aleatório no intervalo $[x_0, x_1)$ sendo $Dx = x_1-x_0$ o comprimento desse intervalo. O primeiro que fazemos é:
-
+Suponha que queremos guardar na variável de precisão dupla `p` um número aleatório no intervalo $[x_0, x_1)$, para isso faça:
+* 
 ```
 p = ran1(semente1)
 ```
-
-Como $p\in[0, 1)$ multiplicamos ele por $Dx$:
-
+* Como $p\in[0, 1)$ multiplicamos ele pelo comprimento do intervalo:
 ```
-p = p*Dx
+p = p*(x1-x0)
 ```
-
-Dessa forma temos $p\in[0, Dx)$ e ao somar $x_0$ a $p$:
-
+* Dessa forma temos $p\in[0, x_1-x_0)$. Agora some $x_0$ a $p$:
 ```
 p = p+x0
 ```
-
-Temos, finalmente, $p\in[x_0, x_1)$ como queríamos. De forma mais reduzida, pode-se fazer tudo em um cálculo só quando se chama o gerador, da forma:
-
+Temos, finalmente, $p\in[x_0, x_1)$ como queríamos.
+* De forma mais reduzida, pode-se fazer tudo em um cálculo só quando se chama o gerador, da forma:
 ```
-p = ran1(semente1) * Dx + x0
+p = ran1(semente1) * (x1-x0) + x0
 ```
 
 ## ran1 em C
@@ -119,7 +114,7 @@ long int semente = -1L;
 ```c
 double aleatorio = ran1(&semente);
 ```
-* Compile seu programa normalmente;
+* Compile seu programa normalmente.
 
 ## ran1 em FORTRAN 90
 
