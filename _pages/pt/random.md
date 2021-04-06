@@ -101,41 +101,25 @@ double ran1(long int *idum){
 {% endhighlight %}
 </div>
 
-Use o comando abaixo para descarregar o arquivo [ran1.c](https://github.com/ismaeldamiao/avulsos/raw/master/c/rotinas/ran1.c)
+Usar a `ran1` em `c` é fácil. Simplesmente faça:
 
-```
+* No diretório do seu programa em `c` baixe o arquivo [ran1.c](https://github.com/ismaeldamiao/avulsos/raw/master/c/rotinas/ran1.c) digitando no terminal
+```bash
 wget -O ran1.c https://github.com/ismaeldamiao/avulsos/raw/master/c/rotinas/ran1.c
 ```
-
-Para usar lembre-se de declarar a função _ran1_ como global do seguinte jeito:
-{% highlight c %}
-double ran1(long int*);
-{% endhighlight %}
-
-Para compilar use um dos dois comandos abaixo:
+* Utilize a seguinte macro, ela irá incluir a funcão `double ran1(long int *)` no seu programa:
+```C
+#include "ran1.c"
 ```
-gcc ran1.c SeuPrograma.c -o a.out
-clang ran1.c SeuPrograma.c -o a.out
+* Declare uma variável `long int` para guardar a semente, que inicialmente deve ser negativa, por exemplo:
+```C
+long int semente = -1L;
 ```
-
-De maneira alternativa você pode copiar todo o conteúdo do arquivo [ran1.c](https://github.com/ismaeldamiao/avulsos/raw/master/c/rotinas/ran1.c) e colar no final do seu programa, mais ou menos assim:
-{% highlight c %}
-#include<stdio.h>
-double ran1(long int*);
-
-int main(void){
-/* Seu codigo */
-}
-double ran1(long int *idum){
-/* ... */
-}
-{% endhighlight %}
-
-Dessa forma você só precisa compilar o seu programa:
+* Chame a função `ran1` quantas vezes quiser, lembrando de indicar a região da memória da semente, por exemplo:
+```C
+double aleatorio = ran1(&semente);
 ```
-gcc SeuPrograma.c -o a.out
-clang SeuPrograma.c -o a.out
-```
+* Compile seu programa normalmente;
 
 ## ran1 em FORTRAN 90
 
