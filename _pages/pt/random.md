@@ -108,15 +108,15 @@ Usar a `ran1` em `c` é fácil. Simplesmente faça:
 wget -O ran1.c https://github.com/ismaeldamiao/avulsos/raw/master/c/rotinas/ran1.c
 ```
 * Utilize a seguinte macro, ela irá incluir a funcão `double ran1(long int *)` no seu programa:
-```C
+```c
 #include "ran1.c"
 ```
 * Declare uma variável `long int` para guardar a semente, que inicialmente deve ser negativa, por exemplo:
-```C
+```c
 long int semente = -1L;
 ```
 * Chame a função `ran1` quantas vezes quiser, lembrando de indicar a região da memória da semente, por exemplo:
-```C
+```c
 double aleatorio = ran1(&semente);
 ```
 * Compile seu programa normalmente;
