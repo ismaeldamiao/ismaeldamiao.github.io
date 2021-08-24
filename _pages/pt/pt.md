@@ -8,16 +8,6 @@ header:
   overlay_image: ./images/site.png
 ---
 
-Este site tem por objetivo:
-* Divulgar meu trabalho;
-* Compartilhar cadernos de anotações e experiências acadâmicas;
-* Compartilhar tutoriais sobre alguns temas de física computacional.
-
-Seu conteúdo abrange desde meios de programar, plotar gráficos, escrever artigo e relatórios até métodos de cálculo numérico.
-
-Como adicional, ofereço serviços de hospedagem para ganhar um extra.
-Interessado clique [aqui](/pt/servidores).
-
 ## Ismael Felipe Ferreira dos Santos
 
 **Nascimento**: Maceió, Alagoas, Brasil 09 de dezembro de 1999
@@ -29,3 +19,10 @@ Interessado clique [aqui](/pt/servidores).
 **Religião**: Católico
 
 **Política**: [Monarquista](https://monarquia.org.br/)
+
+IDs:
+* [Lattes](http://lattes.cnpq.br/1281887099263383)
+* [ResearcherID](https://publons.com/researcher/4644666/ismael-felipe-ferreira-dos-santos/)
+* [ORCID](https://orcid.org/0000-0002-6652-9295)
+* [Scorpus ID](https://www.scopus.com/authid/detail.uri?authorId=22979186900)
+* [Google Acadêmico](https://scholar.google.com/citations?user=RktjGkgAAAAJ)
