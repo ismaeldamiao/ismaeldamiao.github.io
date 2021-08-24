@@ -16,9 +16,9 @@ header:
 **Religião**: Católico  
 **Política**: [Monarquista](https://monarquia.org.br/)
 
-IDs:
-* [Lattes](http://lattes.cnpq.br/1281887099263383)
-* [ResearcherID](https://publons.com/researcher/4644666/ismael-felipe-ferreira-dos-santos/)
-* [ORCID](https://orcid.org/0000-0002-6652-9295)
-* [Scorpus ID](https://www.scopus.com/authid/detail.uri?authorId=22979186900)
-* [Google Acadêmico](https://scholar.google.com/citations?user=RktjGkgAAAAJ)
+IDs:  
+[**Lattes**](http://lattes.cnpq.br/1281887099263383)  
+[**ResearcherID**](https://publons.com/researcher/4644666/ismael-felipe-ferreira-dos-santos/)  
+[**ORCID**](https://orcid.org/0000-0002-6652-9295)  
+[**Scorpus ID**](https://www.scopus.com/authid/detail.uri?authorId=22979186900)  
+[**Google Acadêmico**](https://scholar.google.com/citations?user=RktjGkgAAAAJ)  
