@@ -10,14 +10,10 @@ header:
 
 ## Ismael Felipe Ferreira dos Santos
 
-**Nascimento**: Maceió, Alagoas, Brasil 09 de dezembro de 1999
-
-**Alma Mater**: [Universidade Federal de Alagoas](http://www.ufal.edu.br/ufal)
-
-**Orientador**: [Dr. Francisco Fidelis](http://200.17.113.231/~fidelis)
-
-**Religião**: Católico
-
+**Nascimento**: Maceió, Alagoas, Brasil 09 de dezembro de 1999  
+**Alma Mater**: [Universidade Federal de Alagoas](https://ufal.br/ufal)  
+**Orientador**: [Dr. Francisco Fidelis](http://200.17.113.231/~fidelis)  
+**Religião**: Católico  
 **Política**: [Monarquista](https://monarquia.org.br/)
 
 IDs:
