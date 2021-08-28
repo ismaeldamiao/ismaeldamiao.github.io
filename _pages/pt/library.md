@@ -38,6 +38,6 @@ title: "Biblioteca"
 
 ## Meus modelos e documentos LaTeX
 * Dos Santos, I. F. F. **Meu Currículo**
-   <a href="https://raw.githubusercontent.com/ismaeldamiao/modelo-latex/master/CV/main.pdf" style="font-size:90%"><button class="button button3">PDF</button></a>
-   <a href="https://github.com/ismaeldamiao/modelo-latex/blob/master/CV/main.tex" style="font-size:90%"><button class="button button1">TeX</button></a></p>
+   <a href="https://raw.githubusercontent.com/ismaeldamiao/modelo-latex/master/CV/main.pdf" style="font-size:90%"><button class="button button2">PDF</button></a>
+   <a href="https://github.com/ismaeldamiao/modelo-latex/blob/master/CV/main.tex" style="font-size:90%"><button class="button button1">TeX</button></a>
 * 
