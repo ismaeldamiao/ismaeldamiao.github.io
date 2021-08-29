@@ -36,8 +36,8 @@ title: "Biblioteca"
   * COULOMB, C. A. [Mémoires sur l’électricité et le magnétisme](https://archive.org/download/mmoiressurllectr00coul/mmoiressurllectr00coul.pdf) - PDF 20.7MB, Francês
 
 
-## Meus modelos e documentos LaTeX
+## Meus documentos e modelos LaTeX
+* Dos Santos, I. F. F. **Modelo de Relatório de Física Experimental**
+   <a href="https://www.overleaf.com/read/zwpkhfkffxgy" style="font-size:90%"><button class="button button1">TeX</button></a>
 * Dos Santos, I. F. F. **Meu Currículo**
-   <a href="https://raw.githubusercontent.com/ismaeldamiao/modelo-latex/master/CV/main.pdf" style="font-size:90%"><button class="button button2">PDF</button></a>
-   <a href="https://github.com/ismaeldamiao/modelo-latex/blob/master/CV/main.tex" style="font-size:90%"><button class="button button1">TeX</button></a>
-* 
+   <a href="https://www.overleaf.com/read/xjhghrzxqvky" style="font-size:90%"><button class="button button1">TeX</button></a>
