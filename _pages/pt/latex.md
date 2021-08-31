@@ -24,21 +24,21 @@ sudo zypper install texlive
 apt install -y texlive-full
 ```
 
-Depois, você deve baixar um [script](https://raw.githubusercontent.com/ismaeldamiao/scripts/master/tex2pdf.bash) para compilar os documento $\LaTeX$ mais facilmente, em um terminal digite:
+Depois, você deve baixar um [script](github.com/ismaeldamiao/modelo-latex/raw/master/tex2pdf) para compilar os documento $\LaTeX$ mais facilmente, em um terminal digite:
 
 ```bash
-wget -q https://raw.githubusercontent.com/ismaeldamiao/scripts/master/tex2pdf.bash
+wget -qO tex2pdf github.com/ismaeldamiao/modelo-latex/raw/master/tex2pdf
 ```
 
 E por fim, mova o script para um diretório `bin` e dê permissões de execussão, conforme os comandos abaixo.
 
 ```bash
 # No android (termux)
-mv tex2pdf.bash $PREFIX/bin/tex2pdf
+mv tex2pdf $PREFIX/bin/tex2pdf
 chmod 700 $PREFIX/bin/tex2pdf
 # Em qualquer outra distribuicao
 [ -d ~/bin ] || mkdir ~/bin
-mv tex2pdf.bash ~/bin/tex2pdf
+mv tex2pdf ~/bin/tex2pdf
 chmod 700 ~/bin/tex2pdf
 ```
 
