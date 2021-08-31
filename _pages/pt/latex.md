@@ -24,7 +24,7 @@ sudo zypper install texlive
 apt install -y texlive-full
 ```
 
-Depois, você deve baixar um [script](github.com/ismaeldamiao/modelo-latex/raw/master/tex2pdf) para compilar os documento $\LaTeX$ mais facilmente, em um terminal digite:
+Depois, você deve baixar um [script](https://github.com/ismaeldamiao/modelo-latex/raw/master/tex2pdf) para compilar os documento $\LaTeX$ mais facilmente, em um terminal digite:
 
 ```bash
 wget -qO tex2pdf github.com/ismaeldamiao/modelo-latex/raw/master/tex2pdf
