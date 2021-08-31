@@ -39,7 +39,7 @@ chmod 700 $PREFIX/bin/tex2pdf
 # Em qualquer outra distribuicao
 [ -d ~/bin ] || mkdir ~/bin
 mv tex2pdf ~/bin/tex2pdf
-chmod 700 ~/bin/tex2pdf
+chmod 755 ~/bin/tex2pdf
 ```
 
 ## Testando
