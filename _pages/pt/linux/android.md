@@ -60,7 +60,7 @@ back-key=back
 EOF
 termux-reload-settings
 # bashrc
-wget https://raw.githubusercontent.com/ismaeldamiao/scripts/master/.bashrc
+wget github.com/ismaeldamiao/How-to/raw/main/files/.bashrc
 ```
 
 ### Programando
