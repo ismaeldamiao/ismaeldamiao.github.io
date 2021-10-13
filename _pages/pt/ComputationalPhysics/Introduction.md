@@ -56,24 +56,36 @@ Algumas linguagens, desde a de mais baixo nível até a de mais alto nível.
   * Grátis e de código aberto (gnuplot License).
   * OS: Linux, Android, Windows
   * Baixe:
-   <a href="http://www.gnuplot.info/download.html"><button class="button bnt_green">Official</button></a>
+   <a href="http://www.gnuplot.info/download.html"><button class="button bnt_green">Oficial</button></a>
    <a href="http://www.gnuplot.info/download.html"><button class="button bnt_blue">Ubuntu</button></a>
    <a href="https://cygwin.com/install.html"><button class="button bnt_red">Windows</button></a>
 * **Grace**
   * Grátis e de código aberto (GPL).
   * OS: Linux, Android, Windows
   * Baixe:
-   <a href="https://plasma-gate.weizmann.ac.il/pub/grace/src/grace-latest.tar.gz"><button class="button bnt_green">Official</button></a>
+   <a href="https://plasma-gate.weizmann.ac.il/pub/grace/src/grace-latest.tar.gz"><button class="button bnt_green">Oficial</button></a>
    <a href="https://cygwin.com/install.html"><button class="button bnt_red">Windows</button></a>
 * **QtiPlot**
   * Demo grátis.
   * OS: Linux, Android, Windows
   * Baixe:
-   <a href="https://www.qtiplot.com/demo.html"><button class="button bnt_green">Official</button></a>
+   <a href="https://www.qtiplot.com/demo.html"><button class="button bnt_green">Oficial</button></a>
 * **GeoGebra**
   * Grátis.
   * OS: Linux, Android, Windows
   * Baixe:
-   <a href="https://www.geogebra.org/download"><button class="button bnt_green">Official</button></a>
+   <a href="https://www.geogebra.org/download"><button class="button bnt_green">Oficial</button></a>
 
+## Documentos
 
+Ferramentas gratuitas para escrever documentos.
+
+* **LaTeX**
+  * Você escreve códigos em um arquivo e, ao compilar os códigos, um documento em PDF é produzido.
+  * Alta qualidade e precisão.
+  * <a href="https://www.overleaf.com/"><button class="button bnt_red">Editor online</button></a>
+* **LibreOffice**
+  * Editor gráfico de documentos.
+  * Grátis e de código aberto (MPLv2.0).
+  * Baixe:
+   <a href="https://www.libreoffice.org/download/download/"><button class="button bnt_green">Oficial</button></a>
