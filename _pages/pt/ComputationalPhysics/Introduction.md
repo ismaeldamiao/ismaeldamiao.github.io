@@ -13,7 +13,7 @@ title: "Biblioteca"
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 100%;
+  font-size: 90%
   /* margin: 4px 2px; */
   cursor: pointer;
 }
