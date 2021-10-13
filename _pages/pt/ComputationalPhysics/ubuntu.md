@@ -48,5 +48,5 @@ chmod 700 install-tl
 
 Uma versão mais antiga, porém funcional, pode ser obtida simplesmente digitando como root o seguinte comando.
 ```bash
-apt install texlive-full
+apt install -y texlive-full
 ```
