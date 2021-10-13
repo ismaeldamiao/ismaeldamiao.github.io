@@ -45,17 +45,26 @@ Estes são os conhecimentos computacionais básicos que todo físico deve saber:
 
 * **gnuplot**
   * Grátis e de código aberto (gnuplot License).
-  * OS: Linux, Windows, Android [x]
+  * OS: Linux, Android, Windows
   * Baixe:
    <a href="http://www.gnuplot.info/download.html"><button class="button bnt_green">Official</button></a>
+   <a href="http://www.gnuplot.info/download.html"><button class="button bnt_blue">Ubuntu</button></a>
    <a href="https://cygwin.com/install.html"><button class="button bnt_red">Windows</button></a>
 * **Grace**
   * Grátis e de código aberto (GPL).
+  * OS: Linux, Android, Windows
+  * Baixe:
    <a href="https://plasma-gate.weizmann.ac.il/pub/grace/src/grace-latest.tar.gz"><button class="button bnt_green">Official</button></a>
    <a href="https://cygwin.com/install.html"><button class="button bnt_red">Windows</button></a>
 * **QtiPlot**
+  * Demo grátis.
+  * OS: Linux, Android, Windows
+  * Baixe:
    <a href="https://www.qtiplot.com/demo.html"><button class="button bnt_green">Official</button></a>
 * **GeoGebra**
+  * Grátis.
+  * OS: Linux, Android, Windows
+  * Baixe:
    <a href="https://www.geogebra.org/download"><button class="button bnt_green">Official</button></a>
 
 
