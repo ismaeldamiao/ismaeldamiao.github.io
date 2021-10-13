@@ -27,6 +27,9 @@ title: "Biblioteca"
 .button3 {background-color: #850000;} /* PDF, Red */
 .button4 {background-color: #b366ff;} /* Preprint, Purple */
 .button5 {background-color: #ff8080;} /* Code, Red */
+  
+ 
+.bnt_blue {background-color: #0092ca;} /* BibTeX, Blue */
 .bnt_red {background-color: #ff8080;} /* Code, Red */
 </style>
 </head>
