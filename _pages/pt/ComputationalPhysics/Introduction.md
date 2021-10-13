@@ -39,6 +39,11 @@ Estes são os conhecimentos computacionais básicos que todo físico deve saber:
 * Plotar gráficos.
 * Escrever documentos conforme as normas da ABNT.
 
+Esta página irá citar vários programas, veja as instruções para instalar eles:
+* <a href="/pt/ComputationalPhysics/Introduction/win">Windows</a>.
+* <a href="/pt/ComputationalPhysics/Introduction/ubuntu">Ubuntu</a> e derivados.
+* <a href="/pt/ComputationalPhysics/Introduction/android">Android</a> (Termux).
+
 ## Cálculo numérico
 
 O cálculo numérico é feito usando linguagens de programação.
@@ -47,8 +52,22 @@ Algumas linguagens, desde a de mais baixo nível até a de mais alto nível.
 
 * **C**
 * **Java**
+  * Uma vez que o código Java é compilado ele pode ser executado em qualquer dispositivo com uma JVM,
+sem necessidade de compilar novamente.
+  * Ideal para aplicativos de divulgação ou cálculos que não exigem muita dedicação
+de memória e processador.
 * **Fortran**
+  * Linguagem líder no meio físico.
+  * Feita especialmente para o cálculo numérico e científico.
+  * Fácil de aprender.
+  * Versões: Recomendo que estudes <a href="https://wg5-fortran.org/N001-N1100/N692.pdf">Fortran 90</a>
+ou <a href="https://wg5-fortran.org/N1151-N1200/N1191.pdf">Fortran 95</a>.
+  * Compilador: `gfortran`
+   <a href="https://cygwin.com/install.html"><button class="button bnt_red">Windows</button></a>
 * **Python**
+  * Intérprete: 
+
+Para instalar o compilador/intérprete de cada liguagem no Windows basta 
 
 ## Plotar gráficos
 
