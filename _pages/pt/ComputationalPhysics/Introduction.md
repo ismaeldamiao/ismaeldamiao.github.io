@@ -43,4 +43,4 @@ Estes são os conhecimentos computacionais básicos que todo físico deve saber:
 ## Meus documentos e modelos LaTeX
 * Dos Santos, I. F. F. **Modelo de Relatório de Física Experimental**
    <a href="https://www.overleaf.com/read/zwpkhfkffxgy" style="font-size:90%"><button class="button button1">TeX</button></a>
-   [Default Button Text](#link){: .button5}
+   [Default Button Text](#link){: .button .button5}
