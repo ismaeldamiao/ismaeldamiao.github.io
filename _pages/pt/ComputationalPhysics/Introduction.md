@@ -41,6 +41,15 @@ Estes são os conhecimentos computacionais básicos que todo físico deve saber:
 
 ## Cálculo numérico
 
+O cálculo numérico é feito usando linguagens de programação.
+
+Algumas linguagens, desde a de mais baixo nível até a de mais alto nível.
+
+* **C**
+* **Java**
+* **Fortran**
+* **Python**
+
 ## Plotar gráficos
 
 * **gnuplot**
