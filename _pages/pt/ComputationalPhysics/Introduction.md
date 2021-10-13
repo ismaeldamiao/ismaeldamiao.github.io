@@ -1,6 +1,6 @@
 ---
 permalink: /pt/ComputationalPhysics/Introduction
-title: "Biblioteca"
+title: "Introdução à Computação"
 ---
 <head>
 <style>
@@ -13,7 +13,7 @@ title: "Biblioteca"
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 100%;
+  font-size: 90%;
   /* margin: 4px 2px; */
   cursor: pointer;
 }
@@ -46,6 +46,5 @@ Estes são os conhecimentos computacionais básicos que todo físico deve saber:
 
 ## Meus documentos e modelos LaTeX
 * Dos Santos, I. F. F. **Modelo de Relatório de Física Experimental**
-   <a href="https://www.overleaf.com/read/zwpkhfkffxgy" style="font-size:90%"><button class="button button1">TeX</button></a>
-   [Default Button Text](#link){: .button .button5}
-   [Default Button](#link){: .button .bnt_blue}
+   <a href="https://www.overleaf.com/read/zwpkhfkffxgy"><button class="button bnt_blue">TeX</button></a>
+   <a href="https://www.overleaf.com/read/zwpkhfkffxgy"><button class="button bnt_red">TeX</button></a>
