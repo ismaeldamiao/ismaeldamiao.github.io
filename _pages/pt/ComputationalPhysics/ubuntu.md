@@ -3,7 +3,7 @@ permalink: /pt/ComputationalPhysics/Introduction/ubuntu
 title: "Pacotes básicos no Ubuntu"
 ---
 
-Está página contém instruções para instalação dos pacotes mostrados
+Esta página contém instruções para instalação dos pacotes mostrados
 em [/pt/ComputationalPhysics/Introduction](/pt/ComputationalPhysics/Introduction)
 no Ubuntu e em sistema baseados nele.
 
@@ -37,7 +37,7 @@ Com isso todos os programas foram instalados, exetuando `QtiPlot`, `GeoGebra` e 
 
 Para usar o LaTeX é possivel recorrer ao editor online [https://www.overleaf.com/](Overleaf). Caso queiras instalar
 um compilador LaTeX no seu Ubuntu sigua as instruções.
-* Baixe as imagens do texlive [https://mirrors.rit.edu/CTAN/systems/texlive/Images/](aqui).
+* Baixe uma imagem do texlive [https://mirrors.rit.edu/CTAN/systems/texlive/Images/](aqui).
 * Descomprima a imagem ISO em algum diretório e execute o arquivo `install-tl` digitando (como root)
 ```bash
 cd /diretorio/onde/vc/descomprimiu/a/ISO
