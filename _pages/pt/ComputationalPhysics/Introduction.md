@@ -40,9 +40,9 @@ Estes são os conhecimentos computacionais básicos que todo físico deve saber:
 * Escrever documentos conforme as normas da ABNT.
 
 Esta página irá citar vários programas, veja as instruções para instalar eles:
-* (/pt/ComputationalPhysics/Introduction/win)[Windows].
-* (/pt/ComputationalPhysics/Introduction/ubuntu)[Ubuntu] e derivados.
-* (/pt/ComputationalPhysics/Introduction/android)[Android] (Termux).
+* [Windows](/pt/ComputationalPhysics/Introduction/win).
+* [Ubuntu](/pt/ComputationalPhysics/Introduction/ubuntu) e derivados.
+* [Android](/pt/ComputationalPhysics/Introduction/android) (Termux).
 
 ## Cálculo numérico
 
