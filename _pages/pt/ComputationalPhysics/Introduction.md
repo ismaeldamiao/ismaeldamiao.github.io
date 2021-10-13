@@ -20,17 +20,12 @@ title: "Introdução à Computação"
 
 .button:hover {
   opacity: 0.5;
-}
-
-.button1 {background-color: #0092ca;} /* BibTeX, Blue */
-.button2 {background-color: #009200;} /* Article, Green */
-.button3 {background-color: #850000;} /* PDF, Red */
-.button4 {background-color: #b366ff;} /* Preprint, Purple */
-.button5 {background-color: #ff8080;} /* Code, Red */
-  
+} 
  
 .bnt_blue {background-color: #0092ca;} /* BibTeX, Blue */
-.bnt_red {background-color: #ff8080;} /* Code, Red */
+.bnt_red {background-color: #850000;} /* Code, Red */
+.bnt_green {background-color: #009200;} /* Article, Green */
+.bnt_purple {background-color: #b366ff;} /* Preprint, Purple */
 </style>
 </head>
 
@@ -44,7 +39,13 @@ Estes são os conhecimentos computacionais básicos que todo físico deve saber:
 * Plotar gráficos.
 * Escrever documentos conforme as normas da ABNT.
 
-## Meus documentos e modelos LaTeX
-* Dos Santos, I. F. F. **Modelo de Relatório de Física Experimental**
-   <a href="https://www.overleaf.com/read/zwpkhfkffxgy"><button class="button bnt_blue">TeX</button></a>
-   <a href="https://www.overleaf.com/read/zwpkhfkffxgy"><button class="button bnt_red">TeX</button></a>
+## Cálculo numérico
+
+## Plotar gráficos
+
+* gnuplot
+   <a href="http://www.gnuplot.info/download.html"><button class="button bnt_green">Official</button></a>
+   <a href="http://www.gnuplot.info/download.html"><button class="button bnt_blue">TeX</button></a>
+   <a href="http://www.gnuplot.info/download.html"><button class="button bnt_red">TeX</button></a>
+
+
