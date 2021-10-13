@@ -43,9 +43,17 @@ Estes são os conhecimentos computacionais básicos que todo físico deve saber:
 
 ## Plotar gráficos
 
-* gnuplot
+* **gnuplot**
+  * OS: Linux, Windows, Android
+  * Baixe:
    <a href="http://www.gnuplot.info/download.html"><button class="button bnt_green">Official</button></a>
-   <a href="http://www.gnuplot.info/download.html"><button class="button bnt_blue">TeX</button></a>
-   <a href="http://www.gnuplot.info/download.html"><button class="button bnt_red">TeX</button></a>
+   <a href="https://cygwin.com/install.html"><button class="button bnt_red">Windows</button></a>
+* **Grace**
+   <a href="https://www.geogebra.org/download"><button class="button bnt_green">Official</button></a>
+   <a href="https://cygwin.com/install.html"><button class="button bnt_red">Windows</button></a>
+* **QtiPlot**
+   <a href="https://www.qtiplot.com/demo.html"><button class="button bnt_green">Official</button></a>
+* **geoGebra**
+   <a href="https://www.geogebra.org/download"><button class="button bnt_green">Official</button></a>
 
-
+https://plasma-gate.weizmann.ac.il/pub/grace/src/grace-latest.tar.gz
