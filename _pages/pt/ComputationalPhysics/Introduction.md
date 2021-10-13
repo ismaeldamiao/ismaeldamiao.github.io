@@ -16,9 +16,6 @@ title: "Biblioteca"
   font-size: 90%
   /* margin: 4px 2px; */
   cursor: pointer;
-}
-
-.button:hover {
   opacity: 0.5;
 }
 
