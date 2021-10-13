@@ -35,9 +35,9 @@ ln -s /usr/bin/python3.9 /usr/bin/python
 
 Com isso todos os programas foram instalados, exetuando `QtiPlot`, `GeoGebra` e `TexLive`.
 
-Para usar o LaTeX é possivel recorrer ao editor online [https://www.overleaf.com/](Overleaf). Caso queiras instalar
+Para usar o LaTeX é possivel recorrer ao editor online [Overleaf](https://www.overleaf.com/). Caso queiras instalar
 um compilador LaTeX no seu Ubuntu sigua as instruções.
-* Baixe uma imagem do texlive [https://mirrors.rit.edu/CTAN/systems/texlive/Images/](aqui).
+* Baixe uma imagem do texlive [aqui](https://mirrors.rit.edu/CTAN/systems/texlive/Images/).
 * Descomprima a imagem ISO em algum diretório e execute o arquivo `install-tl` digitando (como root)
 ```bash
 cd /diretorio/onde/vc/descomprimiu/a/ISO
