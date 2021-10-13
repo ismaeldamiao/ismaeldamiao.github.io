@@ -13,9 +13,12 @@ title: "Biblioteca"
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 90%
+  font-size: 100%;
   /* margin: 4px 2px; */
   cursor: pointer;
+}
+
+.button:hover {
   opacity: 0.5;
 }
 
@@ -24,6 +27,7 @@ title: "Biblioteca"
 .button3 {background-color: #850000;} /* PDF, Red */
 .button4 {background-color: #b366ff;} /* Preprint, Purple */
 .button5 {background-color: #ff8080;} /* Code, Red */
+.bnt_red {background-color: #ff8080;} /* Code, Red */
 </style>
 </head>
 
@@ -41,3 +45,4 @@ Estes são os conhecimentos computacionais básicos que todo físico deve saber:
 * Dos Santos, I. F. F. **Modelo de Relatório de Física Experimental**
    <a href="https://www.overleaf.com/read/zwpkhfkffxgy" style="font-size:90%"><button class="button button1">TeX</button></a>
    [Default Button Text](#link){: .button .button5}
+   [Default Button](#link){: .btn .btn--small .bnt_red}
