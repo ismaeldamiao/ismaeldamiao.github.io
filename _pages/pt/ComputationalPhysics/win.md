@@ -7,26 +7,13 @@ Esta página contém instruções para instalação dos pacotes mostrados
 em [/pt/ComputationalPhysics/Introduction](/pt/ComputationalPhysics/Introduction)
 no Windows.
 
-## Visual Studio Code
+## GCC
 
-*Visual Studio Code* (VSC) é programa que facilita a escrita e compilação de códigos (IDE),
-iremos usar o VSC para escrever e compilar nossos programas.
+O GCC é um dos principais compiladores de C e Fontran que há, para
+instalar ele no Windowns precisaremos do MinGW.
 
-Primeiramente baixe o VSC em [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download),
-instale ele e abra-o.
-
-Uma vez aberto use o atalho `CTRL+P` do teclado para abrir a linha de comando,
-depois digite o comando abaico para adicionar suporte ao c.
-
-```
-ext install ms-vscode.cpptools
-```
-
-e o comando abaixo para adicionar suporte ao fortran.
-
-```
-ext install krvajalm.linter-gfortran
-```
+Baixe o MinGW em [https://sourceforge.net/projects/mingw/](https://sourceforge.net/projects/mingw/)
+abra ele e o instale.
 
 ## Grace
 
