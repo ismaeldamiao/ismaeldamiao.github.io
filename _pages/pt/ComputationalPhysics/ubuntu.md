@@ -7,6 +7,9 @@ Esta página contém instruções para instalação dos pacotes mostrados
 em [/pt/ComputationalPhysics/Introduction](/pt/ComputationalPhysics/Introduction)
 no Ubuntu e em sistema baseados nele.
 
+
+## GCC, gnuplot, Grace, Python, Java, LibreOffice
+
 Para instalar, basta seguir o script abaixo em um terminal com permissões de super usuário (root).
 
 ```bash
