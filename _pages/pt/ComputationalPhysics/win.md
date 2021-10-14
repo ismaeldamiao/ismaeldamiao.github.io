@@ -7,12 +7,20 @@ Esta página contém instruções para instalação dos pacotes mostrados
 em [/pt/ComputationalPhysics/Introduction](/pt/ComputationalPhysics/Introduction)
 no Windows.
 
-## GCC
+## Visual Studio Code
 
-https://docs.microsoft.com/pt-br/cpp
-https://code.visualstudio.com/Download
-MSVC
+*Visual Studio Code* (VSC) é programa que facilita a escrita e compilação de códigos (IDE),
+iremos usar o VSC para escrever e compilar nossos programas.
+
+Primeiramente baixe o VSC em [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)
+e instale ele.
+
+Uma ver aberto...
+
+```
 ext install krvajalm.linter-gfortran
+```
+
 ```C
 #include <stdio.h>
 
