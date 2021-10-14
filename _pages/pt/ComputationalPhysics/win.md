@@ -10,6 +10,29 @@ no Windows.
 ## GCC
 
 https://docs.microsoft.com/pt-br/cpp
+https://code.visualstudio.com/Download
+MSVC
+ext install krvajalm.linter-gfortran
+```C
+#include <stdio.h>
+
+int main(void){
+#if defined(__ANDROID_API__)
+   fprintf(stdout, "Android\n");
+#endif
+#if defined(__linux__)
+   fprintf(stdout, "Linux\n");
+#endif
+#if defined(_WIN32)
+   fprintf(stdout, "Windows\n");
+#endif
+#if defined(__APPLE__)
+   fprintf(stdout, "MAC OS\n");
+#endif
+   return 0;
+}
+```
+
 
 Iremos instalar o `MinGW`, ele contém os compiladores GCC (compiladores de c e Fortran).
 
