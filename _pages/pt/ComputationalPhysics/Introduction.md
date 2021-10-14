@@ -1,6 +1,9 @@
 ---
 permalink: /pt/ComputationalPhysics/Introduction
 title: "Introdução à Computação"
+toc: true
+toc_label: "Sumário"
+toc_icon: "file-alt"
 ---
 <head>
 <style>
