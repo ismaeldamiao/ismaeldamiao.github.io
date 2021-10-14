@@ -7,38 +7,27 @@ Esta página contém instruções para instalação dos pacotes mostrados
 em [/pt/ComputationalPhysics/Introduction](/pt/ComputationalPhysics/Introduction)
 no Windows.
 
-## GCC, gnuplot, Grace, Python
+## GCC
 
-Iremos instalar o `Cygwin`, ele emula um terminal com várias funções do linux.
+Iremos instalar o `MinGw`, ele contém os compiladores GCC (compiladores de c e Fortran).
 
-Primeiramente, vá ao site [https://cygwin.com/install.html](https://cygwin.com/install.html),
-baixe o instalador e execute ele. Você deve seguir com o processo normal de instalação
-até aparecer a tela *Choose A Download Site*, nela você irá escolher o servidor de sua preferência
-(pode ser qualquer um), se a lista estiver vazia escolha um [desta lista](https://cygwin.com/mirrors.html)
-(eu usei https://mirrors.sonic.net/cygwin/).
+Primeiramente, vá ao site [https://sourceforge.net/projects/mingw/](https://sourceforge.net/projects/mingw/),
+baixe o instalador e execute ele sigua normalmente com a instalação até aparecer uma tela como a da figura abaixo.
+Clique em *Basic Setup* e em todos os *Pakages* que aparecerem clique no quadradinho
+ao lado e em *Mark for Instalation*. Depois vá em *Installation* na parte superior e em *Apply Changes*.
 
-Continue com a instalação até a aparecer tela
-*Select Packages*. Na opção *View* deixe *full* e use a opção *Search* para pesquisar, agora
-pesquise e selecione (toque duas vezes sobre a palavra *Skip*) os seguintes pacotes:
-* `gcc-core`
-* `gcc-fortran`
-* Todos que começam com `gnuplot`
-* `python3`
-* `grace`
-* `xinit`
-* `xorg-server`
-* `nano`
+## Grace
 
-Agora basta continuar a instalação até o fim. Uma vez instalado pesquise
-no mení iniciar (ou cortana) por *XWin Server*, se quiser adcione um atalho para a área
-de trabalho. Executar o *XWin Server* deve criar barra de tarefas um ícone,
-use esse ícone para iniciar os programas do *Cygwin* ou o *Cygwin Terminal*.
+Para instalar o *Grace* baixe o arquivo em
+[https://sourceforge.net/projects/qtgrace/](https://sourceforge.net/projects/qtgrace/).
+Ele deve estar compactado como `zip`, você deve descompactar ele ir à
+pasta `bin` e executar o arquivo `qtfrace.exe`, se quiser crie um atalho para a área de trabalho.
 
 ## Java
 
 Para instalar o *OpenJDK* (implementação gratuita do Java) visite o site
 [https://docs.microsoft.com/pt-br/java/openjdk/download](https://docs.microsoft.com/pt-br/java/openjdk/download)
-e baixe o arquivo para Windows de extensão `msi`. Após isso basta executar o arquivo baixado.
+e baixe o arquivo para Windows de extensão `msi`. Após isso basta executar o arquivo baixado e seguir com a instalação.
 
 ## LibreOffice
 
