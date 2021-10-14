@@ -33,3 +33,15 @@ Agora basta continuar a instalação até o fim. Uma vez instalado pesquise
 no mení iniciar (ou cortana) por *XWin Server*, se quiser adcione um atalho para a área
 de trabalho. Executar o *XWin Server* deve criar barra de tarefas um ícone,
 use esse ícone para iniciar os programas do *Cygwin* ou o *Cygwin Terminal*.
+
+## Java
+
+Para instalar o *OpenJDK* (implementação gratuita do Java) visite o site
+[https://docs.microsoft.com/pt-br/java/openjdk/download](https://docs.microsoft.com/pt-br/java/openjdk/download)
+e baixe o arquivo para Windows de extensão `msi`. Após isso basta executar o arquivo baixado.
+
+## LibreOffice
+
+Para instalar o LibreOffice basta visitar o site
+[https://www.libreoffice.org/download/download/](https://www.libreoffice.org/download/download/),
+baixar e instalar.
