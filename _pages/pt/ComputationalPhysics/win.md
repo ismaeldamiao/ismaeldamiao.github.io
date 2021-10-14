@@ -23,6 +23,10 @@ Depois vá a aba *Installation* a clique em *Apply Changes*.
 Depois que a instalação terminar verifique se o GCC está instalado
 digitando no prompt de comando `gcc --version`.
 
+Se, por acaso, aparecer que o comando não é reconhecido vá até o `Painel de Controle`
+→ `Sistema e Segurança` → `Sistema` → `Configurações Avançadas do Sistema` →
+`Variáveis de Ambiente` → `Path` → `Editar` → `Novo` e coloque `C:\MinGW\bin`.
+
 ## Grace
 
 Para instalar o *Grace* baixe o arquivo em
