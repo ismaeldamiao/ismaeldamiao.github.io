@@ -9,10 +9,12 @@ no Windows.
 
 ## GCC
 
-Iremos instalar o `MinGw`, ele contém os compiladores GCC (compiladores de c e Fortran).
+https://docs.microsoft.com/pt-br/cpp
+
+Iremos instalar o `MinGW`, ele contém os compiladores GCC (compiladores de c e Fortran).
 
 Primeiramente, vá ao site [https://sourceforge.net/projects/mingw/](https://sourceforge.net/projects/mingw/),
-baixe o instalador e execute ele sigua normalmente com a instalação até aparecer uma tela como a da figura abaixo.
+baixe o instalador e execute ele siga normalmente com a instalação até aparecer uma tela como a da figura abaixo.
 Clique em *Basic Setup* e em todos os *Pakages* que aparecerem clique no quadradinho
 ao lado e em *Mark for Instalation*. Depois vá em *Installation* na parte superior e em *Apply Changes*.
 
