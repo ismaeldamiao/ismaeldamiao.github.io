@@ -15,6 +15,14 @@ instalar ele no Windowns precisaremos do MinGW.
 Baixe o MinGW em [https://sourceforge.net/projects/mingw/](https://sourceforge.net/projects/mingw/)
 abra ele e o instale.
 
+Quando aparecer uma tela como a da imagem abaixo, clique em *Basic Setup* (à esquerda)
+depois selecione um dos programas que aparecem ao lado e na aba
+*Package* (acima) selecione *Mark for Installation*, marque todos os pacotes que apareceram.
+Depois vá a aba *Installation* a clique em *Apply Changes*.
+
+Depois que a instalação terminar verifique se o GCC está instalado
+digitando no prompt de comando `gcc --version`.
+
 ## Grace
 
 Para instalar o *Grace* baixe o arquivo em
