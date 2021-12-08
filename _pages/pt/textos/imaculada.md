@@ -1,11 +1,13 @@
 ---
 permalink: /pt/textos/imaculada/
-title: "Física Computacional"
+title: "A Puríssima e Imaculada Conceição de Nossa Senhora"
 ---
 
-# A Puríssima e Imaculada Conceição de Nossa Senhora
+“”
 
 “Uma, porém, é a minha pomba, uma só a minha **imaculada**; ela é a única de sua mãe, a predileta daquela que a deu à luz. Ao vê-la, as donzelas proclamam-na bem-aventurada, rainhas e concubinas a louvam.” -- Santo Salomão, Rei.
+
+Desde a profecia feita pelo próprio Deus de que *haveria inimizade entre a serpente e a descendência da Mulher e esta lhe pisaria a cabeça* os juízes, profetas e reis louvam a mulher haveria de dar a salvação, que a daria para nós como uma árvore nos dá frustos e sementes. Exemplos disso são os textos escritos pelos santos Moisés e Salomão, Moisés diz que construiu uma “uma arca de madeira **incorruptível**”, entretanto nada feito por mãos humanas nem nada feito de madeira poderia ser incorruptível, já Salomão diz que sua amada é imaculada, entretanto não há poderia a amante do rei ser verdadeiramente imaculada. É claro que a arca e a sulamita são símbolos, símbolos de uma Mulher Imaculada, Esposa do Rei, simbilos de alguém Incorruptível, que não é Deus mas trás a preseça de Deus consigo e, pela profecia, mãe dAquele que é a salvação e Aquela que há de pisar na cabeça da serpente. Os prórpios menssageiros celestes louvam à Imaculada, São Gabriel soudou-nA “cheia de graça”, ora é por graça ,de Deus e não por nossos próprios méritos, que somos presenvados do pequado, a plenutude da graça portanto preservou a Virgem Maria de todo o pecado.
 
 ## Até o ano de 100 de Nosso Senhor
 
@@ -31,6 +33,8 @@ Desde então a Imaculada foi proclamada patrona dos terços e em 12 de novembro 
 
 ## La Salet, o dogma e Lourdes
 
+Ao que a Mulher respondeu “Eu sou A Imaculada Conceição”.
+
 ## Referências
 
 * https://www.abc.es/historia-militar/20130817/abci-milagro-batalla-empel-201308151733.html
@@ -42,3 +46,15 @@ https://www.cope.es/religion/vivir-la-fe/cultura-y-fe/noticias/dia-inmaculada-mi
 https://heresiasrefutadas.blogspot.com/2016/02/santo-agostinho-e-imaculada-conceicao.html
 
 https://agencia.ecclesia.pt/portal/imaculada-conceicao-solenidade-religiosa-que-evoca-a-historia-de-portugal/
+
+## another
+
+“Uma, porém, é a minha pomba, uma só a minha **imaculada**; ela é a única de sua mãe, a predileta daquela que a deu à luz. Ao vê-la, as donzelas proclamam-na bem-aventurada, rainhas e concubinas a louvam.” -- Santo Salomão, Rei.
+
+Desde a profecia feita pelo próprio Deus de que *haveria inimizade entre a serpente e a descendência da Mulher e esta lhe pisaria a cabeça* os juízes, profetas e reis louvam à mulher que haveria de dar a salvação, que a daria para nós como uma árvore nos dá frutos e sementes. Exemplos disso são os textos escritos pelos santos Moisés e Salomão, Moisés diz que construiu uma “uma arca de madeira **incorruptível**”, entretanto nada feito por mãos humanas nem nada feito de madeira poderia ser incorruptível, já Salomão diz que sua amada é imaculada, entretanto não poderia a amante do rei ser verdadeiramente imaculada. É claro que a arca e a sulamita são símbolos, símbolos de uma Mulher Imaculada, Esposa do Rei, símbolos de alguém Incorruptível, que não é Deus mas trás a presença de Deus consigo e, pela profecia, mãe dAquele que é a salvação e Aquela que há de pisar na cabeça da serpente. Os próprios mensageiros celestes louvam à Imaculada, São Gabriel soudou-nA “cheia de graça”, ora é por graça de Deus, e não por nossos próprios méritos, que somos preservados do pecado, a plenitude da graça portanto preservou a Virgem Maria de todo o pecado.
+
+Foi em Coimbra que por primeira vez se celebrou a Conceição de Maria em 8 de dezembro de 1320, já em 1385 o Santo Condestável fez erguer em Vila Viçosa uma igreja dedicada à Nossa Senhora da Conceição e depois tirou a coroa de sua cabeça e a dedicou à Conceição, nascia assim em Portugal a data que hoje se celebra, nove meses antes da data da natividade de Nossa Senhora, mostrando que não é pela força do dogma mas pela fé de sempre que os católicos acreditam que a Virgem é Imaculada desde a sua concepção, de fato o grande debate teológico antes da proclamação do dogma era se Maria havia sido preservada do pecado original já no momento da concepção ou em outro momento, pois ninguém jamais duvidou que Maria nunca cometeu pecado algum, nem mortal nem venial. A devoção é tão antiga que no século III (S. João morreu no ano 100, último do séc. I) Santo Efrém já aformou que somente Jesus e Maria eram limpos e puros de toda mancha do pecado. Com o avanço das heresias a cristandade foi levada a defender de maneira rigorosa a Imaculada Conceição, em 1497 as universidades de Paris, Coimbra e Évora passaram a exigir que seus catedráticos jurassem solenemente defender a Imaculada Conceição.
+
+Além de Portugal, outro grande defensor da Imaculada Conceição foi a Espanha. Tal devoção começou com o Milagre de Empel. Quando, no dia 7 de dezembro de 1585, vésperas da festividade da Conceição de Nossa Senhora, soldados espanhóis estavam encurralados pelos protestantes holandeses no monte de Empel, ilha de Bommel, foram enviados mensageiros oferecendo rendição, ao que os espanhóis responderam “**¡Não JAMAIS! Falaremos de rendição depois de mortos**”, os soldados então se confessaram, comungaram e alguém pediu a extrema unção, só restava morrer como morre um bom espanhol, a saber, levando consigo tantos protestantes quanto puder. Foi quando um soldado, ao cavar uma trincheira, achou a imagem da Imaculada Conceição pintada em um pedaço de madeira, eles então limparam a imagem, fizeram um altar e se mandou rezar Missa em honra à Imaculada, ao fim o comandante desembainhou sua espada e disse olhando nos olhos dos seus homens “**A Divina Providência está conosco e Nossa Senhora nos protegerá, em Suas mãos puríssimas entregamos nossas almas**”. Naquela manhã se levantou um vento gélido e o rio congelou, e enquanto congelava os barcos inimigos rumaram uns ao mar outros outros rio acima. Os primeiros raios de luz da alvorada chegaram furiosos sobre o rio congelado e sobre a tropa que avançava pelo gelo contra o protestantes, os inimigos então fugiram. A vitória foi tal que os holandeses afirmaram que ”Deus é espanhol”.
+
+O caminho para a proclamação do dogma contudo vai aproximar-se ao fim em 27 de novembro de 1830 quando a Virgem Maria manda Santa Catarina fazer cunhar uma medalha com os dizeres “*Oh Maria, **concebida sem pecado**, rogai por nós que recorremos a vós*”, tais foram os milagres realizados por intermédio dessas medalhas que os poucos hereges (fora os protestantes) que ainda duvidavam da Imaculada Conceição se calaram. Finalmente em 8 de dezembro de 1854 o Papa Pio IX proclama para todas a igreja de Cristo a doutrina de que a Virgem Maria foi preservada, por uma graça especial, de todo o pecado, original e atual, já no momento de sua concepção, é uma verdade revelada por Deus e que deve ser crida e defendida por todo Cristão. Finalmente, até como um ato de demostrada gratidão, diria eu, em 25 de março de 1858 a Virgem Maria manda a menina Santa Bernadete dizer que “Eu sou A **Imaculada Conceição**”.
