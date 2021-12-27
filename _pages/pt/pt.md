@@ -31,8 +31,3 @@ por hora falta-me inspiração para relatar qualquer fato que possa causar o int
 [**Scorpus ID**](https://www.scopus.com/authid/detail.uri?authorId=22979186900)  
 [**Google Acadêmico**](https://scholar.google.com/citations?user=RktjGkgAAAAJ)
 
-
-## Tutoriais
-
-**ATENÇÃO**: sessão em construção.
-
