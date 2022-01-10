@@ -13,7 +13,7 @@ feature_row:
     excerpt: "Veja nessa página alguns conselhos, links e tutoriais que podem ser úteis."
     url: "/pt/ComputationalPhysics/"
     btn_class: "btn--primary"
-    btn_label: "Veja mais"
+    btn_label: "Saiba mais"
   - image_path: https://github.com/mmistakes/minimal-mistakes/raw/master/docs/assets/images/350x250.png
     title: "Biblioteca"
     excerpt: "Página com links para leituras acadêmicas."
@@ -21,6 +21,8 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Saiba mais"
 ---
+
+{% include feature_row %}
 
 ## Quem sou eu?
 
@@ -41,5 +43,3 @@ por hora falta-me inspiração para relatar qualquer fato que possa causar o int
 [**ORCID**](https://orcid.org/0000-0002-6652-9295)  
 [**Scorpus ID**](https://www.scopus.com/authid/detail.uri?authorId=22979186900)  
 [**Google Acadêmico**](https://scholar.google.com/citations?user=RktjGkgAAAAJ)
-
-{% include feature_row %}
