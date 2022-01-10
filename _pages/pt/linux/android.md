@@ -1,6 +1,7 @@
 ---
 permalink: /pt/linux/android/
 title: "Android"
+layout: archive
 toc: true
 toc_label: "Sumário"
 toc_icon: "file-alt"
