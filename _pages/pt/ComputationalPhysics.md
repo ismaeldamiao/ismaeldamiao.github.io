@@ -13,9 +13,8 @@ layout: archive
 
 ## Tópicos de Física Computacional
 
-<p style="font-size:70%"><b>Introdução à Física Computacional</b>
-   <br><b>I. F. F. Dos Santos</b>
-   <br><i>Physica A: Statistical Mechanics and its Applications</i>, 2020.
+<p style="font-size:70%"><i>Apostila:</i> <b>Introdução à Física Computacional</b>
+   <br><b>I. F. F. Dos Santos</b> 2020.
    <a href="https://github.com/ismaeldamiao/Apostila_de_IFC" style="font-size:90%"><button class="button button2">Código fonte</button></a>
    <a href="https://github.com/ismaeldamiao/Apostila_de_IFC/releases/download/v1.1.0/Apostila_de_IFC.pdf" style="font-size:90%"><button class="button button3">PDF</button></a></p>
 
