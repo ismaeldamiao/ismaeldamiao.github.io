@@ -4,9 +4,7 @@ title: ""
 excerpt: "Católico, monarquista e amante de física"
 author_profile: true
 sidebar: true
-toc: true
-toc_label: "Sumário"
-toc_icon: "file-alt"
+layout: archive
 header:
   overlay_image: ./images/site.png
 ---
@@ -31,3 +29,4 @@ por hora falta-me inspiração para relatar qualquer fato que possa causar o int
 [**Scorpus ID**](https://www.scopus.com/authid/detail.uri?authorId=22979186900)  
 [**Google Acadêmico**](https://scholar.google.com/citations?user=RktjGkgAAAAJ)
 
+{% include feature_row %}
