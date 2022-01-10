@@ -7,6 +7,19 @@ sidebar: true
 layout: archive
 header:
   overlay_image: ./images/site.png
+feature_row:
+  - image_path: https://github.com/mmistakes/minimal-mistakes/raw/master/docs/assets/images/350x250.png
+    title: "Física Computacional"
+    excerpt: "Veja nessa página alguns conselhos, links e tutoriais que podem ser úteis."
+    url: "/pt/ComputationalPhysics/"
+    btn_class: "btn--primary"
+    btn_label: "Veja mais"
+  - image_path: https://github.com/mmistakes/minimal-mistakes/raw/master/docs/assets/images/350x250.png
+    title: "Biblioteca"
+    excerpt: "Página com links para leituras acadêmicas."
+    url: "/pt/library/"
+    btn_class: "btn--primary"
+    btn_label: "Saiba mais"
 ---
 
 ## Quem sou eu?
