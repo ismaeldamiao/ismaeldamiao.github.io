@@ -1,6 +1,7 @@
 ---
 permalink: /pt/ComputationalPhysics/gnuplot/
 title: "Usando o GNUplot para plotar grágicos"
+layout: archive
 toc: true
 toc_label: "Sumário"
 toc_icon: "file-alt"
