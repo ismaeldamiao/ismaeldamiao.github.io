@@ -1,6 +1,7 @@
 ---
 permalink: /pt/library/
 title: "Biblioteca"
+layout: archive
 ---
 <head>
 <style>
