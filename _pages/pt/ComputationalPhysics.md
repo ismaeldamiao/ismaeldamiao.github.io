@@ -1,6 +1,7 @@
 ---
 permalink: /pt/ComputationalPhysics/
 title: "Física Computacional"
+layout: archive
 ---
 
 ## Programação, SO Linux e mais
