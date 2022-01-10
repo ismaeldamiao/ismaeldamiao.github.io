@@ -1,6 +1,7 @@
 ---
 permalink: /pt/linux/softwares/
 title: "Linux"
+layout: archive
 toc: true
 toc_label: "Sumário"
 toc_icon: "file-alt"
