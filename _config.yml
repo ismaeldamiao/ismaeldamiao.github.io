@@ -3,8 +3,8 @@
 # Este é o arquivo de configuração da sua página web
 
 # Site Settings
-#theme                    : minimal-mistakes-jekyll # Use este para hopedar o site localmente
-remote_theme             : "mmistakes/minimal-mistakes@4.20.2" # Use este para hospedar o site no GitHub
+theme                    : minimal-mistakes-jekyll # Use este para hopedar o site localmente
+#remote_theme             : "mmistakes/minimal-mistakes@4.20.2" # Use este para hospedar o site no GitHub
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 locale                   : "pt-BR"
 title                    : "Ismael Damião"
@@ -13,33 +13,13 @@ name                     : &name "Ismael Damião"
 description              : &description "Bacharelando em física"
 url                      : https://ismaeldamiao.github.io  # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "ismaeldamiao.github.io"
+repository               : "ismaeldamiao/ismaeldamiao.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "enabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
-
-# 
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-atom_feed:
-  path                   : # blank (default) uses feed.xml
 
 # Site Author
 author:
@@ -249,36 +229,20 @@ defaults:
       author_profile: true
       share: false
 
-
-comments:
-  provider: "facebook"
-  facebook:
-    appid:
-    num_posts: 10
-    colorscheme: "dark"
-
 scholar:
   ## my own style , without index numbers at the bigginning, disable initials for authors
-   style: ./_sass/my_ieee.csl
+   style: ./_sass/bibtex.csl
    locale: en
-
-
    sort_by: year
    order: descending
-
    source: ./_bibliography
    bibliography: references
    bibliography_template: bibtemplate
-
-
-
    use_raw_bibtex_entry: true
    replace_strings: true
-
    #details_dir:    bibliography
    #details_layout: bibtex.html
    #details_link:   Details
-
    query: "@*"
 
 

@@ -22,7 +22,7 @@ Este é o repositório do site [https://ismaeldamiao.github.io/](https://ismaeld
 
 No ubuntu
 ```bash
-sudo apt install jekyll ruby-dev ruby-bundler nodejs
+sudo apt install ruby-dev ruby-bundler nodejs
 gem update --system
 sudo gem install \
   minimal-mistakes-jekyll \
@@ -36,7 +36,7 @@ sudo gem install \
   jekyll-gist \
   jekyll-feed \
   jekyll-seo-tag \
-  jemoji unicode bundler json wdm hawkins
+  jemoji unicode bundler json wdm hawkins mercenary
 ```
 
 #### Opção 1: Usando template
