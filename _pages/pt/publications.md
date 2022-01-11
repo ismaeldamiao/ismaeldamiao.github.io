@@ -16,4 +16,4 @@ toc_icon: "cog"
 
 ## Test
 
-{% bibliography -q @article %}
+{% bibliography --file articles --cited_in_order %}
