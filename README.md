@@ -41,10 +41,27 @@ sudo gem install \
 
 #### Opção 1: Usando template
 
-Ainda estou preparanto o template.
+Primeiro baixe um dos repositórios que usei como modelo ou baixe este repositório.
 
-```bash
-bundle install
+Por exemplo, para baixar esse repositório usando o `git` faça
+
+```
+git clone https://github.com/ismaeldamiao/ismaeldamiao.github.io.git
+```
+
+Depois use os seguintes comandos para executar o site no seu computador
+
+```
+sudo bundle update
+sudo bundle clean --force
+sudo bundle install
+sudo bundle exec jekyll serve
+```
+
+Vá ao navegador e acesse
+
+```
+http://localhost:4000/
 ```
 
 #### Opção 2: Manualmente
