@@ -12,4 +12,6 @@ toc_icon: "cog"
 
 ## Artigos
 
-{% bibliography -q @article %}
+{% include bib.html %}
+
+
