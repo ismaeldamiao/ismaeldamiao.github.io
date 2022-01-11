@@ -13,7 +13,3 @@ toc_icon: "cog"
 ## Artigos
 
 {% include bib.html %}
-
-## Test
-
-{% bibliography --file articles --cited_in_order %}
