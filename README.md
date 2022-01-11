@@ -7,10 +7,14 @@ Este é o repositório do site [https://ismaeldamiao.github.io/](https://ismaeld
 
 ## Repositorios base e tutoriais
 
-* [academicpages](https://github.com/academicpages/academicpages.github.io)
-* [Yu Zhang](https://github.com/tesschin/yuzhangbit.github.io)
-* [academicpages](https://academicpages.github.io/markdown/)
-* [Ismael Damião](https://ismaeldamiao.github.io/pt/markdown)
+* GitHub
+  * [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)
+  * [academicpages](https://github.com/academicpages/academicpages.github.io)
+  * [Yu Zhang](https://github.com/tesschin/yuzhangbit.github.io)
+* Pages
+  * [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/collection-archive/)
+  * [academicpages](https://academicpages.github.io/markdown/)
+  * [Ismael Damião](https://ismaeldamiao.github.io/pt/markdown)
 
 ## Criando seu site
 
@@ -18,12 +22,30 @@ Este é o repositório do site [https://ismaeldamiao.github.io/](https://ismaeld
 
 No ubuntu
 ```bash
-sudo gem install minimal-mistakes-jekyll unicode jekyll-scholar jekyll-seo-tag jekyll bundler json jekyll-paginate github-pages wdm liquid
+sudo apt install jekyll ruby-dev ruby-bundler nodejs
+gem update --system
+sudo gem install \
+  minimal-mistakes-jekyll \
+  github-pages \
+  liquid \
+  jekyll \
+  jekyll-seo-tag \
+  jekyll-paginate \
+  jekyll-scholar \
+  jekyll-sitemap \
+  jekyll-gist \
+  jekyll-feed \
+  jekyll-seo-tag \
+  jemoji unicode bundler json wdm hawkins
 ```
 
 #### Opção 1: Usando template
 
 Ainda estou preparanto o template.
+
+```bash
+bundle install
+```
 
 #### Opção 2: Manualmente
 
