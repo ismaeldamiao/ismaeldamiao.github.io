@@ -1,6 +1,8 @@
 pt:
   - title: "Biblioteca"
     url: /pt/library/
+  - title: "Blog"
+    url: /pt/blog/posts/
   - title: "Publicações"
     url: /pt/publications/
 
