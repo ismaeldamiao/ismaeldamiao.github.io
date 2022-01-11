@@ -13,3 +13,7 @@ toc_icon: "cog"
 ## Artigos
 
 {% include bib.html %}
+
+## Test
+
+{% bibliography -q @article %}
