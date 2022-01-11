@@ -1,57 +1,72 @@
-<head>
-<style>
-.button {
-  border: none;
-  border-radius: 4px;
-  border-color: none;
-  color: white;
-  padding: 2px 6px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 100%;
-  /* margin: 4px 2px; */
-  cursor: pointer;
+* I. F. F. dos Santos, M. O. Sales, A. Ranciaro Neto, F. A. B. F. de Moura.
+**Delocalization and energy dynamics in a one-dimensional disordered nonlinear lattice**.
+*Physica A: Statistical Mechanics and its Applications*,
+v. 560, p. 125126, 2020.  
+<a href="https://doi.org/10.1016/j.physa.2020.125126"><button class="btn doibtn">Article</button></a>
+<a href="http://200.17.113.231/~fidelis/physa125126.pdf"><button class="btn pdfbtn">PDF</button></a>
+<button class="btn bibtexbtn" onclick="Show(a1)">bibTeX</button>
+<div id="a1" style="display: none;">
+{% highlight latex %}
+@article{DOSSANTOS2020125126,
+title = {Delocalization and energy dynamics in a one-dimensional disordered nonlinear lattice},
+journal = {Physica A: Statistical Mechanics and its Applications},
+volume = {560},
+pages = {125126},
+year = {2020},
+issn = {0378-4371},
+doi = {https://doi.org/10.1016/j.physa.2020.125126},
+url = {https://www.sciencedirect.com/science/article/pii/S0378437120305896},
+author = {I. F. F. {dos Santos} and M. O. Sales and A. {Ranciaro Neto} and F. A. B. F. {de Moura}},
+keywords = {Nonlinearity, Correlated disorder, Localization},
+abstract = {We investigate the vibrational energy dynamics in classical nonlinear lattices with correlated random masses following a Fractionary Brownian motion sequence with power law spectrum proportional to k−α . In the absence of cubic interaction (the harmonic limit), we numerically demonstrate the existence of ballistic energy propagation at the limit of strong correlations (α>2). Calculations were done using numerical solution of the Hamilton’s equations. When the cubic nonlinear interaction is added to our model, computation reveals the possibility of solitonic modes at the limit of strong correlations.}
 }
-
-.button:hover {
-  opacity: 0.5;
+{% endhighlight %}
+</div>
+* I. F. F. dos Santos, G. M. A. Almeida, F. A. B. F. de Moura.
+**Adaptive SIR model for propagation of SARS-CoV-2 in Brazil**.
+*Physica A: Statistical Mechanics and its Applications*,
+v. 569, p. 125773, 2021.  
+<a href="https://doi.org/10.1016/j.physa.2021.125773"><button class="btn doibtn">Article</button></a>
+<a href="http://200.17.113.231/~fidelis/physicaAcovid.pdf"><button class="btn pdfbtn">PDF</button></a>
+<button class="btn bibtexbtn" onclick="Show(a2)">bibTeX</button>
+<div id="a2" style="display: none;">
+{% highlight latex %}
+@article{DOSSANTOS2021125773,
+title = {Adaptive SIR model for propagation of SARS-CoV-2 in Brazil},
+journal = {Physica A: Statistical Mechanics and its Applications},
+volume = {569},
+pages = {125773},
+year = {2021},
+issn = {0378-4371},
+doi = {https://doi.org/10.1016/j.physa.2021.125773},
+url = {https://www.sciencedirect.com/science/article/pii/S0378437121000455},
+author = {I. F. F. {dos Santos} and G. M. A. Almeida and F. A. B. F. {de Moura}},
+keywords = {SARS-CoV-2, SIR, Epidemic dynamics},
+abstract = {We study the spreading of SARS-CoV-2 in Brazil based on official data available since March 22, 2020. Calculations are done via an adaptive susceptible–infected–removed (SIR) model featuring dynamical recuperation and propagation rates. We are able reproduce the number of confirmed cases over time with less than 5% error and also provide with short- and long-term predictions. The model can also be used to account for the epidemic dynamics in other countries with great accuracy.}
 }
-
-.button1 {background-color: #0092ca;} /* BibTeX, Blue */
-.button2 {background-color: #009200;} /* Article, Green */
-.button3 {background-color: #850000;} /* PDF, Red */
-.button4 {background-color: #b366ff;} /* Preprint, Purple */
-.button5 {background-color: #ff8080;} /* Code, Red */
-</style>
-</head>
-
-<!--
-NOVO ARTIGO
--->
-<p style="font-size:70%"><b>Delocalization and energy dynamics in a one-dimensional disordered nonlinear lattice</b>
-   <br><b>I. F. F. Dos Santos</b>, M. O. Sales, A. Ranciaro Neto, F. A. B. F. de Moura
-   <br><i>Physica A: Statistical Mechanics and its Applications</i>, 2020.
-   <a href="https://www.sciencedirect.com/science/article/pii/S0378437120305896" style="font-size:90%"><button class="button button2">Article</button></a>
-   <a href="http://200.17.113.231/~fidelis/physa125126.pdf" style="font-size:90%"><button class="button button3">PDF</button></a>
-   <a href="/assets/bibs/DOSSANTOS2020125126.bib" style="font-size:90%"><button class="button button1">BibTeX</button></a></p>
-
-<!--
-NOVO ARTIGO
--->
-<p style="font-size:70%"><b>Evolution of SARS-CoV-2 in the state of Alagoas-Brazil via an adaptive SIR model</b>
-   <br><b>I. F. F. Dos Santos</b>, G. M. A. Almeida, F. A. B. F. De Moura
-   <br><i>International Journal of Modern Physics C</i>, 2020.
-   <a href="https://doi.org/10.1142/S0129183121500406" style="font-size:90%"><button class="button button2">Article</button></a>
-   <a href="http://200.17.113.231/~fidelis/ijmpccovid2021.pdf" style="font-size:90%"><button class="button button3">PDF</button></a>
-   <a href="/assets/bibs/DOSSANTOS202012150040.bib" style="font-size:90%"><button class="button button1">BibTeX</button></a></p>
-
-<!--
-NOVO ARTIGO
--->
-<p style="font-size:70%"><b>Adaptive SIR model for propagation of SARS-CoV-2 in Brazil</b>
-   <br><b>I. F. F. Dos Santos</b>, G. M. A. Almeida, F. A. B. F. De Moura
-   <br><i>Physica A: Statistical Mechanics and its Applications</i>, 2020.
-   <a href="https://www.sciencedirect.com/science/article/pii/S0378437121000455" style="font-size:90%"><button class="button button2">Article</button></a>
-   <a href="http://200.17.113.231/~fidelis/physicaAcovid.pdf" style="font-size:90%"><button class="button button3">PDF</button></a>
-   <a href="/assets/bibs/DOSSANTOS2021125773.bib" style="font-size:90%"><button class="button button1">BibTeX</button></a></p>
+{% endhighlight %}
+</div>
+* I. F. F. dos Santos, G. M. A. Almeida, F. A. B. F. de Moura.
+**Evolution of SARS-CoV-2 in the state of Alagoas-Brazil via an adaptive SIR model**.
+*International Journal of Modern Physics C*,
+v. 32, p. 2150040, 2021.  
+<a href="https://doi.org/10.1142/S0129183121500406"><button class="btn doibtn">Article</button></a>
+<a href="http://200.17.113.231/~fidelis/physicaAcovid.pdf"><button class="btn pdfbtn">PDF</button></a>
+<button class="btn bibtexbtn" onclick="Show(a3)">bibTeX</button>
+<div id="a3" style="display: none;">
+{% highlight latex %}
+@article{DOSSANTOS2021500406,
+author = {I. F. F. {dos Santos} and G. M. A. Almeida and F. A. B. F. {De Moura}},
+title = {Evolution of SARS-CoV-2 in the state of Alagoas-Brazil via an adaptive SIR model},
+journal = {International Journal of Modern Physics C},
+volume = {32},
+number = {03},
+pages = {2150040},
+year = {2021},
+doi = {10.1142/S0129183121500406},
+URL = {https://doi.org/10.1142/S0129183121500406},
+eprint = {https://doi.org/10.1142/S0129183121500406},
+abstract = { We investigate the spreading of SARS-CoV-2 in the state of Alagoas, northeast of Brazil, via an adaptive susceptible-infected-removed (SIR) model featuring dynamic recuperation and propagation rates. Input parameters are defined based on data made available by Alagoas Secretary of Health from April 19, 2020 on. We provide with the evolution of the basic reproduction number R0 and reproduce the historical series of the number of confirmed cases with less than 10\% error. We offer predictions, from November 16 forward, over the epidemic situation in the near future and show that it will keep decelerating. Furthermore, the same model can be used to study the epidemic dynamics in other countries with great easiness and accuracy. }
+}
+{% endhighlight %}
+</div>
