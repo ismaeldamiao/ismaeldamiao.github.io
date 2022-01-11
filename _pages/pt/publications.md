@@ -12,4 +12,4 @@ toc_icon: "cog"
 
 ## Artigos
 
-{% include bib.html %}
+{% bibliography -q @article %}
