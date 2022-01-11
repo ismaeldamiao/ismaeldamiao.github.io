@@ -2,6 +2,7 @@
 permalink: /pt/library/
 title: "Biblioteca"
 layout: archive
+sidebar: false
 ---
 <head>
 <style>
