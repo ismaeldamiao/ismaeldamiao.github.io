@@ -8,18 +8,18 @@ remote_theme             : "mmistakes/minimal-mistakes@4.20.2" # Use este para h
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 locale                   : "pt-BR"
 title                    : "Ismael Damião"
-title_separator          : "-"
 name                     : &name "Ismael Damião"
 description              : &description "Bacharelando em física"
 url                      : https://ismaeldamiao.github.io  # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ismaeldamiao/ismaeldamiao.github.io"
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : true # true, false (default)
-words_per_minute         : 160
-future                   : true
 read_more                : "enabled" # if enabled, adds "Read more" links to excerpts
+words_per_minute         : 160
+title_separator          : "-"
+breadcrumbs              : true # true, false (default)
+future                   : true
 talkmap_link             : false #change to true to add link to talkmap on talks page
+search                   : true
+share                    : false
 
 # Site Author
 author:
@@ -40,6 +40,7 @@ author:
   foursquare       :
   github           : "ismaeldamiao"
   google_plus      :
+  googlescholar    : "https://scholar.google.com/citations?user=RktjGkgAAAAJ"
   keybase          :
   instagram        : "ismael_damiao_al"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
@@ -58,6 +59,39 @@ author:
   youtube          : "https://www.youtube.com/channel/UCZDMnQWepUDz1ipk-sRNtSg"
   wikipedia        :
 
+defaults:
+  - scope:
+      type: posts
+      path: ""
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false
+      related: true
+  - scope:
+      type: pages
+      path: ""
+    values:
+      layout: single
+      sidebar: false
+      toc: false
+      author_profile: true
+      read_time: false
+      comments: false
+      share: false
+      related: true
+  - scope:
+      type: portfolio
+      path: ""
+    values:
+      layout: single
+      author_profile: true
+      share: false
+
+head_scripts:
+  - /assets/js/Show.js
 
 # Reading Files
 include:
@@ -126,27 +160,18 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: Asia/Shanghai  # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Maceio  # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
-  - jemoji
-  - jekyll-scholar
   - jekyll-seo-tag
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
-  - jemoji
-  - jekyll-scholar
+  - jekyll-seo-tag
 
 
 
@@ -186,47 +211,5 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-
-# for reliable permalink
-breadcrumbs: true  # disabled by default
-
-
-search: true
-share: false
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: false
-      related: true
-
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      read_time: false
-      comments: false
-      share: false
-      related: true
-
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: false
 
 ## SEO tag setup
