@@ -114,7 +114,7 @@
 }
 
 .doibtn {
-    background-color: #4CAF50;
+    background-color: #b366ff;
     border: none;
     color: white;
     padding: 4px 8px;
@@ -205,6 +205,36 @@
 
 .pdfbtn {
     background-color: #850000;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.overleafbtn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.gitbtn {
+    background-color: #7a8288;
     border: none;
     color: white;
     padding: 4px 8px;
