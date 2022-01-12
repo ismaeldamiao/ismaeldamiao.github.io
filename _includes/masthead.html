@@ -4,7 +4,10 @@
       <nav id="site-nav" class="greedy-nav">
         <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
         <ul class="visible-links">
-          
+
+          <!--
+            When is in spansh
+          -->
           {% if page.permalink contains "/es/" %}
             {% for link in site.data.navigation.es %}
               {% if link.url contains 'http' %}
@@ -13,11 +16,14 @@
                 {% assign domain = site.url | append: site.baseurl %}
               {% endif %}
               <li class="masthead__menu-item">
-                <a href="{{ domain }}{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+                <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
               </li>
             {% endfor %}
           {% endif %}
-          
+
+          <!--
+            When is in portiguese
+          -->
           {% if page.permalink contains "/pt/" %}
             {% for link in site.data.navigation.pt %}
               {% if link.url contains 'http' %}
@@ -26,11 +32,14 @@
                 {% assign domain = site.url | append: site.baseurl %}
               {% endif %}
               <li class="masthead__menu-item">
-                <a href="{{ domain }}{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+                <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
               </li>
             {% endfor %}
           {% endif %}
-          
+
+          <!--
+            When is in english
+          -->
           {% if page.permalink contains "/en/" %}
             {% for link in site.data.navigation.en %}
               {% if link.url contains 'http' %}
@@ -39,7 +48,7 @@
                 {% assign domain = site.url | append: site.baseurl %}
               {% endif %}
               <li class="masthead__menu-item">
-                <a href="{{ domain }}{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+                <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
               </li>
             {% endfor %}
           {% endif %}
