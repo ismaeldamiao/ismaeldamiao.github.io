@@ -3,9 +3,35 @@
 [![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D66EM3DGU35EE&source=url)
 
 
-Este é o repositório do site [https://ismaeldamiao.github.io/](https://ismaeldamiao.github.io/) (última alteração em 10/01/2022).
+Este é o repositório do site [https://ismaeldamiao.github.io/](https://ismaeldamiao.github.io/) (última alteração em 14/01/2022).
 
 ## Repositorios base e tutoriais
+
+Este site é feito usando [jekyll](https://jekyllrb.com/),
+um software que permite usar Markdown como frontend para escrever as páginas
+do site.
+O tema usado como base para o site é o [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)
+e algumas funcionalidade do [academicpages](https://github.com/academicpages/academicpages.github.io)
+foram utilizadas.
+
+A maioria das funcionalidades que podem ser utilizadas em Markdown
+estão extensivamente explicadas [aqui](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/).
+Alguns tutoriais básicos de Markdown podem ser encontrados
+[aqui](https://guides.github.com/features/mastering-markdown/) e
+[aqui](https://academicpages.github.io/markdown/) (cf. [fonte](https://github.com/academicpages/academicpages.github.io/blob/master/_pages/markdown.md?plain=1).
+
+Principais modificações que fiz no código font (backend):
+* Atualizei as fontes [Font Awesome](https://fontawesome.com)
+e [Academicons](https://github.com/jpswalsh/academicons) para as versões
+`6.0.0-beta3` e `1.9.1`, respectivamente
+(cf. `assets/css`).
+* Configurei o [MathJax](https://www.mathjax.org/)
+(cf. `_includes/head/custom.html`).
+* Criei uma função em [liquid](https://github.com/Shopify/liquid/wiki)
+para facilitar o uso de botões em bibliografias
+(o GitHub não suporta a plugin jekyll-scholar;
+cf. `_includes/cite_btn`, `_pages/pt/library.md`, `_includes/bib.html`).
+
 
 * GitHub
   * [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)
@@ -14,7 +40,18 @@ Este é o repositório do site [https://ismaeldamiao.github.io/](https://ismaeld
 * Pages
   * [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/collection-archive/)
   * [academicpages](https://academicpages.github.io/markdown/)
-  * [Ismael Damião](https://ismaeldamiao.github.io/pt/markdown)
+  * [Ismael Damião](https://ismaeldamiao.github.io/pt/tutoriais/markdown)
+  * [An Amateur Computational Mathematician](https://scaomath.github.io/research/)
+  * [Rob Williams](https://jayrobwilliams.com/publications/)
+  * [Sayorn Chin](https://schinlfc.github.io/posts/2020/07/customizing-website/)
+
+Veja as funcionalidade utilizadas pelo GitHub Pages
+[aqui](https://pages.github.com/versions/).
+Se você for hospedar seu site localmente (abaixo mostro como)
+então é possível usar o plugin
+[jekyll-scholar](https://github.com/inukshuk/jekyll-scholar),
+leia um pouco sobre esse plugin também
+[aqui](https://www.amirasiaee.com/dailyreport/jekyll-scholar/).
 
 ## Criando seu site
 
@@ -84,6 +121,5 @@ http://localhost:4000/
 * Crie um repositório com o seu nome de usuário seguido de .github.io. Por exemplo, meu nome de usuário é `ismaeldamiao` e o nome do meu repositório é `ismaeldamiao.github.io`.
 and all contents of this directoty are copied to a current directory
 * Usando o botão de enviar arquivos arraste para o navegador todos os arquivos e diretórios do seu site.
-(see as `ls`!) and you can edit `main.c` file.
 * Vá até as configurações do seu repositório e em `GitHub Pages` selecione como `source` o branch correto (no meu caso `main`) e o diretório root e salve.
 * Navegue até seu site, o endereço deve ser o mesmo que o nome do seu repositório.
