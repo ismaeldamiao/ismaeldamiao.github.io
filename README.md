@@ -3,7 +3,7 @@
 [![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D66EM3DGU35EE&source=url)
 
 
-Este é o repositório do site [https://ismaeldamiao.github.io/](https://ismaeldamiao.github.io/) (última alteração em 14/01/2022).
+Este é o repositório do site [ismaeldamiao.github.io](https://ismaeldamiao.github.io/) (última alteração em 14/01/2022).
 
 ## Repositorios base e tutoriais
 
@@ -18,21 +18,22 @@ A maioria das funcionalidades que podem ser utilizadas em Markdown
 estão extensivamente explicadas [aqui](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/).
 Alguns tutoriais básicos de Markdown podem ser encontrados
 [aqui](https://guides.github.com/features/mastering-markdown/) e
-[aqui](https://academicpages.github.io/markdown/) (cf. [fonte](https://github.com/academicpages/academicpages.github.io/blob/master/_pages/markdown.md?plain=1).
+[aqui](https://academicpages.github.io/markdown/) (cf. [fonte](https://github.com/academicpages/academicpages.github.io/blob/master/_pages/markdown.md?plain=1)).
 
-Principais modificações que fiz no código font (backend):
+Principais modificações que fiz no código fonte (backend):
 * Atualizei as fontes [Font Awesome](https://fontawesome.com)
 e [Academicons](https://github.com/jpswalsh/academicons) para as versões
 `6.0.0-beta3` e `1.9.1`, respectivamente
 (cf. `assets/css`).
 * Configurei o [MathJax](https://www.mathjax.org/)
-(cf. `_includes/head/custom.html`).
+(cf. `_includes/head/custom.html`) para inserir equações em LaTeX.
 * Criei uma função em [liquid](https://github.com/Shopify/liquid/wiki)
 para facilitar o uso de botões em bibliografias
 (o GitHub não suporta a plugin jekyll-scholar;
 cf. `_includes/cite_btn`, `_pages/pt/library.md`, `_includes/bib.html`).
 
 
+Alguns links que podem ser úteis.
 * GitHub
   * [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)
   * [academicpages](https://github.com/academicpages/academicpages.github.io)
