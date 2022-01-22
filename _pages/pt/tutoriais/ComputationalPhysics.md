@@ -22,7 +22,7 @@ sidebar: false
 @misc{DOSSANTOSIFC,
 title        = "Introdu\c{c}\~ao \`a F\'isica Computacional",
 author       = "I. F. F. dos{ }Santos",
-howpublished = "GitHub repository"
+howpublished = "GitHub repository",
 year         = "2020",
 url          = "https://github.com/ismaeldamiao/Apostila_de_IFC",
 }
