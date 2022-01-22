@@ -20,11 +20,11 @@ sidebar: false
 <div id="a1" style="display: none;">
 {% highlight latex %}
 @misc{DOSSANTOSIFC,
-title = {Introdu\c{c}\~ao \`a F\'isica Computacional},
-journal = {GitHub repository},
-year = {2020},
-url = {https://github.com/ismaeldamiao/Apostila_de_IFC},
-author = {I. F. F. {dos Santos}}
+title        = "Introdu\c{c}\~ao \`a F\'isica Computacional",
+author       = "I. F. F. dos{ }Santos",
+howpublished = "GitHub repository"
+year         = "2020",
+url          = "https://github.com/ismaeldamiao/Apostila_de_IFC",
 }
 {% endhighlight %}
 </div>
