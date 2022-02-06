@@ -5,8 +5,8 @@ title: "Biblioteca"
 
 
 ## Fontes primárias
-  * NEWTON, S. I. [Philosophiæ Naturalis Principia Mathematica](https://drive.google.com/uc?export=download&id=1AgQ2Y2nrmTKlgmlNgiUonQHqcWoajI99) - PDF 26MB, Latim
-  * COULOMB, C. A. [Mémoires sur l’électricité et le magnétisme](https://archive.org/download/mmoiressurllectr00coul/mmoiressurllectr00coul.pdf) - PDF 20.7MB, Francês
+* NEWTON, S. I. [Philosophiæ Naturalis Principia Mathematica](https://drive.google.com/uc?export=download&id=1AgQ2Y2nrmTKlgmlNgiUonQHqcWoajI99) - PDF 26MB, Latim
+* COULOMB, C. A. [Mémoires sur l’électricité et le magnétisme](https://archive.org/download/mmoiressurllectr00coul/mmoiressurllectr00coul.pdf) - PDF 20.7MB, Francês
 
 
 ## Meus documentos e modelos LaTeX
@@ -16,3 +16,9 @@ title: "Biblioteca"
 {% include cite_btn overleaf="https://www.overleaf.com/read/xjhghrzxqvky" %}
 * Dos Santos, I. F. F. **Orações**
 {% include cite_btn overleaf="https://www.overleaf.com/read/kvxsvbbmbzns" %}
+
+## Indicações aleatórias
+* **Lógica**, *Wikilivros*.
+{% include cite_btn wiki="https://pt.wikibooks.org/wiki/L%C3%B3gica" %}
+* **Livro de receitas**, *Wikilivros*.
+{% include cite_btn wiki="https://pt.wikibooks.org/wiki/Livro_de_receitas" %}
