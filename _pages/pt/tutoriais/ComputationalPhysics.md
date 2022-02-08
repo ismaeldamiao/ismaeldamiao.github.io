@@ -14,7 +14,7 @@ sidebar: false
 * I. F. F. Dos Santos. **Introdução à Física Computacional**. *GitHub repository*, v1.1.0, 2020.
 {% include cite_btn
    git="https://github.com/ismaeldamiao/Apostila_de_IFC"
-   pdf="https://github.com/ismaeldamiao/Apostila_de_IFC/releases/download/v1.1.0/Apostila_de_IFC.pdf"
+   pdf="https://archive.org/download/apostila-de-ifc/Apostila_de_IFC.pdf"
    bib="a1"
 %}
 <div id="a1" style="display: none;">
@@ -34,7 +34,6 @@ url          = "https://github.com/ismaeldamiao/Apostila_de_IFC",
 
 ## Rotinas
 * [Gerador de números aleatórios](/pt/tutoriais/ComputationalPhysics/random/)
-
 
 
 
