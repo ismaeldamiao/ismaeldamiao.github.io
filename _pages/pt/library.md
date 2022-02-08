@@ -18,12 +18,12 @@ v. 1.
 <div id="moyses1" style="display: none;">
 {% highlight latex %}
 @book{moyses1,
-Address   = "S\~ao Paulo",
+Title     = "Curso de F\'isica B\'asica: Mec\^anica",
 Author    = "Herch Moys\'es Nussenzveig",
+Address   = "S\~ao Paulo",
+Publisher = "Edgard Bl\"ucher",
 volume    = "1",
 Edition   = "5",
-Publisher = "Edgard Bl\"ucher",
-Title     = "Curso de F\'isica B\'asica: Mec\^anica",
 Year      = "2013",
 isbn      = "852120745X",
 }
@@ -37,12 +37,12 @@ v. 2.
 <div id="moyses2" style="display: none;">
 {% highlight latex %}
 @book{moyses2,
-Address   = "S\~ao Paulo",
+Title     = "Curso de F\'isica B\'asica: Fluidos, Oscila\c{c}\~oes e Ondas, Calor",
 Author    = "Herch Moys\'es Nussenzveig",
+Address   = "S\~ao Paulo",
+Publisher = "Edgard Bl\"ucher",
 volume    = "2",
 Edition   = "5",
-Publisher = "Edgard Bl\"ucher",
-Title     = "Curso de F\'isica B\'asica: Fluidos, Oscila\c{c}\~oes e Ondas, Calor",
 Year      = "2014",
 isbn      = "8521207476",
 }
@@ -56,12 +56,12 @@ v. 3.
 <div id="moyses3" style="display: none;">
 {% highlight latex %}
 @book{moyses3,
-Address   = "S\~ao Paulo",
+Title     = "Curso de F\'isica B\'asica: Eletromagnetismo",
 Author    = "Herch Moys\'es Nussenzveig",
+Address   = "S\~ao Paulo",
+Publisher = "Edgard Bl\"ucher",
 volume    = "3",
 Edition   = "2",
-Publisher = "Edgard Bl\"ucher",
-Title     = "Curso de F\'isica B\'asica: Eletromagnetismo",
 Year      = "2015",
 isbn      = "8521208014",
 }
@@ -75,12 +75,12 @@ v. 4.
 <div id="moyses4" style="display: none;">
 {% highlight latex %}
 @book{moyses4,
-Address   = "S\~ao Paulo",
+Title     = "Curso de F\'isica B\'asica: \'Otica, Relatividade, F\'isica Qu\^antica",
 Author    = "Herch Moys\'es Nussenzveig",
+Address   = "S\~ao Paulo",
+Publisher = "Edgard Bl\"ucher",
 volume    = "4",
 Edition   = "2",
-Publisher = "Edgard Bl\"ucher",
-Title     = "Curso de F\'isica B\'asica: \'Otica, Relatividade, F\'isica Qu\^antica",
 Year      = "2014",
 isbn      = "8521208030",
 }
@@ -99,9 +99,9 @@ isbn      = "8521208030",
 @Book{nrC,
   Title     = "Numerical Recipes in C. The Art of Scientific Computing",
   Author    = "William H. Press and Saul A. Teukolsky and William T. Vetterling and Brian P. Flannery",
+  Address   = "Cambridge, USA",
   Publisher = "Cambridge University Press",
   Year      = "1992",
-  Address   = "Cambridge, USA",
   Edition   = "2",
   isbn      = "0-521-35465-X",
 }
@@ -116,9 +116,9 @@ isbn      = "8521208030",
 @Book{nrF90,
   Title     = "Numerical Recipes in Fortan 90. The Art of Parallel Scientific Computing",
   Author    = "William H. Press and Saul A. Teukolsky and William T. Vetterling and Brian P. Flannery",
+  Address   = "Cambridge, USA",
   Publisher = "Cambridge University Press",
   Year      = "1996",
-  Address   = "Cambridge, USA",
   Edition   = "2",
   isbn      = "0-521-57439-0",
 }
