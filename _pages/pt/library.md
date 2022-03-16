@@ -208,24 +208,6 @@ isbn      = "8521208030",
 }
 {% endhighlight %}
 </div>
-* Lee, John M. **Riemannian Manifolds: An Introduction to Curvature**, *Springer*, 1997. (Graduate Texts in Mathematics).
-{% include cite_btn
-   bib="lee1997riemannian"
-%}
-<div id="lee1997riemannian" style="display: none;">
-{% highlight latex %}
-@book{lee1997riemannian,
-  title     = "Riemannian Manifolds: An Introduction to Curvature",
-  author    = "John M. Lee",
-  publisher = "Springer",
-  isbn      = "978-0-387-22726-9",
-  doi       = "10.1007/b98852",
-  series    = "Graduate Texts in Mathematics",
-  url       = "https://link.springer.com/book/10.1007/b98852",
-  year      = "1997",
-}
-{% endhighlight %}
-</div>
 
 
 
