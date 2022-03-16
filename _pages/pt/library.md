@@ -131,7 +131,83 @@ isbn      = "8521208030",
 
 ### Cálculo
 
-### Topologia
+### Geometria diferencial
+
+* Lee, John M. **Introduction to Topological Manifolds**, *Springer*, 2010. (Graduate Texts in Mathematics).
+{% include cite_btn
+   bib="lee2010topological"
+%}
+<div id="lee2010topological" style="display: none;">
+{% highlight latex %}
+@book{lee2010topological,
+  title     = "Introduction to Topological Manifolds",
+  author    = "John M. Lee",
+  publisher = "Springer",
+  edition   = "2",
+  isbn      = "9781441979407",
+  doi       = "10.1007/978-1-4419-7940-7",
+  series    = "Graduate Texts in Mathematics",
+  url       = "https://link.springer.com/book/10.1007/978-1-4419-7940-7",
+  year      = "2010",
+}
+{% endhighlight %}
+</div>
+* Lee, John M. **Introduction to Smooth Manifolds**, *Springer*, 2012. (Graduate Texts in Mathematics).
+{% include cite_btn
+   bib="lee2012smooth"
+%}
+<div id="lee2012smooth" style="display: none;">
+{% highlight latex %}
+@book{lee2012smooth,
+  title     = "Introduction to Smooth Manifolds",
+  author    = "John M. Lee",
+  publisher = "Springer",
+  edition   = "2",
+  isbn      = "9781441999825",
+  doi       = "10.1007/978-1-4419-9982-5",
+  series    = "Graduate Texts in Mathematics",
+  url       = "https://link.springer.com/book/10.1007/978-1-4419-9982-5",
+  year      = "2012",
+}
+{% endhighlight %}
+</div>
+* Lee, John M. **Introduction to Riemannian Manifolds**, *Springer*, 2012. (Graduate Texts in Mathematics).
+{% include cite_btn
+   bib="lee2012smooth"
+%}
+<div id="lee2012smooth" style="display: none;">
+{% highlight latex %}
+@book{lee2012smooth,
+  title     = "Introduction to Riemannian Manifolds",
+  author    = "John M. Lee",
+  publisher = "Springer",
+  edition   = "2",
+  isbn      = "978-3-319-91755-9",
+  doi       = "10.1007/978-3-319-91755-9",
+  series    = "Graduate Texts in Mathematics",
+  url       = "https://link.springer.com/book/10.1007/978-3-319-91755-9",
+  year      = "2018",
+}
+{% endhighlight %}
+</div>
+* Lee, John M. **Riemannian Manifolds: An Introduction to Curvature**, *Springer*, 1997. (Graduate Texts in Mathematics).
+{% include cite_btn
+   bib="lee2012smooth"
+%}
+<div id="lee2012smooth" style="display: none;">
+{% highlight latex %}
+@book{lee2012smooth,
+  title     = "Riemannian Manifolds: An Introduction to Curvature",
+  author    = "John M. Lee",
+  publisher = "Springer",
+  isbn      = "978-0-387-22726-9",
+  doi       = "10.1007/b98852",
+  series    = "Graduate Texts in Mathematics",
+  url       = "https://link.springer.com/book/10.1007/b98852",
+  year      = "1997",
+}
+{% endhighlight %}
+</div>
 
 
 
