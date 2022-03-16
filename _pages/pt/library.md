@@ -171,7 +171,7 @@ isbn      = "8521208030",
 }
 {% endhighlight %}
 </div>
-* Lee, John M. **Introduction to Riemannian Manifolds**, *Springer*, 2012. (Graduate Texts in Mathematics).
+* Lee, John M. **Introduction to Riemannian Manifolds**, *Springer*, 2018. (Graduate Texts in Mathematics).
 {% include cite_btn
    bib="lee2012smooth"
 %}
