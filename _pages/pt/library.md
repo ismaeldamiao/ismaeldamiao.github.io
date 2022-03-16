@@ -87,6 +87,9 @@ isbn      = "8521208030",
 {% endhighlight %}
 </div>
 
+### Física Moderna
+
+### Relatividade Geral
 
 ### Física Computacional
 
@@ -124,6 +127,21 @@ isbn      = "8521208030",
 }
 {% endhighlight %}
 </div>
+
+### Mecânica Analítica
+
+### Eletromagnetismo
+
+### Termodinâmica e Mecâmica Estatística
+
+### Mecânica Quântica
+
+### Estado Sólido
+
+### Outros
+
+
+
 
 ## Curso de Matemática
 
@@ -173,11 +191,11 @@ isbn      = "8521208030",
 </div>
 * Lee, John M. **Introduction to Riemannian Manifolds**, *Springer*, 2018. (Graduate Texts in Mathematics).
 {% include cite_btn
-   bib="lee2012smooth"
+   bib="lee2018riemannian"
 %}
-<div id="lee2012smooth" style="display: none;">
+<div id="lee2018riemannian" style="display: none;">
 {% highlight latex %}
-@book{lee2012smooth,
+@book{lee2018riemannian,
   title     = "Introduction to Riemannian Manifolds",
   author    = "John M. Lee",
   publisher = "Springer",
@@ -192,11 +210,11 @@ isbn      = "8521208030",
 </div>
 * Lee, John M. **Riemannian Manifolds: An Introduction to Curvature**, *Springer*, 1997. (Graduate Texts in Mathematics).
 {% include cite_btn
-   bib="lee2012smooth"
+   bib="lee1997riemannian"
 %}
-<div id="lee2012smooth" style="display: none;">
+<div id="lee1997riemannian" style="display: none;">
 {% highlight latex %}
-@book{lee2012smooth,
+@book{lee1997riemannian,
   title     = "Riemannian Manifolds: An Introduction to Curvature",
   author    = "John M. Lee",
   publisher = "Springer",
