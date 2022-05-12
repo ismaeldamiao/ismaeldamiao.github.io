@@ -27,3 +27,25 @@ por hora falta-me inspiração para relatar qualquer fato que possa causar o int
 [**ORCID**](https://orcid.org/0000-0002-6652-9295)  
 [**Scorpus ID**](https://www.scopus.com/authid/detail.uri?authorId=22979186900)  
 [**Google Acadêmico**](https://scholar.google.com/citations?user=RktjGkgAAAAJ)
+
+### Estatísticas do GitHub
+
+<div align="center">
+  <a href="https://github.com/ismaeldamiao">
+  <img height="175em" src="https://github-readme-stats.vercel.app/api?username=ismaeldamiao&show_icons=true&include_all_commits=true&count_private=true&theme=onedark&locale=pt-pt"/>
+  <img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ismaeldamiao&langs_count=7&theme=onedark&layout=compact&exclude_repo=ismaeldamiao.github.io&locale=pt-pt"/>
+</div>
+
+### Principais Repositórios
+
+<div width="75%" align="center">
+  <a href="https://github.com/ismaeldamiao/ismaeldamiao.github.io">
+    <img align="left" height="125em" src="https://github-readme-stats.vercel.app/api/pin/?username=ismaeldamiao&repo=ismaeldamiao.github.io&locale=pt-pt&theme=onedark" />
+  </a>
+</div>
+
+<div width="75%" align="center">
+  <a href="https://github.com/ismaeldamiao/ismaeldamiao.github.io">
+    <img align="left" height="125em" src="https://github-readme-stats.vercel.app/api/pin/?username=ismaeldamiao&repo=libismael&locale=en&theme=onedark" />
+  </a>
+</div>
