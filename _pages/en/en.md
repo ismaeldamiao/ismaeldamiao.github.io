@@ -22,24 +22,12 @@ This site has been made for the dissemination of my work, the portuguese version
 
 **Politic**: [Monarchist](https://monarquia.org.br/)
 
-### Estatísticas do GitHub
+### GitHub statistics
 
-<div align="center">
-  <a href="https://github.com/ismaeldamiao">
-  <img height="175em" src="https://github-readme-stats.vercel.app/api?username=ismaeldamiao&show_icons=true&include_all_commits=true&count_private=true&theme=onedark&locale=en"/>
-  <img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ismaeldamiao&langs_count=7&theme=onedark&layout=compact&exclude_repo=ismaeldamiao.github.io&locale=en"/>
-</div>
+![A name](https://github-readme-stats.vercel.app/api?username=ismaeldamiao&locale=en&show_icons=true&include_all_commits=true&count_private=true&theme=onedark)
+![A name](https://github-readme-stats.vercel.app/api/top-langs/?username=ismaeldamiao&locale=en&langs_count=7&theme=onedark&layout=compact&exclude_repo=ismaeldamiao.github.io)
 
 ### Principais Repositórios
 
-<div width="75%" align="center">
-  <a href="https://github.com/ismaeldamiao/ismaeldamiao.github.io">
-    <img align="left" height="125em" src="https://github-readme-stats.vercel.app/api/pin/?username=ismaeldamiao&repo=ismaeldamiao.github.io&locale=en&theme=onedark" />
-  </a>
-</div>
-
-<div width="75%" align="center">
-  <a href="https://github.com/ismaeldamiao/ismaeldamiao.github.io">
-    <img align="left" height="125em" src="https://github-readme-stats.vercel.app/api/pin/?username=ismaeldamiao&repo=libismael&locale=en&theme=onedark" />
-  </a>
-</div>
+![A name](https://github-readme-stats.vercel.app/api/pin/?username=ismaeldamiao&locale=en&theme=onedark&repo=ismaeldamiao.github.io)
+![A name](https://github-readme-stats.vercel.app/api/pin/?username=ismaeldamiao&locale=en&theme=onedark&repo=libismael)
