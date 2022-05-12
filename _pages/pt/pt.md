@@ -46,6 +46,6 @@ por hora falta-me inspiração para relatar qualquer fato que possa causar o int
 
 <div width="75%" align="center">
   <a href="https://github.com/ismaeldamiao/ismaeldamiao.github.io">
-    <img align="left" height="125em" src="https://github-readme-stats.vercel.app/api/pin/?username=ismaeldamiao&repo=libismael&locale=en&theme=onedark" />
+    <img align="left" height="125em" src="https://github-readme-stats.vercel.app/api/pin/?username=ismaeldamiao&repo=libismael&locale=pt-pt&theme=onedark" />
   </a>
 </div>
