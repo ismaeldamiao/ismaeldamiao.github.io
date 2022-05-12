@@ -35,6 +35,6 @@ por hora falta-me inspiração para relatar qualquer fato que possa causar o int
 
 ### Principais Repositórios
 
-![A name](https://github-readme-stats.vercel.app/api/pin/?username=ismaeldamiao&locale=pt-pt&theme=onedark&repo=ismaeldamiao.github.io)
-![A name](https://github-readme-stats.vercel.app/api/pin/?username=ismaeldamiao&locale=pt-pt&theme=onedark&repo=libismael)
+[![A name](https://github-readme-stats.vercel.app/api/pin/?username=ismaeldamiao&locale=pt-pt&theme=onedark&repo=ismaeldamiao.github.io)](https://github.com/ismaeldamiao/ismaeldamiao.github.io)
+[![A name](https://github-readme-stats.vercel.app/api/pin/?username=ismaeldamiao&locale=pt-pt&theme=onedark&repo=libismael)](https://github.com/ismaeldamiao/libismael)
 
