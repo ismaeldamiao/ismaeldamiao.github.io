@@ -29,5 +29,5 @@ This site has been made for the dissemination of my work, the portuguese version
 
 ### Principais Repositórios
 
-![A name](https://github-readme-stats.vercel.app/api/pin/?username=ismaeldamiao&locale=en&theme=onedark&repo=ismaeldamiao.github.io)
-![A name](https://github-readme-stats.vercel.app/api/pin/?username=ismaeldamiao&locale=en&theme=onedark&repo=libismael)
+[![A name](https://github-readme-stats.vercel.app/api/pin/?username=ismaeldamiao&locale=en&theme=onedark&repo=ismaeldamiao.github.io)](https://github.com/ismaeldamiao/ismaeldamiao.github.io)
+[![A name](https://github-readme-stats.vercel.app/api/pin/?username=ismaeldamiao&locale=en&theme=onedark&repo=libismael)](https://github.com/ismaeldamiao/libismael)
