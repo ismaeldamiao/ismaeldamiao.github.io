@@ -7,6 +7,11 @@ toc_label: "Sumário"
 toc_icon: "file-alt"
 ---
 
+Uma **Distribuição Linux* é um sistema operacional
+que funciona usando o [núcleo linux](https://pt.m.wikipedia.org/wiki/Linux_(n%C3%BAcleo)).
+
+Nesta página mostrarei algumas distribuições
+
 Recomendo muito o uso de uma distribuição Linux na física, na verdade para qualquer atividade que não seja jogar eu recomendo o uso do Linux, entretanto sei que há pessoas que não gostam nem querem usar o Linux, temo que esta página não seja direcionada a essas pessoas.
 
 ## Distribuiçao
