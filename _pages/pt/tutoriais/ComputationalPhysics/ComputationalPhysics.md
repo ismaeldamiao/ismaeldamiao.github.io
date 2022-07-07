@@ -3,9 +3,12 @@ permalink: /pt/tutoriais/ComputationalPhysics/
 title: "Física Computacional"
 layout: archive
 sidebar: false
+toc: true
+toc_label: "Sumário"
+toc_icon: "file-alt"
 ---
 
-Esta página se encontra em manutenção
+**Atenção:** Esta página se encontra em manutenção
 (última atualização 07 de julho de 2022)
 {: .notice--danger}
 
@@ -22,6 +25,8 @@ executar uma determinada tarefa, uma receita de bolo, por exemplo,
 
 Leia sobre algorítimos:
 
+* Livro...
+
 
 ## Programação e Sistema Operacional
 
@@ -35,24 +40,17 @@ programa escrito em
 [Python](https://pt.wikipedia.org/wiki/Python)
 ou outra linguagem de programação.
 
-J um **Sistema operacional** (SO) é o sistema
+Já um **Sistema operacional** (SO) é o sistema
 que permite o desenvolvedor (eu e você) interagir com o computador,
 são exemplos de sistemas operacionais:
 [iOS](https://pt.wikipedia.org/wiki/IOS),
 [Android](https://pt.wikipedia.org/wiki/Android),
 [Windows](https://pt.wikipedia.org/wiki/Windows) e
-[Ubuntu](https://pt.wikipedia.org/wiki/ubuntu).
-
-Tu podes utilizar a linguagem de programação e o sistema operacional que quiseres
-para fazer física computacional, portanto o que segue são conselhos
-de como [eu](https://ismaeldamiao.github.io/pt/)
-uso o computador e faço física computacional,
-obviamente faço assim pois assim acho mais prático e pode ser que discordes de mim.
-
+[Linux Mint](https://pt.wikipedia.org/wiki/Linux_Mint).
 
 **Conselho:** Utilize sistemas operacionais baseados no
 [Linux](https://pt.wikipedia.org/wiki/Linux),
-de preferência [Ubuntu](https://pt.wikipedia.org/wiki/ubuntu)
+de preferência [Linux Mint](https://pt.wikipedia.org/wiki/Linux_Mint)
 para computadores de mesa e portáteis e [Android](https://pt.wikipedia.org/wiki/Android)
 para telefones inteligentes.
 {: .notice--info}
@@ -66,6 +64,11 @@ para telefones inteligentes.
    * Python
 
 ## Análise de Dados
+
+## Álgebraa Linear
+
+## Rotinas
+* [Gerador de números aleatórios](/pt/tutoriais/ComputationalPhysics/random/)
 
 ## ETC
 
@@ -89,7 +92,4 @@ url          = "https://github.com/ismaeldamiao/Apostila_de_IFC",
 </div>
 * [Usando o GNUplot para plotar grágicos](/pt/tutoriais/ComputationalPhysics/gnuplot/)
 
-## Tópicos de Física Computacional
 
-## Rotinas
-* [Gerador de números aleatórios](/pt/tutoriais/ComputationalPhysics/random/)
