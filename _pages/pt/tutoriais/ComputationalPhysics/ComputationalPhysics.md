@@ -1,8 +1,6 @@
 ---
 permalink: /pt/tutoriais/ComputationalPhysics/
 title: "Física Computacional"
-layout: archive
-sidebar: false
 toc: true
 toc_label: "Sumário"
 toc_icon: "file-alt"
