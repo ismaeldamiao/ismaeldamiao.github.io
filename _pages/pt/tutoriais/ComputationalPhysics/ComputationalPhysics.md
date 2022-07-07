@@ -19,7 +19,7 @@ que (talvez) lhe permitirão aprender sobre computação e física computacional
 
 Um **algorítimo** é uma  séries de instruções que lhe permitem
 executar uma determinada tarefa, uma receita de bolo, por exemplo,
-é uma algorítimo.
+é um algorítimo.
 
 Leia sobre algorítimos:
 
@@ -53,19 +53,25 @@ para computadores de mesa e portáteis e [Android](https://pt.wikipedia.org/wiki
 para telefones inteligentes.
 {: .notice--info}
 
+Aprenda mais sobre os sistemas operacionais baseados em Linux:
+
 * [Linux](/pt/tutoriais/ComputationalPhysics/linux/)
    * [Android](/pt/tutoriais/ComputationalPhysics/linux/android/)
    * [Softwares que utilizo](/pt/tutoriais/ComputationalPhysics/linux/softwares/)
-* Programação:
+
+Aprenda mais sobre programação:
+
+* Linguagens de programação:
    * C
    * Fortran
    * Python
 
-## Análise de Dados
+## Álgebra Linear
 
-## Álgebraa Linear
+## Tratamento de dados
 
 ## Rotinas
+
 * [Gerador de números aleatórios](/pt/tutoriais/ComputationalPhysics/random/)
 
 ## ETC
