@@ -1,6 +1,6 @@
 ---
 permalink: /pt/tutoriais/markdown
-title: "Tutorial de MarkDown"
+title: "Monte seu site"
 toc: true
 toc_label: "Sumário"
 toc_icon: "file-alt"
@@ -12,6 +12,38 @@ gallery-07.09.2020:
     image_path: /images/Screenshot_20200629-175500_VNC_Viewer.png
     title: "Imagem 2"
 ---
+
+
+Olá,
+
+Nesta página explico como fiz este site.
+O método utiliza é, até onde tenho conhecimento, a maneira mais simples
+de construir um site (praticamente) de graça.
+
+O grande segredo é utilizar o
+[jekyll](https://jekyllrb.com/), uma ferramente que permite criar sites
+a partir de modelos e escrever as páginas usando
+[MarkDown](https://daringfireball.net/projects/markdown/),
+que é bastante simples de aprender.
+
+## Para começar
+
+O ponto de partida é obter uma cópia de um site (feito com jekyll)
+que você ache bonito,
+abaixo você pode encontrar alguns que considero interessantes.
+
+* GitHub
+  * [Ismael Damião](https://github.com/ismaeldamiao/ismaeldamiao.github.io)
+  * [Yu Zhang](https://github.com/tesschin/yuzhangbit.github.io)
+  * [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)
+  * [academicpages](https://github.com/academicpages/academicpages.github.io)
+
+Uma vez que estaja na página do código de algum site você precisará
+fazer um [fork](https://medium.com/@abnerborgonha/como-fazer-um-fork-de-uma-projeto-no-github-9c78f2899bac)
+e salvar o nome do seu repositório como `USUARIO.github.io` onde
+`USUARIO` é o seu nome de usuário no [GitHub](https://github.com).
+
+Ponto, você já pode começar a editar seu site.
 
 ## Vídeos
 
