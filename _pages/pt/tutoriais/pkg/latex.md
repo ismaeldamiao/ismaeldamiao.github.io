@@ -49,8 +49,25 @@ Após compilado este código gera o seguinte `pdf`:
 <iframe
    src="{{ site.url }}{{ site.baseurl }}/assets/documents/ola_mundo.pdf"
    width="100%"
+   heigh="15em"
    type="application/pdf"
 ></iframe>
+
+## Vantagens de usar o $\LaTeX$
+
+A grande vantagem do $\LaTeX$ é a alta qualidade dos documentos gerados,
+desde que você use modelos bem preparados é possível com simples comandos
+obter documentos que obedecem estritamente às normas da universidade ou
+regras da ABNT.
+
+Modelos bem preparados também permitem que o processo de escrita dos documentos
+seja deveras mais simples e rápido de que se utilizássemos os concorrentes
+World ou Writter.
+
+Ainda sobre a qualidade dos documentos, o $\LaTeX$ facilmente trabalha
+junto de outras tecnologias permitindo a integração do seu
+documentos com outros, desde outros documentos em `pdf` até documentos
+em `PostScript`, formato exigido pelas revistas para os gráficos.
 
 ## Por onde começar
 
@@ -83,77 +100,30 @@ basta digitar o seguinte comando para concluir a instalação.
 ```bash
 sudo su
 perl ./install-tl --no-interaction
-# Ou, se você está instalando no Termux
+# Ou, se você está instalando no Termux (Android)
 perl ./install-tl --no-interaction  \
    --custom-bin $PREFIX/bin/texlive \
    --texdir $PREFIX/local
 ```
 
-**Aviso:** Faça um café, o comando acima pode demorar para terminar de executar.
+**Aviso:** Faça um café, o comando acima pode demorar horas
+para terminar de executar.
 {: .notice--danger}
 
+Se todo o processor acima funcionou então você já possui o $\LaTeX$
+instalado.
 
+## Onde encontrar modelos
 
-O primeiro componente que iremos instalar é o *texlive*, ele contém os pacotes necessários para usar $\LaTeX$.
-Para instalar use os comandos abaixo conforme sua distribuição ou clique [aqui](http://tug.org/texlive/acquire-netinstall.html).
+Para que sua experiência com o $\LaTeX$ seja a melhor possível recomendo
+o uso de modelos.
 
+No link abaixo tu podes encontrar vários modelos e exemplos preparados por mim.
 
-```bash
-# No debian, ubuntu, linux-mint ou similar
-sudo apt install -y texlive-full
-# No opensuse
-sudo zypper install texlive
-# No android (termux)
-apt install -y texlive-full
-```
-
-Depois, você deve baixar um [script](https://github.com/ismaeldamiao/modelo-latex/raw/master/tex2pdf) para compilar os documento $\LaTeX$ mais facilmente, em um terminal digite:
-
-```bash
-wget -qO tex2pdf github.com/ismaeldamiao/modelo-latex/raw/master/tex2pdf
-```
-
-E por fim, mova o script para um diretório `bin` e dê permissões de execussão, conforme os comandos abaixo.
-
-```bash
-# No android (termux)
-mv tex2pdf $PREFIX/bin/tex2pdf
-chmod 700 $PREFIX/bin/tex2pdf
-# Em qualquer outra distribuicao
-[ -d ~/bin ] || mkdir ~/bin
-mv tex2pdf ~/bin/tex2pdf
-chmod 755 ~/bin/tex2pdf
-```
-
-## Testando
-
-Eu tenho um modelo com todas as configurações feitas, as principais biblioteca importadas e um exemplo para as principais funções. Tive que aprender tudo isso mas não se preocupe, você só vai precisar editar o principal, meio que a parte mais difícil eu já resolvi!
-
-Veja <a href="https://github.com/ismaeldamiao/modelo-latex/blob/master/relatorio/main.tex">neste repositório</a> o meu modelo.
-
-Baixe ele usando o seguinte comando em um terminal:
-```bash
-wget -q https://github.com/ismaeldamiao/modelo-latex/archive/master.zip
-```
-
-Agora descompacte o arquivo com o seguinte comando:
-```bash
-unzip master.zip
-```
-
-Agora vá ao diretório que você acabou de descompactar:
-```bash
-cd modelo-latex-master/relatorio/
-```
-
-E use meu script para compilar:
-```bash
-tex2pdf main.tex
-```
-
-Se tudo deu certo, deve aparecer no diretório um arquivo chamado *main.pdf* resultado de compilar o conteúdo do arquivo *main.tex*, use seu editor de texto preferido para editar o *main.tex*.
+[![A name](https://github-readme-stats.vercel.app/api/pin/?username=ismaeldamiao&locale=pt-pt&theme=onedark&repo=modelo-latex)](https://github.com/ismaeldamiao/modelo-latex)
 
 ## Saiba mais
+
 * [O que vou aprendendo em Latex](https://aprendolatex.wordpress.com/)
 * [LaTex BR](https://latexbr.blogspot.com/2010/04/introducao-ao-latex.html)
 * [Modelos de documentos em LaTex](http://dl.bintray.com/laurocesar/generic/abntex2-modelos-1.9.7.zip)
