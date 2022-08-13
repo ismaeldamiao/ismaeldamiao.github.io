@@ -15,9 +15,41 @@ etc dentre uma infinidade de outras funções.
 
 Tudo isso é feito através de codigos inseridos no arquivo `.tex`, dessa forma a formatação é feita automaticamente quando o arquivo é compilado. O resultado é um documento PDF muito bonito.
 
-## O que é $\LaTeX$
+## O que é e para quê serve o $\LaTeX$
 
+Imagine que você precisa escrever um relatório para a universidade,
+ou um TCC, uma dissertação ou tese, ou qualquer coisa do estilo.
+Você pode usar o
+[Microsoft Word](https://www.microsoft.com/pt-br/microsoft-365/word) ou o
+[LibreOffice Writter](https://pt.libreoffice.org/descobrir/writer/)
+para gerar esse documento, mas também é possível usar $\LaTeX$ para o mesmo
+objetivo.
 
+A diferença entre o $\LaTeX$ e o Word ou o Writter é que enquanto nestes
+últimos você edita enquanto vê como está ficando o documento,
+no $\LaTeX$ você escreve códigos em um arquivo de texto,
+compila os códigos e só então vê como ficou o documento.
+Por exemplo, veja o código abaixo:
+
+```latex
+% Encoding: UTF-8
+% TeX Live 2022
+\documentclass{abntex2}
+
+\usepackage[T1]{fontenc}    % Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc} % Codificacao do documento (conversão automática dos acentos).
+\usepackage{ucs}            % Complemento do anterior.
+
+\begin{document}
+
+Olá Mundo!
+
+\end{document}
+```
+
+Após compilado este código gera o seguinte `pdf`:
+
+ <iframe src="./documents/ola_mundo.pdf" width="640" height="480"></iframe>
 
 ## Por onde começar
 
