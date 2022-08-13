@@ -1,5 +1,5 @@
 ---
-permalink: /pt/pkg/
+permalink: /pt/tutoriais/pkg/
 title: "Programas e outros recursos"
 ---
 
