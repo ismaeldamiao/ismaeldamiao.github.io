@@ -1,5 +1,5 @@
 ---
-permalink: /pt/tutoriais/ComputationalPhysics/gnuplot/
+permalink: /pt/tutoriais/pkg/gnuplot/
 title: "Usando o GNUplot para plotar grágicos"
 layout: archive
 toc: true

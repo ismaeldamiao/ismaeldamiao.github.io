@@ -8,14 +8,62 @@ toc_label: "Sumário"
 toc_icon: "file-alt"
 ---
 
-O $\LaTeX$ é o programa que uso para fazer documentos segundo as normas na ABNT. Através dele é possível usar notação matemática, inserir tabelas, gráficos, fórmulas químicas, numerar automaticamente equações, leis, teoremas, imagens e etc dentre uma infinidade de outras funções.
+O $\LaTeX$ é o programa que uso para fazer documentos segundo as normas na ABNT.
+Através dele é possível usar notação matemática, inserir tabelas, gráficos,
+fórmulas químicas, numerar automaticamente equações, leis, teoremas, imagens e
+etc dentre uma infinidade de outras funções.
 
 Tudo isso é feito através de codigos inseridos no arquivo `.tex`, dessa forma a formatação é feita automaticamente quando o arquivo é compilado. O resultado é um documento PDF muito bonito.
 
-## instalando
+## O que é $\LaTeX$
+
+
+
+## Por onde começar
+
+### Usando o $\LaTeX$ online
+
+A meneira mais simples de usar o $\LaTeX$ é usando o site
+[Overleaf](https://pt.overleaf.com/),
+ele é basicamente um editor de códigos gratuito com compiladores de códigos
+$\LaTeX$, este site também é muito útil para trabalhar em equipe já
+que várias pessoas podem editar um único projeto ao mesmo tempo.
+
+- Crie uma conta no Overleaf: <https://pt.overleaf.com/register>.
+
+### Instalando no Linux
+
+Para instalar o $\LaTeX$ em qualquer distribuição linux
+(Linux Mint, Ubuntu, Open SUSE e até mesmo no Termux, etc)
+o primeiro que precisamos é baixar o TeX Live (pacote com todos os arquivos e
+programas necessários).
+
+- Pré-requisitos: Você vai precisar de um mínimo de conhecimento em
+terminal linux e precisará ter o `perl` instalado.
+- Download do [TeX Live](https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz).
+
+Uma vez baixado o arquivo basta copiar seu conteúdo para algum lugar e abrir
+no terminal (se você quiser descomprimir usando linha de comando use
+`tar -xf install-tl-unx.tar.gz`). Com o terminal aberto no diretório correto
+basta digitar o seguinte comando para concluir a instalação.
+
+```bash
+sudo su
+perl ./install-tl --no-interaction
+# Ou, se você está instalando no Termux
+perl ./install-tl --no-interaction  \
+   --custom-bin $PREFIX/bin/texlive \
+   --texdir $PREFIX/local
+```
+
+**Aviso:** Faça um café, o comando acima pode demorar para terminar de executar.
+{: .notice--danger}
+
+
 
 O primeiro componente que iremos instalar é o *texlive*, ele contém os pacotes necessários para usar $\LaTeX$.
 Para instalar use os comandos abaixo conforme sua distribuição ou clique [aqui](http://tug.org/texlive/acquire-netinstall.html).
+
 
 ```bash
 # No debian, ubuntu, linux-mint ou similar
