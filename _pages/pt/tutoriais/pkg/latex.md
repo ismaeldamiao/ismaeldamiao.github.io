@@ -49,7 +49,7 @@ Olá Mundo!
 
 Após compilado este código gera o seguinte `pdf`:
 
- <iframe src="./documents/ola_mundo.pdf" width="640" height="480"></iframe>
+<iframe src="./assets/documents/ola_mundo.pdf" width="640" height="480"></iframe>
 
 ## Por onde começar
 
