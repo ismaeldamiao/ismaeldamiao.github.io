@@ -122,6 +122,38 @@ No link abaixo tu podes encontrar vários modelos e exemplos preparados por mim.
 
 [![A name](https://github-readme-stats.vercel.app/api/pin/?username=ismaeldamiao&locale=pt-pt&theme=onedark&repo=modelo-latex)](https://github.com/ismaeldamiao/modelo-latex)
 
+## E o que é MarkDown
+
+Como o $\LaTeX$, o `MarkDown` é uma linguagem de marcação,
+isto é, serve para escrever e formatar textos.
+O `MarkDown` é muito mais simples e fácil de usar que o $\LaTeX$.
+A nível de exemplo, compare os dois códigos abaixo.
+
+```latex
+% Código em LaTeX
+
+\begin{itemize}
+\item Texto normal em uma lista.
+\item \textbf{Assim se escreve em negrito}.
+\item \textit{Assim se escreve em itálico}.
+\end{itemize}
+```
+
+
+```markdown
+<!-- Código em MarkDown -->
+
+- Texto normal em uma lista.
+- **Assim se escreve em negrito**.
+- *Assim se escreve em itálico*.
+```
+
+Por essa razão se você utilizar o modelo `relatorio_ufal` você irá escrever
+os códigos mais simples em `MarkDown`,
+como usar negrito, itálico, listas, inserir imagens, etc.
+Já os códigos mais complexos serão escritos em $\LaTeX$,
+como formatação da capa e corpo do documento, fontes, etc.
+
 ## Saiba mais
 
 * [O que vou aprendendo em Latex](https://aprendolatex.wordpress.com/)
