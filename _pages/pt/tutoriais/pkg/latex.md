@@ -46,12 +46,9 @@ Olá Mundo!
 
 Após compilado este código gera o seguinte `pdf`:
 
-[test]({{ site.url }}{{ site.baseurl }}/assets/documents/ola_mundo.pdf)
-
 <iframe
    src="{{ site.url }}{{ site.baseurl }}/assets/documents/ola_mundo.pdf"
-   width="640"
-   height="480"
+   width="100%"
    type="application/pdf"
 ></iframe>
 
