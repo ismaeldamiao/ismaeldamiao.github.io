@@ -85,7 +85,7 @@ que várias pessoas podem editar um único projeto ao mesmo tempo.
 
 Para instalar o $\LaTeX$ em qualquer distribuição linux
 (Linux Mint, Ubuntu, Open SUSE e até mesmo no Termux, etc)
-o primeiro que precisamos é baixar o TeX Live (pacote com todos os arquivos e
+o primeiro que precisamos é baixar o `TeX Live` (pacote com todos os arquivos e
 programas necessários).
 
 - Pré-requisitos: Você vai precisar de um mínimo de conhecimento em
