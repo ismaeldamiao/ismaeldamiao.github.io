@@ -1,0 +1,709 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.11.2 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="pt" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>$\LaTeX$ - Ismael Damião</title>
+<meta name="description" content="Bacharelando em física">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Ismael Damião">
+<meta property="og:title" content="$\LaTeX$">
+<meta property="og:url" content="http://localhost:4000/pt/tutoriais/pkg/latex/">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/pt/tutoriais/pkg/latex/">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Ismael Damião Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+  
+    
+    <script src="/assets/js/Show.js"></script>
+  
+
+    <!-- start custom head snippets -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js' type='text/javascript'>
+   MathJax.Hub.Config({
+      jax: ["input/TeX","output/HTML-CSS"],
+      extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+      TeX: {
+         equationNumbers: { autoNumber: "all" },
+         Macros: {
+            sen: "\\operatorname{sen}\\,",
+            asen: "\\operatorname{arcsen}\\,"
+         }
+      },
+      tex2jax: {
+         inlineMath: [ ['\\(','\\)'], ['$','$'] ],
+         displayMath: [ ['\\[','\\]'], ['$$','$$'] ]
+      },
+      "HTML-CSS": { availableFonts: ["TeX"] }
+   });
+</script>
+
+
+<!-- Youtube
+     see: https://developers.google.com/youtube/youtube_subscribe_button -->
+<script src="https://apis.google.com/js/platform.js"></script>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KQ4PZJF');</script>
+<!-- End Google Tag Manager -->
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>$\LaTeX$ | Ismael Damião</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="$\LaTeX$" />
+<meta name="author" content="Ismael Damiao" />
+<meta property="og:locale" content="pt_BR" />
+<meta name="description" content="Bacharelando em física" />
+<meta property="og:description" content="Bacharelando em física" />
+<link rel="canonical" href="http://localhost:4000/pt/tutoriais/pkg/latex/" />
+<meta property="og:url" content="http://localhost:4000/pt/tutoriais/pkg/latex/" />
+<meta property="og:site_name" content="Ismael Damião" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="$\LaTeX$" />
+<script type="application/ld+json">
+{"headline":"$\\LaTeX$","url":"http://localhost:4000/pt/tutoriais/pkg/latex/","author":{"@type":"Person","name":"Ismael Damiao"},"description":"Bacharelando em física","@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body class="layout--single">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQ4PZJF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/">Ismael Damião</a>
+        <ul class="visible-links">
+
+          <!--
+            When is in spansh
+          -->
+          
+
+          <!--
+            When is in portiguese
+          -->
+          
+            
+              
+              <li class="masthead__menu-item">
+                <a href="http://localhost:4000/pt/library/">Biblioteca</a>
+              </li>
+            
+              
+              <li class="masthead__menu-item">
+                <a href="http://localhost:4000/pt/tutoriais/">Tutoriais</a>
+              </li>
+            
+              
+              <li class="masthead__menu-item">
+                <a href="http://localhost:4000/pt/blog/posts/">Blog</a>
+              </li>
+            
+              
+              <li class="masthead__menu-item">
+                <a href="http://localhost:4000/pt/links/">Links</a>
+              </li>
+            
+              
+              <li class="masthead__menu-item">
+                <a href="http://localhost:4000/pt/publications/">Publicações</a>
+              </li>
+            
+          
+
+          <!--
+            When is in english
+          -->
+          
+          
+        </ul>
+        
+        <button class="search__toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="http://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a href="http://localhost:4000/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a href="/pt" itemprop="item"><span itemprop="name">Pt</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a href="/tutoriais" itemprop="item"><span itemprop="name">Tutoriais</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a href="/pkg" itemprop="item"><span itemprop="name">Pkg</span></a>
+          <meta itemprop="position" content="4" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">$\LaTeX$</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+    
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="/images/profile.png" alt="Ismael Damiao" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Ismael Damiao</h3>
+    
+    
+      <p class="author__bio" itemprop="description">
+        Bacharelando em física
+      </p>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Acompanhe em</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Maceió, Alagoas</span>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:ismaellxd@gmail.com">
+            <meta itemprop="email" content="ismaellxd@gmail.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://twitter.com/ismaellxd" itemprop="sameAs">
+            <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+          </a>
+        </li>
+      
+
+      
+        <li>
+          <a href="https://www.facebook.com/ismael.filipe.125" itemprop="sameAs">
+            <i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://instagram.com/ismael_damiao_al" itemprop="sameAs">
+            <i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/ismaeldamiao" itemprop="sameAs">
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://www.stackoverflow.com/users/17826054/ismael-dami%c3%a3o" itemprop="sameAs">
+            <i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stack Overflow
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://www.pinterest.com/ismaellxd4118" itemprop="sameAs">
+            <i class="fab fa-fw fa-pinterest" aria-hidden="true"></i> Pinterest
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+        
+          <li>
+            <a href="https://www.youtube.com/channel/UCZDMnQWepUDz1ipk-sRNtSg" itemprop="sameAs">
+              <i class="fab fa-fw fa-youtube" aria-hidden="true"></i> YouTube
+            </a>
+          </li>
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li><a href="https://scholar.google.com/citations?user=RktjGkgAAAAJ" itemprop="sameAs"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
+      
+
+      
+        <li><a href="https://orcid.org/0000-0002-6652-9295" itemprop="sameAs"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID</a></li>
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+    
+    
+  
+  </div>
+
+  
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="$\LaTeX$">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">$\LaTeX$
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Sumário</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#o-que-é-e-para-quê-serve-o-latex">O que é e para quê serve o $\LaTeX$</a></li>
+  <li><a href="#vantagens-de-usar-o-latex">Vantagens de usar o $\LaTeX$</a></li>
+  <li><a href="#por-onde-começar">Por onde começar</a>
+    <ul>
+      <li><a href="#usando-o-latex-online">Usando o $\LaTeX$ online</a></li>
+      <li><a href="#instalando-no-linux">Instalando no Linux</a></li>
+    </ul>
+  </li>
+  <li><a href="#onde-encontrar-modelos">Onde encontrar modelos</a></li>
+  <li><a href="#e-o-que-é-markdown">E o que é MarkDown</a></li>
+  <li><a href="#saiba-mais">Saiba mais</a></li>
+</ul>
+            </nav>
+          </aside>
+        
+        <p>Nesta página apresentarei um pouco sobre o $\LaTeX$ e mostrarei algumas ligações
+que podem ser úteis para quem está começando ou quer aprofundar seus conhecimentos
+sobre $\LaTeX$.</p>
+
+<h2 id="o-que-é-e-para-quê-serve-o-latex">O que é e para quê serve o $\LaTeX$</h2>
+
+<p>Imagine que você precisa escrever um relatório para a universidade,
+ou um TCC, uma dissertação ou tese, ou qualquer coisa do estilo.
+Você pode usar o
+<a href="https://www.microsoft.com/pt-br/microsoft-365/word">Microsoft Word</a> ou o
+<a href="https://pt.libreoffice.org/descobrir/writer/">LibreOffice Writter</a>
+para gerar esse documento, mas também é possível usar $\LaTeX$ para o mesmo
+objetivo.</p>
+
+<p>A diferença entre o $\LaTeX$ e o Word ou o Writter é que enquanto nestes
+últimos você edita enquanto vê como está ficando o documento,
+no $\LaTeX$ você escreve códigos em um arquivo de texto,
+compila os códigos e só então vê como ficou o documento.
+Por exemplo, veja o código abaixo:</p>
+
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">% Encoding: UTF-8</span>
+<span class="c">% TeX Live 2022</span>
+<span class="k">\documentclass</span><span class="p">{</span>abntex2<span class="p">}</span>
+
+<span class="k">\usepackage</span><span class="na">[T1]</span><span class="p">{</span>fontenc<span class="p">}</span>    <span class="c">% Selecao de codigos de fonte.</span>
+<span class="k">\usepackage</span><span class="na">[utf8]</span><span class="p">{</span>inputenc<span class="p">}</span> <span class="c">% Codificacao do documento (conversão automática dos acentos).</span>
+<span class="k">\usepackage</span><span class="p">{</span>ucs<span class="p">}</span>            <span class="c">% Complemento do anterior.</span>
+
+<span class="nt">\begin{document}</span>
+
+Olá Mundo!
+
+<span class="nt">\end{document}</span>
+</code></pre></div></div>
+
+<p>Após compilado este código gera o seguinte <code class="language-plaintext highlighter-rouge">pdf</code>:</p>
+
+<iframe src="http://localhost:4000/assets/documents/ola_mundo.pdf" width="100%" heigh="15em" type="application/pdf"></iframe>
+
+<h2 id="vantagens-de-usar-o-latex">Vantagens de usar o $\LaTeX$</h2>
+
+<p>A grande vantagem do $\LaTeX$ é a alta qualidade dos documentos gerados,
+desde que você use modelos bem preparados é possível com simples comandos
+obter documentos que obedecem estritamente às normas da universidade ou
+regras da ABNT.</p>
+
+<p>Modelos bem preparados também permitem que o processo de escrita dos documentos
+seja deveras mais simples e rápido de que se utilizássemos os concorrentes
+World ou Writter.</p>
+
+<p>Ainda sobre a qualidade dos documentos, o $\LaTeX$ facilmente trabalha
+junto de outras tecnologias permitindo a integração do seu
+documentos com outros, desde outros documentos em <code class="language-plaintext highlighter-rouge">pdf</code> até documentos
+em <code class="language-plaintext highlighter-rouge">PostScript</code>, formato exigido pelas revistas para os gráficos.</p>
+
+<h2 id="por-onde-começar">Por onde começar</h2>
+
+<h3 id="usando-o-latex-online">Usando o $\LaTeX$ online</h3>
+
+<p>A meneira mais simples de usar o $\LaTeX$ é usando o site
+<a href="https://pt.overleaf.com/">Overleaf</a>,
+ele é basicamente um editor de códigos gratuito com compiladores de códigos
+$\LaTeX$, este site também é muito útil para trabalhar em equipe já
+que várias pessoas podem editar um único projeto ao mesmo tempo.</p>
+
+<ul>
+  <li>Crie uma conta no Overleaf: <a href="https://pt.overleaf.com/register">https://pt.overleaf.com/register</a>.</li>
+</ul>
+
+<h3 id="instalando-no-linux">Instalando no Linux</h3>
+
+<p>Para instalar o $\LaTeX$ em qualquer distribuição linux
+(Linux Mint, Ubuntu, Open SUSE e até mesmo no Termux, etc)
+o primeiro que precisamos é baixar o <code class="language-plaintext highlighter-rouge">TeX Live</code> (pacote com todos os arquivos e
+programas necessários).</p>
+
+<ul>
+  <li>Pré-requisitos: Você vai precisar de um mínimo de conhecimento em
+terminal linux e precisará ter o <code class="language-plaintext highlighter-rouge">perl</code> instalado.</li>
+  <li>Download do <a href="https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz">TeX Live</a>.</li>
+</ul>
+
+<p>Uma vez baixado o arquivo basta copiar seu conteúdo para algum lugar e abrir
+no terminal (se você quiser descomprimir usando linha de comando use
+<code class="language-plaintext highlighter-rouge">tar -xf install-tl-unx.tar.gz</code>). Com o terminal aberto no diretório correto
+basta digitar o seguinte comando para concluir a instalação.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>su
+perl ./install-tl <span class="nt">--no-interaction</span>
+<span class="c"># Ou, se você está instalando no Termux (Android)</span>
+perl ./install-tl <span class="nt">--no-interaction</span>  <span class="se">\</span>
+   <span class="nt">--custom-bin</span> <span class="nv">$PREFIX</span>/bin/texlive <span class="se">\</span>
+   <span class="nt">--texdir</span> <span class="nv">$PREFIX</span>/local
+</code></pre></div></div>
+
+<p class="notice--danger"><strong>Aviso:</strong> Faça um café, o comando acima pode demorar horas
+para terminar de executar.</p>
+
+<p>Se todo o processor acima funcionou então você já possui o $\LaTeX$
+instalado.</p>
+
+<h2 id="onde-encontrar-modelos">Onde encontrar modelos</h2>
+
+<p>Para que sua experiência com o $\LaTeX$ seja a melhor possível recomendo
+o uso de modelos.</p>
+
+<p>No link abaixo tu podes encontrar vários modelos e exemplos preparados por mim.</p>
+
+<p><a href="https://github.com/ismaeldamiao/modelo-latex"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ismaeldamiao&amp;locale=pt-pt&amp;theme=onedark&amp;repo=modelo-latex" alt="A name" /></a></p>
+
+<h2 id="e-o-que-é-markdown">E o que é MarkDown</h2>
+
+<p>Como o $\LaTeX$, o <code class="language-plaintext highlighter-rouge">MarkDown</code> é uma linguagem de marcação,
+isto é, serve para escrever e formatar textos.
+O <code class="language-plaintext highlighter-rouge">MarkDown</code> é muito mais simples e fácil de usar que o $\LaTeX$.
+A nível de exemplo, compare os dois códigos abaixo.</p>
+
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">% Código em LaTeX</span>
+
+<span class="nt">\begin{itemize}</span>
+<span class="k">\item</span> Texto normal em uma lista.
+<span class="k">\item</span> <span class="k">\textbf</span><span class="p">{</span>Assim se escreve em negrito<span class="p">}</span>.
+<span class="k">\item</span> <span class="k">\textit</span><span class="p">{</span>Assim se escreve em itálico<span class="p">}</span>.
+<span class="nt">\end{itemize}</span>
+</code></pre></div></div>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!-- Código em MarkDown --&gt;</span>
+<span class="p">
+-</span> Texto normal em uma lista.
+<span class="p">-</span> <span class="gs">**Assim se escreve em negrito**</span>.
+<span class="p">-</span> <span class="ge">*Assim se escreve em itálico*</span>.
+</code></pre></div></div>
+
+<p>Por essa razão se você utilizar o modelo <code class="language-plaintext highlighter-rouge">relatorio_ufal</code> você irá escrever
+os códigos mais simples em <code class="language-plaintext highlighter-rouge">MarkDown</code>,
+como usar negrito, itálico, listas, inserir imagens, etc.
+Já os códigos mais complexos serão escritos em $\LaTeX$,
+como formatação da capa e corpo do documento, fontes, etc.</p>
+
+<h2 id="saiba-mais">Saiba mais</h2>
+
+<ul>
+  <li><a href="https://aprendolatex.wordpress.com/">O que vou aprendendo em Latex</a></li>
+  <li><a href="https://latexbr.blogspot.com/2010/04/introducao-ao-latex.html">LaTex BR</a></li>
+  <li><a href="http://dl.bintray.com/laurocesar/generic/abntex2-modelos-1.9.7.zip">Modelos de documentos em LaTex</a></li>
+  <li>
+    <p><a href="http://dl.bintray.com/laurocesar/generic/abntex2-doc-1.9.7.zip">Manuiais de uso do AbnTex2</a>(Devem ser os primeiros a ser consultados em caso de dúvidas, consulte os manuais antes mesmo de consultar a internet!)</p>
+  </li>
+  <li><a href="https://tablesgenerator.com/">Create LaTeX tables online</a> - Para fazer tabelas mais facilmente</li>
+  <li><a href="https://pt.wikipedia.org/wiki/Ajuda:Guia_de_edi%C3%A7%C3%A3o/F%C3%B3rmulas_TeX">Guia de edição/Fórmulas TeX</a> - Para fazer equações</li>
+</ul>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><input type="text" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+    <div id="results" class="results"></div></div>
+      </div>
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Acompanhe em</strong></li>
+    
+    
+    
+    
+      <li><a href="https://github.com/ismaeldamiao"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Ismael Damião. Feito com <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+  </body>
+</html>
