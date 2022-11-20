@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-19T23:36:53-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ismael Damião</title><subtitle>Bacharelando em física</subtitle><author><name>Ismael Damiao</name><email>ismaellxd@gmail.com</email></author><entry><title type="html">Monte seu site</title><link href="http://localhost:4000/pt/posts/2022/11/jekyll" rel="alternate" type="text/html" title="Monte seu site" /><published>2022-11-18T00:00:00-03:00</published><updated>2022-11-18T00:00:00-03:00</updated><id>http://localhost:4000/pt/posts/2022/11/jekyll</id><content type="html" xml:base="http://localhost:4000/pt/posts/2022/11/jekyll">&lt;p&gt;Olá,&lt;/p&gt;
+
+&lt;p&gt;Nesta página explico como
+montar um site usando o &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;
+e publica-lo na internet utilizando o &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;.
+O método utilizado é, até onde tenho conhecimento, a maneira mais simples
+de construir um site (praticamente) de graça.&lt;/p&gt;
+
+&lt;h2 id=&quot;para-começar&quot;&gt;Para começar&lt;/h2&gt;
+
+&lt;p&gt;Para montar o site usaremos o sistema operacional linux,
+neste tutorial utilizarei o &lt;a href=&quot;https://pt.wikipedia.org/wiki/Ubuntu&quot;&gt;Ubuntu&lt;/a&gt;
+mas sintasse à vontade para usar a distribuição que achar melhor.&lt;/p&gt;
+
+&lt;h3 id=&quot;instalando-os-pacotes&quot;&gt;Instalando os pacotes&lt;/h3&gt;
+
+&lt;p&gt;Precisaremos instalar o &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;,
+que é o programa que hospedará finalmente nosso site.
+Para fazer isso podemos usar em qualquer distro o comando
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem&lt;/code&gt; do &lt;a href=&quot;https://www.ruby-lang.org/en/&quot;&gt;Ruby&lt;/a&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem update &lt;span class=&quot;nt&quot;&gt;--system&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;gem &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+  minimal-mistakes-jekyll &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+  github-pages &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+  liquid &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+  jekyll &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+  jekyll-seo-tag &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+  jekyll-paginate &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+  jekyll-scholar &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+  jekyll-sitemap &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+  jekyll-gist &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+  jekyll-feed &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+  jekyll-seo-tag &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+  jemoji unicode bundler json wdm hawkins mercenary
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Caso você ainda não possua o Ruby instalado você pode instalar ele
+no Ubuntu com o comando:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;ruby-dev ruby-bundler nodejs
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;descarregando-um-modelo&quot;&gt;Descarregando um modelo&lt;/h3&gt;
+
+&lt;p&gt;Agora você deve escolher um modelo de site construido usando
+o Jekyll. Os modelos mais utilizados são os seguintes:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes&quot;&gt;Minimal Mistakes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/academicpages/academicpages.github.io&quot;&gt;academicpages&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Os modelos mostrados acima foram utilizados para
+construção de vários sites, como exemplo e inspiração cito
+os seguintes:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/tesschin/yuzhangbit.github.io&quot;&gt;Yu Zhang&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://scaomath.github.io/research/&quot;&gt;An Amateur Computational Mathematician&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jayrobwilliams.com/publications/&quot;&gt;Rob Williams&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://schinlfc.github.io/posts/2020/07/customizing-website/&quot;&gt;Sayorn Chin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Já o código fonte do meu site pode ser descarregado
+&lt;a href=&quot;/assets/source/ismaeldamiao.github.io.zip&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Uma vez escolhido o modelo de sua preferência,
+você precisará baixar todos os arquivos
+no seu computador, o que resultará em um diretório mais ou menos
+assim:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ls
+&lt;/span&gt;assets       _data     Gemfile.lock
+_includes    index.md  LICENSE
+_posts       _sass     _bibliography
+_config.yml  Gemfile   images
+index.html   _layouts  _pages
+README.md    _site
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;hospedando-o-site-localmente&quot;&gt;Hospedando o site localmente&lt;/h3&gt;
+
+&lt;p&gt;Uma vez descarregado o modelo de sua preferência
+abra o diretório dos arquivos do modelo em um terminal.
+Da primeira vez que for executar o site você deverá
+instalar todos os arquivos necessário para executa-lo,
+conforme informado no arquivo &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt;,
+para isso basta digitar no terminal:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle update
+bundle clean &lt;span class=&quot;nt&quot;&gt;--force&lt;/span&gt;
+bundle &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Agora, sempre que quiser executar seu site bastará digitar
+o seguinte comando:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll server
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Uma menssagem informará como acessar o site,
+no meu caso a menssagem informa
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Server address: http://127.0.0.1:4000&lt;/code&gt;
+e eu acesso o site &lt;a href=&quot;http://127.0.0.1:4000&quot;&gt;http://127.0.0.1:4000&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;configurando-seu-site&quot;&gt;Configurando seu site&lt;/h2&gt;
+
+&lt;p&gt;Agora, para que o site possa ser chamado de “seu”
+é preciso iniciar as configurações.&lt;/p&gt;
+
+&lt;h3 id=&quot;configurações-gerais&quot;&gt;Configurações gerais&lt;/h3&gt;
+
+&lt;p&gt;As configurações gerais do seu site devem ser editadas no arquivo
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;,
+detalhes sobre como fazer isso podem ser encontrados
+&lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/docs/configuration/&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;páginas-e-posts&quot;&gt;Páginas e posts&lt;/h3&gt;
+
+&lt;p&gt;No diretório &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_pages&lt;/code&gt; você poderá verenciar suas páginas,
+uma página no seu site é criada para cada arquivo &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MarkDown&lt;/code&gt; no
+diretório &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_pages&lt;/code&gt; que possua um cabeçalho parecido com o seguinte:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+title: &quot;Título da página&quot;
+permalink: /link/interno/
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;De maneira similar um post no blog do site
+é criado usando arquivos &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MarkDown&lt;/code&gt; no diretório
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt;, os arquivos devem ser o nome começando
+com a data no formato &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD&lt;/code&gt;, por exemplo &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2022-11-18-jekyll.md&lt;/code&gt;,
+e seu cabeçalho é deve ser parecido com o seguinte:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+permalink: /posts/link/interno/
+title: &quot;Título do post&quot;
+date: YYYY-MM-DD
+categories:
+  - AlgumaCategoria
+tags:
+  - AlgumaTag
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Mais detalhes podem ser encontrados em:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/docs/posts/&quot;&gt;https://mmistakes.github.io/minimal-mistakes/docs/posts/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/docs/pages/&quot;&gt;https://mmistakes.github.io/minimal-mistakes/docs/pages/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;barra-de-navegação&quot;&gt;Barra de navegação&lt;/h3&gt;
+
+&lt;p&gt;As pricipais páginas do seu site podem estar hiperligadas
+na barra de navegação, para tanto basta editar o arquivo
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_data/navigation.yml&lt;/code&gt;.
+Caso você esteja usando o meu site como modelo notará
+que há a possibilidade de definir uma barra de navegação para cada idioma o seu
+site, nesse caso talvez seja preciso editar também o arquivo
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_includes/masthead.html&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;publicando-seu-site&quot;&gt;Publicando seu site&lt;/h2&gt;
+
+&lt;p&gt;Você pode escolher a opção de hospedagem que preferir para publicar seu site,
+neste post direi como fazer isso usando o
+&lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;usando-o-github&quot;&gt;Usando o GitHub&lt;/h3&gt;
+
+&lt;p&gt;O GitHub é uma ferramenta gratuita para compartilhar códigos
+e também permite a publicação de um site.&lt;/p&gt;
+
+&lt;p&gt;Primeiro crie uma conta no GitHub.
+Depois crie um repositório com o seu nome de usuário no GitHub seguido
+de &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.github.io&lt;/code&gt;,
+por exemplo o nome do repositório do meu site é
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ismaeldamiao.github.io&lt;/code&gt;, pois o meu nome
+de usuário no GitHub é @ismaeldamiao.&lt;/p&gt;
+
+&lt;p&gt;Agora você precisa iniciar seu site localmente com o comando
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll server&lt;/code&gt;, como indicado anteriormente,
+para gerar os arquivos &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;HTML&lt;/code&gt; do seu site.
+Feito isso basta copiar todos os arquivos do diretório
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_site&lt;/code&gt; para o GitHub. Assim bastará esperar um pouco e entrar no seu site,
+o link será o mesmo que o nome do repositório,
+no meu caso o link é &lt;a href=&quot;https://ismaeldamiao.github.io/&quot;&gt;https://ismaeldamiao.github.io/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusão&quot;&gt;Conclusão&lt;/h2&gt;
+
+&lt;p&gt;Nos modelos e exemplos já citados você poderá encontrar mais detalhes
+sobre como personalizar seu site, portanto deixo a cargo
+da sua determinação e curiosidade desvendar os demais detalhes sobre o
+Jekyll e os modelos baseados no Minimal Mistakes.&lt;/p&gt;</content><author><name>Ismael Damiao</name><email>ismaellxd@gmail.com</email></author><category term="Tutorial" /><category term="Jekyll" /><category term="MinimalMistakes" /><summary type="html">Olá,</summary></entry></feed>

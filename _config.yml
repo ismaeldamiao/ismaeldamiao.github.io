@@ -1,0 +1,229 @@
+# Welcome to Jekyll!
+
+# Este é o arquivo de configuração da sua página web
+
+# Site Settings
+theme                    : minimal-mistakes-jekyll # Use este para hopedar o site localmente
+#remote_theme             : "mmistakes/minimal-mistakes@4.20.2" # Use este para hospedar o site no GitHub
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+locale                   : "pt-BR"
+title                    : "Ismael Damião"
+name                     : &name "Ismael Damião"
+description              : &description "Bacharelando em física"
+url                      : https://ismaeldamiao.github.io  # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+repository               : "ismaeldamiao/ismaeldamiao.github.io"
+read_more                : "enabled" # if enabled, adds "Read more" links to excerpts
+words_per_minute         : 160
+title_separator          : "-"
+breadcrumbs              : true # true, false (default)
+future                   : true
+talkmap_link             : false #change to true to add link to talkmap on talks page
+search                   : true
+share                    : true
+
+# Site Author
+author:
+  name             : "Ismael Damiao"
+  avatar           : "./images/profile.png"
+  bio              : "Bacharelando em física"
+  location         : "Maceió, Alagoas"
+  employer         :
+  pubmed           :
+  email            : "ismaellxd@gmail.com"
+  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         : "ismael.filipe.125"
+  foursquare       :
+  github           : "ismaeldamiao"
+  google_plus      :
+  googlescholar    : "https://scholar.google.com/citations?user=RktjGkgAAAAJ"
+  keybase          :
+  instagram        : "ismael_damiao_al"
+  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm           :
+  linkedin         :
+  orcid            : "https://orcid.org/0000-0002-6652-9295"
+  pinterest        : "ismaellxd4118"
+  soundcloud       :
+  stackoverflow    : "17826054/ismael-dami%c3%a3o"
+  steam            :
+  tumblr           :
+  twitter          : "ismaellxd"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          : "https://www.youtube.com/channel/UCZDMnQWepUDz1ipk-sRNtSg"
+  wikipedia        :
+
+defaults:
+  - scope:
+      type: posts
+      path: ""
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  - scope:
+      type: pages
+      path: ""
+    values:
+      layout: single
+      sidebar: false
+      toc: false
+      author_profile: true
+      read_time: false
+      comments: false
+      share: false
+      related: true
+  - scope:
+      type: portfolio
+      path: ""
+    values:
+      layout: single
+      author_profile: true
+      share: false
+
+head_scripts:
+  - /assets/js/Show.js
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: America/Maceio  # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+## SEO tag setup
+
+# Scholar
+scholar:
+  source: ./_bibliography
+  bibliography_template: bibtemplate
+  use_raw_bibtex_entry: false
+  replace_strings: false

@@ -1,0 +1,562 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="pt" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Linux - Ismael Damião</title>
+<meta name="description" content="Bacharelando em física">
+
+
+  <meta name="author" content="Ismael Damiao">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Ismael Damião">
+<meta property="og:title" content="Linux">
+<meta property="og:url" content="http://localhost:4000/pt/tutoriais/ComputationalPhysics/linux/">
+
+
+  <meta property="og:description" content="Bacharelando em física">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/pt/tutoriais/ComputationalPhysics/linux/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Ismael Damião",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Ismael Damião Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+  
+    <script src="/assets/js/Show.js"></script>
+  
+
+
+    <!-- start custom head snippets -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js' type='text/javascript'>
+   MathJax.Hub.Config({
+      jax: ["input/TeX","output/HTML-CSS"],
+      extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+      TeX: {
+         equationNumbers: { autoNumber: "all" },
+         Macros: {
+            sen: "\\operatorname{sen}\\,",
+            asen: "\\operatorname{arcsen}\\,"
+         }
+      },
+      tex2jax: {
+         inlineMath: [ ['\\(','\\)'], ['$','$'] ],
+         displayMath: [ ['\\[','\\]'], ['$$','$$'] ]
+      },
+      "HTML-CSS": { availableFonts: ["TeX"] }
+   });
+</script>
+
+
+<!-- Youtube
+     see: https://developers.google.com/youtube/youtube_subscribe_button -->
+<script src="https://apis.google.com/js/platform.js"></script>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KQ4PZJF');</script>
+<!-- End Google Tag Manager -->
+
+  </head>
+
+  <body class="layout--archive">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Ismael Damião
+          
+        </a>
+        <ul class="visible-links">
+
+          <!-- Find the language in the permalink -->
+          
+          <!--  --><li class="masthead__menu-item">
+              <a href="/pt/library/">Biblioteca</a>
+            </li><li class="masthead__menu-item">
+              <a href="/pt/tutoriais/">Tutoriais</a>
+            </li><li class="masthead__menu-item">
+              <a href="/pt/blog/posts/">Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/pt/links/">Links</a>
+            </li><li class="masthead__menu-item">
+              <a href="/pt/publications/">Publicações</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/pt" itemprop="item"><span itemprop="name">Pt</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/tutoriais" itemprop="item"><span itemprop="name">Tutoriais</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/computationalphysics" itemprop="item"><span itemprop="name">Computationalphysics</span></a>
+          <meta itemprop="position" content="4" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">Linux</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/images/profile.png" alt="Ismael Damiao" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Ismael Damiao</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Bacharelando em física</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Acompanhe em</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Maceió, Alagoas</span>
+        </li>
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:ismaellxd@gmail.com" rel="me" class="u-email">
+            <meta itemprop="email" content="ismaellxd@gmail.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://twitter.com/ismaellxd" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+            <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span>
+          </a>
+        </li>
+      
+
+      
+        <li>
+          <a href="https://www.facebook.com/ismael.filipe.125" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+            <i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i><span class="label">Facebook</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://instagram.com/ismael_damiao_al" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+            <i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">Instagram</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/ismaeldamiao" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://stackoverflow.com/users/17826054/ismael-dami%c3%a3o" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+            <i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i><span class="label">Stack Overflow</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://www.pinterest.com/ismaellxd4118" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+            <i class="fab fa-fw fa-pinterest" aria-hidden="true"></i><span class="label">Pinterest</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+        
+          <li>
+            <a href="https://www.youtube.com/channel/UCZDMnQWepUDz1ipk-sRNtSg" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+              <i class="fab fa-fw fa-youtube" aria-hidden="true"></i><span class="label">YouTube</span>
+            </a>
+          </li>
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <div class="archive">
+    
+      <h1 id="page-title" class="page__title">Linux</h1>
+    
+    <p>Uma <em>*Distribuição Linux</em> é um sistema operacional
+que funciona usando o <a href="https://pt.m.wikipedia.org/wiki/Linux_(n%C3%BAcleo)">núcleo linux</a>.</p>
+
+<p>Nesta página mostrarei algumas distribuições</p>
+
+<p>Recomendo muito o uso de uma distribuição Linux na física, na verdade para qualquer atividade que não seja jogar eu recomendo o uso do Linux, entretanto sei que há pessoas que não gostam nem querem usar o Linux, temo que esta página não seja direcionada a essas pessoas.</p>
+
+<h2 id="distribuiçao">Distribuiçao</h2>
+
+<p>Existem vários sistemas operasionais (SO) baseados no kernel linux, estes SO são conhecidos como distribuições linux, ou distros, a nível de curiosidade <a href="https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg">este arquivo</a> da wikimedia pretende, se é que isso é possível, mostrar todas as distribuições baseadas no kernel Linux.</p>
+
+<p>A distribuição que utilizo é Ubuntu Minimal, que é o núcleo de qualquer sub-distribuição do Ubuntu, o próprio Ubuntu, por sua vez, foi feito baseado do Debian, dessa forma espero que pelo menos no Debian, Ubuntu, LinuxMint e derivados os tutoriais mostrados aqui funcionem.</p>
+
+<p>Há distribuições para todos os gostos, se você está começando a usar o Linux agora, sugiro que use uma distribuição bem configurada, como <a href="https://pt.wikipedia.org/wiki/Ubuntu">Ubuntu</a>, <a href="https://pt.wikipedia.org/wiki/Linux_Mint">Linux Mint</a>, <a href="https://pt.wikipedia.org/wiki/Debian">Debian</a>, <a href="https://pt.wikipedia.org/wiki/OpenSUSE">openSUSE</a> ou <a href="https://pt.wikipedia.org/wiki/Android">Android-x86</a>.</p>
+
+<p>Já se você quer personalizar seu linux e entender melhor como ele funciona, use distribuições como <a href="https://pt.wikipedia.org/wiki/Arch_Linux">Arch Linux</a>, <a href="https://help.ubuntu.com/community/Installation/MinimalCD">Ubuntu Minimal</a> ou <a href="https://pt.wikipedia.org/wiki/Slackware">Sackware</a>, o uso dessas distribuições também é recomendado em computadores com baixo poder de processamento ou pouca memória, nesses casos também reomendo o <a href="https://es.wikipedia.org/wiki/Tiny_Core_Linux">Tiny Core</a>. Estas distros precisam ter o gestor de janelas configurado com o X, eu uso o <a href="https://pt.wikipedia.org/wiki/FluxBox">FluxBox</a> mas <a href="https://pt.wikipedia.org/wiki/Xfce">Xfce</a>, <a href="https://pt.wikipedia.org/wiki/MATE">MATE</a>, <a href="https://pt.wikipedia.org/wiki/KDE_Plasma_4">KDE Plasma</a>, <a href="https://pt.wikipedia.org/wiki/Cinnamon_(interface_de_usu%C3%A1rio)">Cinnamoon</a> e <a href="https://pt.wikipedia.org/wiki/GNOME">GNOME</a> também são boas opções.</p>
+
+<p>Se o objetivo for fazer testes de segurança em redes e sistemas o <a href="https://pt.wikipedia.org/wiki/Kali_Linux">Kali Linux</a> é uma boa opção.</p>
+
+<h2 id="comandos-básicos">Comandos básicos</h2>
+
+<ul>
+  <li>Para copiar o arquivo <em>arq</em> para o diretório <em>dir</em>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cp </span>arq <span class="nb">dir</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Para mover o arquivo <em>arq</em> para o diretório <em>dir</em>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mv </span>arq <span class="nb">dir</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Para entrar no diretório <em>dir</em>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd dir</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Para ver os arquivos que tem no diretório que você está dentro
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">ls</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Para remover o arquivo <em>arq</em>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">rm </span>arq
+</code></pre></div>    </div>
+  </li>
+  <li>Para ver os processos rodando na máquina
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ps arxu
+</code></pre></div>    </div>
+  </li>
+  <li>Para compilar o programa, escrito em c, <em>programa.c</em> e criar o executável <em>programa.out</em>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gcc programa.c <span class="nt">-o</span> programa.out <span class="nt">-lm</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Para compilar o programa, escrito em FORTRAN 90, <em>programa.f90</em> e criar o executável <em>programa.out</em>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gfortran programa.f90 <span class="nt">-o</span> programa.out
+</code></pre></div>    </div>
+  </li>
+  <li>Para executar o programa executável <em>programa.out</em>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./programa.out
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="pacotes-de-uso-na-física">Pacotes de uso na física</h2>
+
+<ul>
+  <li>Para compilar programas
+    <ul>
+      <li>gcc</li>
+      <li>gfortran</li>
+    </ul>
+  </li>
+  <li>Para documentos acadêmicos
+    <ul>
+      <li>texlive-full</li>
+      <li><a href="/pt/pkg/latex/">tex2pdf</a></li>
+    </ul>
+  </li>
+  <li>Para plotar gráficos, curvas, superfícies, etc
+    <ul>
+      <li>gnuplot</li>
+    </ul>
+  </li>
+  <li>Para editar texto
+    <ul>
+      <li>nano</li>
+      <li>xed</li>
+    </ul>
+  </li>
+  <li>Para edição de imagens
+    <ul>
+      <li>inkscape</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Em geral instalar esses pacotes usando um gestor de pacotes é simples, eu uso o APT. Os pacotes que não estão nos respositórios oficiais do Ubuntu, estão enlaçados com maiores instruções para instalação.</p>
+<ul>
+  <li><a href="https://pt.wikipedia.org/wiki/APT_(software)">APT</a>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install</span> <span class="nt">-y</span> nome_do_pacote
+</code></pre></div>    </div>
+  </li>
+  <li><a href="https://pt.wikipedia.org/wiki/Yum">yum</a>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>yum <span class="nb">install</span> <span class="nt">-y</span> nome_do_pacote
+</code></pre></div>    </div>
+  </li>
+  <li><a href="https://pt.wikipedia.org/wiki/ZYpp">zypper</a>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>zypper <span class="nb">install </span>nome_do_pacote
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+  </div>
+</div>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Acompanhe em</strong></li>
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Ismael Damião. Feito com <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
