@@ -1,6 +1,6 @@
 ---
 permalink: /pt/
-title: "Olá mundo"
+title: ""
 excerpt: "Católico, monarquista e amante de física"
 sidebar: true
 header:
