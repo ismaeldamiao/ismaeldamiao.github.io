@@ -6,6 +6,60 @@ toc_label: "Sumário"
 toc_icon: "file-alt"
 ---
 
+## Autoria própria
+
+* Dos Santos, I. F. F. **Introdução à Física Computacional**. *GitHub repository*, 2020.
+{% include cite_btn
+   git="https://github.com/ismaeldamiao/Apostila_de_IFC"
+   pdf="https://archive.org/download/apostila-de-ifc/Apostila_de_IFC.pdf"
+   bib="a1"
+%}
+<div id="a1" style="display: none;">
+{% highlight latex %}
+@misc{DOSSANTOSIFC,
+   title        = "Introdu\c{c}\~ao \`a F\'isica Computacional",
+   author       = "I. F. F. dos{ }Santos",
+   howpublished = "GitHub repository",
+   year         = "2020",
+   url          = "https://github.com/ismaeldamiao/Apostila_de_IFC",
+}
+{% endhighlight %}
+</div>
+
+### Coleção Cadernos de Anotações
+
+* Dos Santos, I. F. F. **Anotações sobre a Teoria da Dispersão**
+{% include cite_btn overleaf="https://www.overleaf.com/read/qwbsbkrtrdwx#1108a5" bib="espalhamento" %}
+<div id="a1" style="display: none;">
+{% highlight latex %}
+@misc{DOSSANTOSespalhamento,
+   title        = "Anota\c{c}\~oes sobre a Teoria da Dispers\~ao",
+   author       = "I. F. F. dos{ }Santos",
+   howpublished = "Overleaf project",
+   year         = "2025",
+   url          = "https://www.overleaf.com/read/qwbsbkrtrdwx#1108a5",
+}
+{% endhighlight %}
+</div>
+
+
+
+### Modelos
+
+* Dos Santos, I. F. F. **Modelo de Relatório de Física Experimental**
+{% include cite_btn overleaf="https://www.overleaf.com/read/zwpkhfkffxgy" %}
+* Dos Santos, I. F. F. **Meu Currículo**
+{% include cite_btn overleaf="https://www.overleaf.com/read/xjhghrzxqvky" %}
+
+### Outros
+
+* Dos Santos, I. F. F. **Orações**
+{% include cite_btn overleaf="https://www.overleaf.com/read/kvxsvbbmbzns" %}
+
+
+
+
+
 ## Curso de Física
 
 ### Física básica
@@ -221,33 +275,6 @@ isbn      = "8521208030",
 * COULOMB, C. A. [Mémoires sur l’électricité et le magnétisme](https://archive.org/download/mmoiressurllectr00coul/mmoiressurllectr00coul.pdf) - PDF 20.7MB, Francês
 
 
-## Meus documentos e modelos LaTeX
-
-* Dos Santos, I. F. F. **Introdução à Física Computacional**. *GitHub repository*, 2020.
-{% include cite_btn
-   git="https://github.com/ismaeldamiao/Apostila_de_IFC"
-   pdf="https://archive.org/download/apostila-de-ifc/Apostila_de_IFC.pdf"
-   bib="a1"
-%}
-<div id="a1" style="display: none;">
-{% highlight latex %}
-@misc{DOSSANTOSIFC,
-title        = "Introdu\c{c}\~ao \`a F\'isica Computacional",
-author       = "I. F. F. dos{ }Santos",
-howpublished = "GitHub repository",
-year         = "2020",
-url          = "https://github.com/ismaeldamiao/Apostila_de_IFC",
-}
-{% endhighlight %}
-</div>
-
-
-* Dos Santos, I. F. F. **Modelo de Relatório de Física Experimental**
-{% include cite_btn overleaf="https://www.overleaf.com/read/zwpkhfkffxgy" %}
-* Dos Santos, I. F. F. **Meu Currículo**
-{% include cite_btn overleaf="https://www.overleaf.com/read/xjhghrzxqvky" %}
-* Dos Santos, I. F. F. **Orações**
-{% include cite_btn overleaf="https://www.overleaf.com/read/kvxsvbbmbzns" %}
 
 ## Indicações aleatórias
 * **Lógica**, *Wikilivros*.
